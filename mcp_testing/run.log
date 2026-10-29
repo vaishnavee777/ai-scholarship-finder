@@ -1,0 +1,19 @@
+TC-01 PASS  Home page loads  -> title='AI Scholarship Finder'; heading and Find button present; browser console errors: 0
+TC-02 PASS  Initial empty state  -> Info prompt shown before any search
+TC-03 PASS  Demo search, empty profile  -> Demo banner shown; 8 cards labelled DEMO RECORD; 'Showing 8 of 8' present=True
+TC-04 PASS  Profile: Karnataka + OBC  -> Results rendered for Karnataka/OBC: Showing 8 of 8; eligibility metrics visible
+TC-05 PASS  Text filter narrows list  -> Text filter 'Karnataka' -> Showing 1 of 8
+TC-06 PASS  Filter with no match  -> Warning 'No results match these filters' shown, no crash
+TC-07 PASS  Missing-field warning  -> Warning about blank profile fields (potential matches only) displayed
+TC-08 FAIL  Income input mode switch  -> widget did not change
+TC-09 PASS  HTML/script injection in text field  -> Hostile HTML in course field: injected elements in DOM = 0; no dialog/crash
+TC-10 PASS  Out-of-range number  -> Out-of-range year (99) did not crash the app (Streamlit enforces max 8)
+TC-11 PASS  Gemini status indicator  -> Sidebar status: Gemini: configured ✅
+TC-12 PASS  Clear saved searches button  -> Confirmation 'Cleared.' shown
+TC-13 PASS  Mobile layout (390x844)  -> Mobile 390px: scrollWidth=390, viewport=390 -> no horizontal scroll
+TC-14 PASS  Opt-in search history  -> Opt-in history checkbox reveals the 'Search history' panel
+TC-15 PASS  Result cards show labels  -> Cards show eligibility status and DEMO label
+TC-16 PASS  Live search against official sites  -> Live search finished: Showing 29 of 29; 1 problem(s)
+
+15/16 passed; 226 MCP tool calls
+finished

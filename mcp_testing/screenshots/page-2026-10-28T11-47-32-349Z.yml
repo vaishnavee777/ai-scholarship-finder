@@ -1,0 +1,821 @@
+- generic [ref=f8e2]:
+  - link "Skip to main content" [ref=f8e3] [cursor=pointer]:
+    - /url: "#stMain"
+  - region "Sidebar" [ref=f8e7]:
+    - generic [ref=f8e12]:
+      - heading "Settings" [level=2] [ref=f8e16]
+      - generic [ref=f8e18]:
+        - generic [ref=f8e19]:
+          - paragraph [ref=f8e22]: Data source
+          - button "Help for Data source" [ref=f8e26] [cursor=pointer]
+        - radiogroup "Data source" [ref=f8e30]:
+          - generic [ref=f8e32] [cursor=pointer]:
+            - radio "Live search" [ref=f8e34]
+            - paragraph [ref=f8e39]: Live search
+          - generic [ref=f8e41] [cursor=pointer]:
+            - radio "Demo data" [checked] [ref=f8e43]
+            - paragraph [ref=f8e47]: Demo data
+      - generic [ref=f8e50] [cursor=pointer]:
+        - checkbox "Save my search summary on this device" [ref=f8e52]
+        - generic [ref=f8e54]:
+          - paragraph [ref=f8e58]: Save my search summary on this device
+          - button "Help for Save my search summary on this device" [ref=f8e62]
+      - generic [ref=f8e68] [cursor=pointer]:
+        - checkbox "Force fresh verification" [ref=f8e70]
+        - generic [ref=f8e72]:
+          - paragraph [ref=f8e76]: Force fresh verification
+          - button "Help for Force fresh verification" [ref=f8e80]
+      - separator [ref=f8e88]
+      - paragraph [ref=f8e93]: "Gemini: configured ✅"
+      - button [ref=f8e96] [cursor=pointer]:
+        - paragraph [ref=f8e101]: Clear saved searches & AI cache
+  - generic [ref=f8e4]:
+    - banner [ref=f8e104]:
+      - generic [ref=f8e107]:
+        - button "Deploy" [ref=f8e109] [cursor=pointer]
+        - button "Main menu" [ref=f8e113] [cursor=pointer]
+    - main [ref=f8e5]:
+      - generic [ref=f8e117]:
+        - generic [ref=f8e122]:
+          - heading "🎓 AI Scholarship Finder" [level=1] [ref=f8e124]:
+            - text: 🎓 AI Scholarship Finder
+            - generic [ref=f8e125]:
+              - link "Link to heading":
+                - /url: "#ai-scholarship-finder"
+          - paragraph [ref=f8e126]: Find Indian scholarships you may qualify for — with the exact conditions, red flags and official sources. Accuracy and source verification come before the number of results.
+        - generic [ref=f8e129]:
+          - heading "Your profile" [level=3] [ref=f8e134]:
+            - text: Your profile
+            - generic [ref=f8e135]:
+              - link "Link to heading":
+                - /url: "#your-profile"
+          - paragraph [ref=f8e140]: Leave anything blank if you prefer. Missing details only make results less certain. We never ask for Aadhaar, bank details or documents, and your profile is not stored.
+          - generic [ref=f8e142]:
+            - generic [ref=f8e144]:
+              - paragraph [ref=f8e149]:
+                - strong [ref=f8e150]: Personal
+              - generic [ref=f8e152]:
+                - paragraph [ref=f8e156]: State of residence / domicile
+                - group [ref=f8e158]:
+                  - combobox "State of residence / domicile" [ref=f8e159]: — Not specified —
+                  - button "Open" [ref=f8e160] [cursor=pointer]
+              - generic [ref=f8e165]:
+                - paragraph [ref=f8e169]: Category
+                - group [ref=f8e171]:
+                  - combobox "Category" [ref=f8e172]: — Not specified —
+                  - button "Open" [ref=f8e173] [cursor=pointer]
+              - generic [ref=f8e178]:
+                - paragraph [ref=f8e182]: Annual family income
+                - radiogroup "Annual family income" [ref=f8e183]:
+                  - generic [ref=f8e185] [cursor=pointer]:
+                    - radio "Exact amount" [ref=f8e187]
+                    - paragraph [ref=f8e191]: Exact amount
+                  - generic [ref=f8e193] [cursor=pointer]:
+                    - radio "Select a range" [checked] [ref=f8e195]
+                    - paragraph [ref=f8e200]: Select a range
+                  - generic [ref=f8e202] [cursor=pointer]:
+                    - radio "Prefer not to say" [ref=f8e204]
+                    - paragraph [ref=f8e208]: Prefer not to say
+              - generic [ref=f8e210]:
+                - paragraph [ref=f8e214]: Income range
+                - group [ref=f8e216]:
+                  - combobox "Income range" [ref=f8e217]: Up to ₹1 lakh
+                  - button "Open" [ref=f8e218] [cursor=pointer]
+              - group [ref=f8e224]:
+                - generic [ref=f8e226] [cursor=pointer]:
+                  - generic [aria-hidden] [ref=f8e228]: keyboard_arrow_right
+                  - paragraph [ref=f8e231]: Only if a scheme asks (optional)
+            - generic [ref=f8e233]:
+              - paragraph [ref=f8e238]:
+                - strong [ref=f8e239]: Academic
+              - generic [ref=f8e241]:
+                - paragraph [ref=f8e245]: Education level
+                - group [ref=f8e247]:
+                  - combobox "Education level" [ref=f8e248]: — Not specified —
+                  - button "Open" [ref=f8e249] [cursor=pointer]
+              - generic [ref=f8e254]:
+                - paragraph [ref=f8e258]: Degree / course
+                - textbox "Degree / course" [ref=f8e261]:
+                  - /placeholder: e.g. B.E., B.Tech, B.Sc, B.Com
+                  - text: <img src=x onerror=alert(1)><script>alert(2)</script>
+              - generic [ref=f8e263]:
+                - generic [ref=f8e267]:
+                  - paragraph [ref=f8e271]: Current year
+                  - generic [ref=f8e273]:
+                    - spinbutton "Current year" [ref=f8e274]
+                    - generic [ref=f8e275]:
+                      - button "Decrement" [disabled] [ref=f8e276]
+                      - button "Increment" [disabled] [ref=f8e279]
+                - generic [ref=f8e285]:
+                  - paragraph [ref=f8e289]: Applying
+                  - group [ref=f8e291]:
+                    - combobox "Applying" [ref=f8e292]: — Not specified —
+                    - button "Open" [ref=f8e293] [cursor=pointer]
+              - generic [ref=f8e298]:
+                - paragraph [ref=f8e302]: College / university
+                - textbox "College / university" [ref=f8e305]:
+                  - /placeholder: ""
+              - generic [ref=f8e307]:
+                - paragraph [ref=f8e311]: Institution type
+                - group [ref=f8e313]:
+                  - combobox "Institution type" [ref=f8e314]: — Not specified —
+                  - button "Open" [ref=f8e315] [cursor=pointer]
+              - generic [ref=f8e320]:
+                - generic [ref=f8e324]:
+                  - paragraph [ref=f8e328]: Previous exam %
+                  - generic [ref=f8e330]:
+                    - spinbutton "Previous exam %" [ref=f8e331]
+                    - generic [ref=f8e332]:
+                      - button "Decrement" [disabled] [ref=f8e333]
+                      - button "Increment" [disabled] [ref=f8e336]
+                - generic [ref=f8e342]:
+                  - paragraph [ref=f8e346]: Previous CGPA (/10)
+                  - generic [ref=f8e348]:
+                    - spinbutton "Previous CGPA (/10)" [ref=f8e349]
+                    - generic [ref=f8e350]:
+                      - button "Decrement" [disabled] [ref=f8e351]
+                      - button "Increment" [disabled] [ref=f8e354]
+          - paragraph [ref=f8e361]:
+            - strong [ref=f8e362]: Search preferences
+          - generic [ref=f8e364]:
+            - generic [ref=f8e366]:
+              - generic [ref=f8e368]:
+                - paragraph [ref=f8e372]: Provider type
+                - group [ref=f8e374]:
+                  - combobox "Provider type" [ref=f8e376]
+                  - button "Open" [ref=f8e377] [cursor=pointer]
+              - generic [ref=f8e382]:
+                - paragraph [ref=f8e386]: Basis
+                - group [ref=f8e388]:
+                  - combobox "Basis" [ref=f8e390]
+                  - button "Open" [ref=f8e391] [cursor=pointer]
+            - generic [ref=f8e396]:
+              - generic [ref=f8e399] [cursor=pointer]:
+                - checkbox "Only show currently open applications" [ref=f8e401]
+                - paragraph [ref=f8e407]: Only show currently open applications
+              - generic [ref=f8e409]:
+                - paragraph [ref=f8e413]: Minimum award (₹, when published)
+                - generic [ref=f8e415]:
+                  - spinbutton "Minimum award (₹, when published)" [ref=f8e416]: "0"
+                  - generic [ref=f8e417]:
+                    - button "Decrement" [disabled] [ref=f8e418]
+                    - button "Increment" [ref=f8e421] [cursor=pointer]
+          - button [active] [ref=f8e427] [cursor=pointer]:
+            - paragraph [ref=f8e432]: 🔍 Find scholarships
+        - generic [ref=f8e433]: Demo data. These records are fictional and exist only to show how the app works. They are not live search results.
+        - alert [ref=f8e453]:
+          - paragraph [ref=f8e457]:
+            - text: Some details were left blank, so some results can only be
+            - strong [ref=f8e458]: potential matches
+            - text: ": State of domicile, Category, Education level, Current academic year, College / university, Previous marks (percentage), Fresh or renewal, Previous marks (CGPA)."
+        - generic [ref=f8e460]:
+          - generic [ref=f8e465]:
+            - paragraph [ref=f8e469]: Discovered
+            - paragraph [ref=f8e472]: "8"
+          - generic [ref=f8e477]:
+            - paragraph [ref=f8e481]: Eligible
+            - paragraph [ref=f8e484]: "0"
+          - generic [ref=f8e489]:
+            - paragraph [ref=f8e493]: Potential
+            - paragraph [ref=f8e496]: "6"
+          - generic [ref=f8e501]:
+            - paragraph [ref=f8e505]: Likely ineligible
+            - paragraph [ref=f8e508]: "0"
+          - generic [ref=f8e513]:
+            - paragraph [ref=f8e517]: Unverified
+            - paragraph [ref=f8e520]: "2"
+          - generic [ref=f8e525]:
+            - paragraph [ref=f8e529]: Open now
+            - paragraph [ref=f8e532]: "6"
+        - group [ref=f8e535]:
+          - generic [ref=f8e537] [cursor=pointer]:
+            - generic [aria-hidden] [ref=f8e539]: keyboard_arrow_down
+            - paragraph [ref=f8e542]: Sort & filter
+          - generic [ref=f8e544]:
+            - generic [ref=f8e546]:
+              - generic [ref=f8e550]:
+                - paragraph [ref=f8e554]: Sort by
+                - group [ref=f8e556]:
+                  - combobox "Sort by" [ref=f8e557]: Best match (relevance score)
+                  - button "Open" [ref=f8e558] [cursor=pointer]
+              - generic [ref=f8e565]:
+                - paragraph [ref=f8e569]: Eligibility status
+                - group [ref=f8e571]:
+                  - combobox "Eligibility status" [ref=f8e573]
+                  - button "Open" [ref=f8e574] [cursor=pointer]
+              - generic [ref=f8e581]:
+                - paragraph [ref=f8e585]: Provider type
+                - group [ref=f8e587]:
+                  - combobox "Provider type" [ref=f8e589]
+                  - button "Open" [ref=f8e590] [cursor=pointer]
+            - generic [ref=f8e595]:
+              - generic [ref=f8e599]:
+                - paragraph [ref=f8e603]: Min award (₹)
+                - generic [ref=f8e605]:
+                  - spinbutton "Min award (₹)" [ref=f8e606]: "0"
+                  - generic [ref=f8e607]:
+                    - button "Decrement" [disabled] [ref=f8e608]
+                    - button "Increment" [ref=f8e611] [cursor=pointer]
+              - generic [ref=f8e615]:
+                - generic [ref=f8e618] [cursor=pointer]:
+                  - checkbox "Deadline before…" [ref=f8e620]
+                  - paragraph [ref=f8e626]: Deadline before…
+                - generic [ref=f8e630]:
+                  - generic [ref=f8e632]:
+                    - group "Date" [disabled] [ref=f8e634]:
+                      - spinbutton "year, Date" [disabled] [ref=f8e635]: "2026"
+                      - generic [aria-hidden] [ref=f8e636]: /
+                      - spinbutton "month, Date" [disabled] [ref=f8e637]: "10"
+                      - generic [aria-hidden] [ref=f8e638]: /
+                      - spinbutton "day, Date" [disabled] [ref=f8e639]: "28"
+                    - textbox [disabled] [ref=f8e641]: 2026-10-28
+                  - button "Choose date" [disabled] [ref=f8e643]
+              - generic [ref=f8e651] [cursor=pointer]:
+                - checkbox "Open applications only" [ref=f8e653]
+                - paragraph [ref=f8e659]: Open applications only
+              - generic [ref=f8e663]:
+                - paragraph [ref=f8e667]: Provider / name contains
+                - textbox "Provider / name contains" [ref=f8e670]:
+                  - /placeholder: ""
+        - paragraph [ref=f8e675]: Showing 8 of 8
+        - generic [ref=f8e677]:
+          - generic [ref=f8e681]:
+            - paragraph [ref=f8e682]: "[DEMO] Women in STEM Corporate Grant"
+            - paragraph [ref=f8e683]: Demo Provider (fictional) · Corporate · AY 2026-27
+            - generic [ref=f8e684]: 🟡 Potential match
+            - generic [ref=f8e685]: Applications open
+            - generic [ref=f8e686]: DEMO RECORD — not a real scholarship
+            - generic [ref=f8e687]: Demo record
+          - generic [ref=f8e689]:
+            - generic [ref=f8e694]:
+              - paragraph [ref=f8e698]: Award
+              - paragraph [ref=f8e701]: ₹75,000
+            - generic [ref=f8e706]:
+              - paragraph [ref=f8e710]: Deadline
+              - paragraph [ref=f8e713]: 30 Oct 2026
+            - generic [ref=f8e718]:
+              - generic [ref=f8e719]:
+                - paragraph [ref=f8e722]: "Awards · scope: institution"
+                - 'button "Help for Awards · scope: institution" [ref=f8e726] [cursor=pointer]'
+              - paragraph [ref=f8e732]: "25"
+          - generic [ref=f8e733]: "Why this is shown (not a chance of winning): Eligibility: potential match; Application open; Course / level relevance partly confirmed; Published amount available; Limited / unofficial evidence · relevance score 66.9/100"
+          - paragraph [ref=f8e742]:
+            - strong [ref=f8e743]: "Eligibility:"
+            - text: "No known exclusion, but these criteria could not be confirmed: Category, Education level, Course, Minimum marks, Gender, Fresh / renewal."
+          - paragraph [ref=f8e748]: Open until 30 Oct 2026 (verified 28 Oct 2026).
+          - generic [ref=f8e750]:
+            - generic [ref=f8e756]:
+              - generic [ref=f8e757]: Matching
+              - generic [ref=f8e758]: ✓ Annual family income ≤ ₹8,00,000
+            - generic [ref=f8e764]:
+              - generic [ref=f8e765]: Not met
+              - generic [ref=f8e766]: —
+            - generic [ref=f8e772]:
+              - generic [ref=f8e773]: Missing / unknown
+              - generic [ref=f8e774]: "? Category: General, EWS, SC, ST, OBC"
+              - generic [ref=f8e775]: "? Level: Undergraduate"
+              - generic [ref=f8e776]: "? Course: B.E., B.Tech, B.Sc"
+              - generic [ref=f8e777]: "? Previous marks ≥ 75%"
+              - generic [ref=f8e778]: "? Gender: Female"
+              - generic [ref=f8e779]: "? Accepts: fresh applications"
+          - paragraph [ref=f8e784]:
+            - strong [ref=f8e785]: Important red flags
+          - generic [ref=f8e789]:
+            - generic [ref=f8e790]:
+              - text: ⛔ Deadline approaching — Deadline in 2 day(s) (30 Oct 2026).
+              - generic [ref=f8e791]: "“DEMO TEXT: closes in two days”"
+              - generic [ref=f8e792]:
+                - text: Stated by source ·
+                - link "source" [ref=f8e793] [cursor=pointer]:
+                  - /url: https://example.org/demo
+            - generic [ref=f8e794]:
+              - text: "⚠️ Limited awards — Limited seats: 25 award(s) at an institution level."
+              - generic [ref=f8e795]: "“DEMO TEXT: 25 grants per partner institution”"
+              - generic [ref=f8e796]:
+                - text: Stated by source ·
+                - link "source" [ref=f8e797] [cursor=pointer]:
+                  - /url: https://example.org/demo
+            - generic [ref=f8e798]:
+              - text: ⚠️ Fresh applications only — Only fresh applications are accepted; renewals are not.
+              - generic [ref=f8e799]:
+                - text: Stated by source ·
+                - link "source" [ref=f8e800] [cursor=pointer]:
+                  - /url: https://example.org/demo/3/guidelines
+          - paragraph [ref=f8e805]:
+            - strong [ref=f8e806]: "Documents:"
+            - text: Marksheet
+          - generic [ref=f8e808]:
+            - link [ref=f8e813] [cursor=pointer]:
+              - /url: https://example.org/demo/3/apply
+              - paragraph [ref=f8e818]: Apply on official site
+            - link [ref=f8e823] [cursor=pointer]:
+              - /url: https://example.org/demo/3/guidelines
+              - paragraph [ref=f8e828]: Guidelines
+          - generic [ref=f8e831]: "Retrieved: 28 Oct 2026, 11:47 UTC · Last verified: 28 Oct 2026, 11:47 UTC · Extraction confidence 100%"
+          - group [ref=f8e838]:
+            - generic [ref=f8e840] [cursor=pointer]:
+              - generic [aria-hidden] [ref=f8e842]: keyboard_arrow_right
+              - paragraph [ref=f8e845]: Full eligibility details
+          - group [ref=f8e848]:
+            - generic [ref=f8e850] [cursor=pointer]:
+              - generic [aria-hidden] [ref=f8e852]: keyboard_arrow_right
+              - paragraph [ref=f8e855]: Supporting evidence (5)
+          - group [ref=f8e858]:
+            - generic [ref=f8e860] [cursor=pointer]:
+              - generic [aria-hidden] [ref=f8e862]: keyboard_arrow_right
+              - paragraph [ref=f8e865]: 🤖 AI explanation (Gemini)
+        - generic [ref=f8e867]:
+          - generic [ref=f8e871]:
+            - paragraph [ref=f8e872]: "[DEMO] Merit Scholarship for Engineering Students"
+            - paragraph [ref=f8e873]: Demo Provider (fictional) · Central government · AY 2026-27
+            - generic [ref=f8e874]: 🟡 Potential match
+            - generic [ref=f8e875]: Applications open
+            - generic [ref=f8e876]: DEMO RECORD — not a real scholarship
+            - generic [ref=f8e877]: Demo record
+          - generic [ref=f8e879]:
+            - generic [ref=f8e884]:
+              - generic [ref=f8e885]:
+                - paragraph [ref=f8e888]: Award
+                - button "Help for Award" [ref=f8e892] [cursor=pointer]
+              - paragraph [ref=f8e898]: ₹50,000
+            - generic [ref=f8e903]:
+              - paragraph [ref=f8e907]: Deadline
+              - paragraph [ref=f8e910]: 18 Nov 2026
+            - generic [ref=f8e915]:
+              - generic [ref=f8e916]:
+                - paragraph [ref=f8e919]: "Awards · scope: national"
+                - 'button "Help for Awards · scope: national" [ref=f8e923] [cursor=pointer]'
+              - paragraph [ref=f8e929]: 1,000
+          - generic [ref=f8e930]: "Why this is shown (not a chance of winning): Eligibility: potential match; Application open; Course / level relevance partly confirmed; Published amount available; Limited / unofficial evidence · relevance score 66.5/100"
+          - paragraph [ref=f8e939]:
+            - strong [ref=f8e940]: "Eligibility:"
+            - text: "No known exclusion, but these criteria could not be confirmed: Category, Education level, Course, Year of study, Minimum marks."
+          - paragraph [ref=f8e945]: Open until 18 Nov 2026 (verified 28 Oct 2026).
+          - generic [ref=f8e947]:
+            - generic [ref=f8e953]:
+              - generic [ref=f8e954]: Matching
+              - generic [ref=f8e955]: ✓ Annual family income ≤ ₹2,50,000
+            - generic [ref=f8e961]:
+              - generic [ref=f8e962]: Not met
+              - generic [ref=f8e963]: —
+            - generic [ref=f8e969]:
+              - generic [ref=f8e970]: Missing / unknown
+              - generic [ref=f8e971]: "? Category: SC, ST, OBC"
+              - generic [ref=f8e972]: "? Level: Undergraduate"
+              - generic [ref=f8e973]: "? Course: B.E., B.Tech"
+              - generic [ref=f8e974]: "? Year of study: 1, 2, 3, 4"
+              - generic [ref=f8e975]: "? Previous marks ≥ 60%"
+          - paragraph [ref=f8e980]:
+            - strong [ref=f8e981]: Important red flags
+          - generic [ref=f8e986]:
+            - text: ⚠️ Income limit — Family income must be up to ₹2,50,000 per year (a low cap).
+            - generic [ref=f8e987]: "“DEMO TEXT: family income should not exceed Rs. 2.5 lakh”"
+            - generic [ref=f8e988]:
+              - text: Stated by source ·
+              - link "source" [ref=f8e989] [cursor=pointer]:
+                - /url: https://example.org/demo
+          - paragraph [ref=f8e994]:
+            - strong [ref=f8e995]: "Documents:"
+            - text: Income certificate, Caste certificate, Previous marksheet
+          - generic [ref=f8e997]:
+            - link [ref=f8e1002] [cursor=pointer]:
+              - /url: https://example.org/demo/1/apply
+              - paragraph [ref=f8e1007]: Apply on official site
+            - link [ref=f8e1012] [cursor=pointer]:
+              - /url: https://example.org/demo/1/guidelines
+              - paragraph [ref=f8e1017]: Guidelines
+          - generic [ref=f8e1020]: "Retrieved: 28 Oct 2026, 11:47 UTC · Last verified: 28 Oct 2026, 11:47 UTC · Extraction confidence 100%"
+          - group [ref=f8e1027]:
+            - generic [ref=f8e1029] [cursor=pointer]:
+              - generic [aria-hidden] [ref=f8e1031]: keyboard_arrow_right
+              - paragraph [ref=f8e1034]: Full eligibility details
+          - group [ref=f8e1037]:
+            - generic [ref=f8e1039] [cursor=pointer]:
+              - generic [aria-hidden] [ref=f8e1041]: keyboard_arrow_right
+              - paragraph [ref=f8e1044]: Supporting evidence (5)
+          - group [ref=f8e1047]:
+            - generic [ref=f8e1049] [cursor=pointer]:
+              - generic [aria-hidden] [ref=f8e1051]: keyboard_arrow_right
+              - paragraph [ref=f8e1054]: 🤖 AI explanation (Gemini)
+        - generic [ref=f8e1056]:
+          - generic [ref=f8e1060]:
+            - paragraph [ref=f8e1061]: "[DEMO] Demo Institute Alumni Scholarship"
+            - paragraph [ref=f8e1062]: Demo Provider (fictional) · College / university · AY 2026-27
+            - generic [ref=f8e1063]: 🟡 Potential match
+            - generic [ref=f8e1064]: Applications open
+            - generic [ref=f8e1065]: DEMO RECORD — not a real scholarship
+            - generic [ref=f8e1066]: Demo record
+          - generic [ref=f8e1068]:
+            - generic [ref=f8e1073]:
+              - paragraph [ref=f8e1077]: Award
+              - paragraph [ref=f8e1080]: ₹30,000
+            - generic [ref=f8e1085]:
+              - paragraph [ref=f8e1089]: Deadline
+              - paragraph [ref=f8e1092]: 07 Dec 2026
+            - generic [ref=f8e1097]:
+              - generic [ref=f8e1098]:
+                - paragraph [ref=f8e1101]: Awards available
+                - button "Help for Awards available" [ref=f8e1105] [cursor=pointer]
+              - paragraph [ref=f8e1111]: Not verified
+          - generic [ref=f8e1112]: "Why this is shown (not a chance of winning): Eligibility: potential match; Application open; Course / level relevance partly confirmed; State / institution partly confirmed; Published amount available; Limited / unofficial evidence · relevance score 63.1/100"
+          - paragraph [ref=f8e1121]:
+            - strong [ref=f8e1122]: "Eligibility:"
+            - text: "No known exclusion, but these criteria could not be confirmed: Category, Course, Minimum marks, Institution."
+          - paragraph [ref=f8e1127]: Open until 07 Dec 2026 (verified 28 Oct 2026).
+          - generic [ref=f8e1129]:
+            - generic [ref=f8e1135]:
+              - generic [ref=f8e1136]: Matching
+              - generic [ref=f8e1137]: ✓ Annual family income ≤ ₹6,00,000
+            - generic [ref=f8e1143]:
+              - generic [ref=f8e1144]: Not met
+              - generic [ref=f8e1145]: —
+            - generic [ref=f8e1151]:
+              - generic [ref=f8e1152]: Missing / unknown
+              - generic [ref=f8e1153]: "? Category: General, EWS, SC, ST, OBC"
+              - generic [ref=f8e1154]: "? Course: B.Tech"
+              - generic [ref=f8e1155]: "? Previous marks ≥ 70%"
+              - generic [ref=f8e1156]: "? Institution: Demo Institute of Technology"
+          - paragraph [ref=f8e1161]:
+            - strong [ref=f8e1162]: Important red flags
+          - generic [ref=f8e1167]:
+            - text: "⚠️ Institution-specific — Only students of specific institutions can apply: Demo Institute of Technology."
+            - generic [ref=f8e1168]: "“DEMO TEXT: students of Demo Institute of Technology only”"
+            - generic [ref=f8e1169]:
+              - text: Stated by source ·
+              - link "source" [ref=f8e1170] [cursor=pointer]:
+                - /url: https://example.org/demo
+          - paragraph [ref=f8e1175]:
+            - strong [ref=f8e1176]: "Documents:"
+            - text: Institute ID
+          - generic [ref=f8e1178]:
+            - link [ref=f8e1183] [cursor=pointer]:
+              - /url: https://example.org/demo/5/apply
+              - paragraph [ref=f8e1188]: Apply on official site
+            - link [ref=f8e1193] [cursor=pointer]:
+              - /url: https://example.org/demo/5/guidelines
+              - paragraph [ref=f8e1198]: Guidelines
+          - generic [ref=f8e1201]: "Retrieved: 28 Oct 2026, 11:47 UTC · Last verified: 28 Oct 2026, 11:47 UTC · Extraction confidence 100%"
+          - group [ref=f8e1208]:
+            - generic [ref=f8e1210] [cursor=pointer]:
+              - generic [aria-hidden] [ref=f8e1212]: keyboard_arrow_right
+              - paragraph [ref=f8e1215]: Full eligibility details
+          - group [ref=f8e1218]:
+            - generic [ref=f8e1220] [cursor=pointer]:
+              - generic [aria-hidden] [ref=f8e1222]: keyboard_arrow_right
+              - paragraph [ref=f8e1225]: Supporting evidence (3)
+          - group [ref=f8e1228]:
+            - generic [ref=f8e1230] [cursor=pointer]:
+              - generic [aria-hidden] [ref=f8e1232]: keyboard_arrow_right
+              - paragraph [ref=f8e1235]: 🤖 AI explanation (Gemini)
+        - generic [ref=f8e1237]:
+          - generic [ref=f8e1241]:
+            - paragraph [ref=f8e1242]: "[DEMO] Conflicting Sources Example"
+            - paragraph [ref=f8e1243]: Demo Provider (fictional) · Central government · AY 2026-27
+            - generic [ref=f8e1244]: 🟡 Potential match
+            - generic [ref=f8e1245]: Applications open
+            - generic [ref=f8e1246]: DEMO RECORD — not a real scholarship
+            - generic [ref=f8e1247]: Demo record
+          - generic [ref=f8e1249]:
+            - generic [ref=f8e1254]:
+              - paragraph [ref=f8e1258]: Award
+              - paragraph [ref=f8e1261]: ₹40,000
+            - generic [ref=f8e1266]:
+              - paragraph [ref=f8e1270]: Deadline
+              - paragraph [ref=f8e1273]: 12 Nov 2026
+            - generic [ref=f8e1278]:
+              - generic [ref=f8e1279]:
+                - paragraph [ref=f8e1282]: Awards available
+                - button "Help for Awards available" [ref=f8e1286] [cursor=pointer]
+              - paragraph [ref=f8e1292]: Not verified
+          - generic [ref=f8e1293]: "Why this is shown (not a chance of winning): Eligibility: potential match; Application open; Course / level relevance partly confirmed; Published amount available; Limited / unofficial evidence · relevance score 62.4/100"
+          - paragraph [ref=f8e1302]:
+            - strong [ref=f8e1303]: "Eligibility:"
+            - text: "No known exclusion, but these criteria could not be confirmed: Family income, Category, Education level, Minimum marks."
+          - paragraph [ref=f8e1308]: Open until 12 Nov 2026 (verified 28 Oct 2026).
+          - generic [ref=f8e1310]:
+            - generic [ref=f8e1316]:
+              - generic [ref=f8e1317]: Matching
+              - generic [ref=f8e1318]: —
+            - generic [ref=f8e1324]:
+              - generic [ref=f8e1325]: Not met
+              - generic [ref=f8e1326]: —
+            - generic [ref=f8e1332]:
+              - generic [ref=f8e1333]: Missing / unknown
+              - generic [ref=f8e1334]: "? Sources disagree: Rs. 3 lakh (guideline PDF) vs Rs. 2 lakh (FAQ page)"
+              - generic [ref=f8e1335]: "? Category: General, EWS, SC, ST, OBC"
+              - generic [ref=f8e1336]: "? Level: Undergraduate, Postgraduate"
+              - generic [ref=f8e1337]: "? Previous marks ≥ 50%"
+          - paragraph [ref=f8e1342]:
+            - strong [ref=f8e1343]: Important red flags
+          - generic [ref=f8e1348]:
+            - text: "⛔ Conflicting information — Sources disagree on max_family_income: Rs. 3 lakh (guideline PDF) vs Rs. 2 lakh (FAQ page)."
+            - generic [ref=f8e1349]:
+              - text: Stated by source ·
+              - link "source" [ref=f8e1350] [cursor=pointer]:
+                - /url: https://example.org/demo/8/guidelines
+          - paragraph [ref=f8e1355]: "Required documents: not listed in the source."
+          - generic [ref=f8e1357]:
+            - link [ref=f8e1362] [cursor=pointer]:
+              - /url: https://example.org/demo/8/apply
+              - paragraph [ref=f8e1367]: Apply on official site
+            - link [ref=f8e1372] [cursor=pointer]:
+              - /url: https://example.org/demo/8/guidelines
+              - paragraph [ref=f8e1377]: Guidelines
+          - generic [ref=f8e1380]: "Retrieved: 28 Oct 2026, 11:47 UTC · Last verified: 28 Oct 2026, 11:47 UTC · Extraction confidence 100%"
+          - group [ref=f8e1387]:
+            - generic [ref=f8e1389] [cursor=pointer]:
+              - generic [aria-hidden] [ref=f8e1391]: keyboard_arrow_right
+              - paragraph [ref=f8e1394]: Full eligibility details
+          - group [ref=f8e1397]:
+            - generic [ref=f8e1399] [cursor=pointer]:
+              - generic [aria-hidden] [ref=f8e1401]: keyboard_arrow_right
+              - paragraph [ref=f8e1404]: Supporting evidence (1)
+          - group [ref=f8e1407]:
+            - generic [ref=f8e1409] [cursor=pointer]:
+              - generic [aria-hidden] [ref=f8e1411]: keyboard_arrow_right
+              - paragraph [ref=f8e1414]: 🤖 AI explanation (Gemini)
+        - generic [ref=f8e1416]:
+          - generic [ref=f8e1420]:
+            - paragraph [ref=f8e1421]: "[DEMO] Doctoral Research Fellowship"
+            - paragraph [ref=f8e1422]: Demo Provider (fictional) · Private foundation · AY 2026-27
+            - generic [ref=f8e1423]: 🟡 Potential match
+            - generic [ref=f8e1424]: Applications open
+            - generic [ref=f8e1425]: DEMO RECORD — not a real scholarship
+            - generic [ref=f8e1426]: Demo record
+          - generic [ref=f8e1428]:
+            - generic [ref=f8e1433]:
+              - generic [ref=f8e1434]:
+                - paragraph [ref=f8e1437]: Award
+                - button "Help for Award" [ref=f8e1441] [cursor=pointer]
+              - paragraph [ref=f8e1447]: Not published
+            - generic [ref=f8e1452]:
+              - paragraph [ref=f8e1456]: Deadline
+              - paragraph [ref=f8e1459]: 27 Dec 2026
+            - generic [ref=f8e1464]:
+              - generic [ref=f8e1465]:
+                - paragraph [ref=f8e1468]: Awards available
+                - button "Help for Awards available" [ref=f8e1472] [cursor=pointer]
+              - paragraph [ref=f8e1478]: Not verified
+          - generic [ref=f8e1479]: "Why this is shown (not a chance of winning): Eligibility: potential match; Application open; Course / level relevance partly confirmed; Award amount not published; Limited / unofficial evidence · relevance score 54/100"
+          - paragraph [ref=f8e1488]:
+            - strong [ref=f8e1489]: "Eligibility:"
+            - text: "No known exclusion, but these criteria could not be confirmed: Family income, Category, Education level, Minimum marks."
+          - paragraph [ref=f8e1494]: Open until 27 Dec 2026 (verified 28 Oct 2026).
+          - generic [ref=f8e1496]:
+            - generic [ref=f8e1502]:
+              - generic [ref=f8e1503]: Matching
+              - generic [ref=f8e1504]: —
+            - generic [ref=f8e1510]:
+              - generic [ref=f8e1511]: Not met
+              - generic [ref=f8e1512]: —
+            - generic [ref=f8e1518]:
+              - generic [ref=f8e1519]: Missing / unknown
+              - generic [ref=f8e1520]: "? Family income: not found in the source"
+              - generic [ref=f8e1521]: "? Category: General, EWS, SC, ST, OBC"
+              - generic [ref=f8e1522]: "? Level: PhD"
+              - generic [ref=f8e1523]: "? Minimum marks: not found in the source"
+          - paragraph [ref=f8e1528]: "Required documents: not listed in the source."
+          - generic [ref=f8e1530]:
+            - link [ref=f8e1535] [cursor=pointer]:
+              - /url: https://example.org/demo/4/apply
+              - paragraph [ref=f8e1540]: Apply on official site
+            - link [ref=f8e1545] [cursor=pointer]:
+              - /url: https://example.org/demo/4/guidelines
+              - paragraph [ref=f8e1550]: Guidelines
+          - generic [ref=f8e1553]: "Retrieved: 28 Oct 2026, 11:47 UTC · Last verified: 28 Oct 2026, 11:47 UTC · Extraction confidence 100%"
+          - group [ref=f8e1560]:
+            - generic [ref=f8e1562] [cursor=pointer]:
+              - generic [aria-hidden] [ref=f8e1564]: keyboard_arrow_right
+              - paragraph [ref=f8e1567]: Full eligibility details
+          - group [ref=f8e1570]:
+            - generic [ref=f8e1572] [cursor=pointer]:
+              - generic [aria-hidden] [ref=f8e1574]: keyboard_arrow_right
+              - paragraph [ref=f8e1577]: Supporting evidence (1)
+          - group [ref=f8e1580]:
+            - generic [ref=f8e1582] [cursor=pointer]:
+              - generic [aria-hidden] [ref=f8e1584]: keyboard_arrow_right
+              - paragraph [ref=f8e1587]: 🤖 AI explanation (Gemini)
+        - generic [ref=f8e1589]:
+          - generic [ref=f8e1593]:
+            - paragraph [ref=f8e1594]: "[DEMO] State Need-Based Support (Karnataka)"
+            - paragraph [ref=f8e1595]: Demo Provider (fictional) · State government · AY 2026-27
+            - generic [ref=f8e1596]: 🟡 Potential match
+            - generic [ref=f8e1597]: Applications closed
+            - generic [ref=f8e1598]: DEMO RECORD — not a real scholarship
+            - generic [ref=f8e1599]: Demo record
+          - generic [ref=f8e1601]:
+            - generic [ref=f8e1606]:
+              - paragraph [ref=f8e1610]: Award
+              - paragraph [ref=f8e1613]: ₹20,000
+            - generic [ref=f8e1618]:
+              - paragraph [ref=f8e1622]: Deadline
+              - paragraph [ref=f8e1625]: 16 Oct 2026
+            - generic [ref=f8e1630]:
+              - generic [ref=f8e1631]:
+                - paragraph [ref=f8e1634]: Awards available
+                - button "Help for Awards available" [ref=f8e1638] [cursor=pointer]
+              - paragraph [ref=f8e1644]: Not verified
+          - generic [ref=f8e1645]: "Why this is shown (not a chance of winning): Eligibility: potential match; Application closed; Course / level relevance partly confirmed; State / institution partly confirmed; Published amount available; Limited / unofficial evidence · relevance score 47.8/100"
+          - paragraph [ref=f8e1654]:
+            - strong [ref=f8e1655]: "Eligibility:"
+            - text: "No known exclusion, but these criteria could not be confirmed: Category, State / domicile, Education level."
+          - paragraph [ref=f8e1660]: Deadline 16 Oct 2026 has passed (extensions are possible; check the official site).
+          - generic [ref=f8e1662]:
+            - generic [ref=f8e1668]:
+              - generic [ref=f8e1669]: Matching
+              - generic [ref=f8e1670]: ✓ Annual family income ≤ ₹1,00,000
+            - generic [ref=f8e1676]:
+              - generic [ref=f8e1677]: Not met
+              - generic [ref=f8e1678]: —
+            - generic [ref=f8e1684]:
+              - generic [ref=f8e1685]: Missing / unknown
+              - generic [ref=f8e1686]: "? Category: General, EWS, SC, ST, OBC"
+              - generic [ref=f8e1687]: "? Domicile / state: Karnataka"
+              - generic [ref=f8e1688]: "? Level: Undergraduate, Postgraduate"
+          - paragraph [ref=f8e1693]:
+            - strong [ref=f8e1694]: Important red flags
+          - generic [ref=f8e1698]:
+            - generic [ref=f8e1699]:
+              - text: ⛔ Deadline passed — The deadline (16 Oct 2026) has passed.
+              - generic [ref=f8e1700]: "“DEMO TEXT: closed twelve days ago”"
+              - generic [ref=f8e1701]:
+                - text: Stated by source ·
+                - link "source" [ref=f8e1702] [cursor=pointer]:
+                  - /url: https://example.org/demo
+            - generic [ref=f8e1703]:
+              - text: ⚠️ Income limit — Family income must be up to ₹1,00,000 per year (a low cap).
+              - generic [ref=f8e1704]: "“DEMO TEXT: income up to Rs. 1 lakh”"
+              - generic [ref=f8e1705]:
+                - text: Stated by source ·
+                - link "source" [ref=f8e1706] [cursor=pointer]:
+                  - /url: https://example.org/demo
+            - generic [ref=f8e1707]:
+              - text: "⚠️ State / domicile restriction — Restricted to residents / domiciles of: Karnataka."
+              - generic [ref=f8e1708]: "“DEMO TEXT: residents of Karnataka only”"
+              - generic [ref=f8e1709]:
+                - text: Stated by source ·
+                - link "source" [ref=f8e1710] [cursor=pointer]:
+                  - /url: https://example.org/demo
+          - paragraph [ref=f8e1715]:
+            - strong [ref=f8e1716]: "Documents:"
+            - text: Income certificate, Domicile certificate
+          - generic [ref=f8e1718]:
+            - link [ref=f8e1723] [cursor=pointer]:
+              - /url: https://example.org/demo/2/apply
+              - paragraph [ref=f8e1728]: Apply on official site
+            - link [ref=f8e1733] [cursor=pointer]:
+              - /url: https://example.org/demo/2/guidelines
+              - paragraph [ref=f8e1738]: Guidelines
+          - generic [ref=f8e1741]: "Retrieved: 28 Oct 2026, 11:47 UTC · Last verified: 28 Oct 2026, 11:47 UTC · Extraction confidence 100%"
+          - group [ref=f8e1748]:
+            - generic [ref=f8e1750] [cursor=pointer]:
+              - generic [aria-hidden] [ref=f8e1752]: keyboard_arrow_right
+              - paragraph [ref=f8e1755]: Full eligibility details
+          - group [ref=f8e1758]:
+            - generic [ref=f8e1760] [cursor=pointer]:
+              - generic [aria-hidden] [ref=f8e1762]: keyboard_arrow_right
+              - paragraph [ref=f8e1765]: Supporting evidence (3)
+          - group [ref=f8e1768]:
+            - generic [ref=f8e1770] [cursor=pointer]:
+              - generic [aria-hidden] [ref=f8e1772]: keyboard_arrow_right
+              - paragraph [ref=f8e1775]: 🤖 AI explanation (Gemini)
+        - generic [ref=f8e1777]:
+          - generic [ref=f8e1781]:
+            - paragraph [ref=f8e1782]: "[DEMO] Aggregator-Listed Scholarship"
+            - paragraph [ref=f8e1783]: Demo Provider (fictional) · Private foundation · AY 2026-27
+            - generic [ref=f8e1784]: ❔ Unverified
+            - generic [ref=f8e1785]: Applications open
+            - generic [ref=f8e1786]: DEMO RECORD — not a real scholarship
+            - generic [ref=f8e1787]: Third-party aggregator
+          - generic [ref=f8e1789]:
+            - generic [ref=f8e1794]:
+              - paragraph [ref=f8e1798]: Award
+              - paragraph [ref=f8e1801]: ₹15,000
+            - generic [ref=f8e1806]:
+              - paragraph [ref=f8e1810]: Deadline
+              - paragraph [ref=f8e1813]: 27 Nov 2026
+            - generic [ref=f8e1818]:
+              - generic [ref=f8e1819]:
+                - paragraph [ref=f8e1822]: Awards available
+                - button "Help for Awards available" [ref=f8e1826] [cursor=pointer]
+              - paragraph [ref=f8e1832]: Not verified
+          - generic [ref=f8e1833]: "Why this is shown (not a chance of winning): Eligibility: unverified; Application open; Course / level relevance partly confirmed; Published amount available; Limited / unofficial evidence · relevance score 47.6/100"
+          - paragraph [ref=f8e1842]:
+            - strong [ref=f8e1843]: "Eligibility:"
+            - text: The source (third-party aggregator) is not an official or verified provider page, so these requirements cannot be relied on.
+          - paragraph [ref=f8e1848]: Open until 27 Nov 2026 (verified 28 Oct 2026).
+          - generic [ref=f8e1850]:
+            - generic [ref=f8e1856]:
+              - generic [ref=f8e1857]: Matching
+              - generic [ref=f8e1858]: ✓ Annual family income ≤ ₹5,00,000
+            - generic [ref=f8e1864]:
+              - generic [ref=f8e1865]: Not met
+              - generic [ref=f8e1866]: —
+            - generic [ref=f8e1872]:
+              - generic [ref=f8e1873]: Missing / unknown
+              - generic [ref=f8e1874]: "? Category: General, EWS, SC, ST, OBC"
+              - generic [ref=f8e1875]: "? Level: Undergraduate"
+              - generic [ref=f8e1876]: "? Previous marks ≥ 55%"
+          - paragraph [ref=f8e1881]:
+            - strong [ref=f8e1882]: Important red flags
+          - generic [ref=f8e1887]:
+            - text: ⛔ Unverified provider — Source is not a verified official page (third-party aggregator). Confirm on the provider's official website before applying.
+            - generic [ref=f8e1888]:
+              - text: Stated by source ·
+              - link "source" [ref=f8e1889] [cursor=pointer]:
+                - /url: https://example.org/demo/7/guidelines
+          - paragraph [ref=f8e1894]: "Required documents: not listed in the source."
+          - generic [ref=f8e1896]:
+            - link [ref=f8e1901] [cursor=pointer]:
+              - /url: https://example.org/demo/7/apply
+              - paragraph [ref=f8e1906]: Apply on official site
+            - link [ref=f8e1911] [cursor=pointer]:
+              - /url: https://example.org/demo/7/guidelines
+              - paragraph [ref=f8e1916]: Guidelines
+          - generic [ref=f8e1919]: "Retrieved: 28 Oct 2026, 11:47 UTC · Last verified: 28 Oct 2026, 11:47 UTC · Extraction confidence 100%"
+          - group [ref=f8e1926]:
+            - generic [ref=f8e1928] [cursor=pointer]:
+              - generic [aria-hidden] [ref=f8e1930]: keyboard_arrow_right
+              - paragraph [ref=f8e1933]: Full eligibility details
+          - group [ref=f8e1936]:
+            - generic [ref=f8e1938] [cursor=pointer]:
+              - generic [aria-hidden] [ref=f8e1940]: keyboard_arrow_right
+              - paragraph [ref=f8e1943]: Supporting evidence (1)
+          - group [ref=f8e1946]:
+            - generic [ref=f8e1948] [cursor=pointer]:
+              - generic [aria-hidden] [ref=f8e1950]: keyboard_arrow_right
+              - paragraph [ref=f8e1953]: 🤖 AI explanation (Gemini)
+        - generic [ref=f8e1955]:
+          - generic [ref=f8e1959]:
+            - paragraph [ref=f8e1960]: "[DEMO] Outdated Guideline Example"
+            - paragraph [ref=f8e1961]: Demo Provider (fictional) · Central government · AY 2024-25
+            - generic [ref=f8e1962]: ❔ Unverified
+            - generic [ref=f8e1963]: Applications closed
+            - generic [ref=f8e1964]: DEMO RECORD — not a real scholarship
+            - generic [ref=f8e1965]: Demo record
+          - generic [ref=f8e1967]:
+            - generic [ref=f8e1972]:
+              - paragraph [ref=f8e1976]: Award
+              - paragraph [ref=f8e1979]: ₹25,000
+            - generic [ref=f8e1984]:
+              - paragraph [ref=f8e1988]: Deadline
+              - paragraph [ref=f8e1991]: 23 Sep 2025
+            - generic [ref=f8e1996]:
+              - generic [ref=f8e1997]:
+                - paragraph [ref=f8e2000]: Awards available
+                - button "Help for Awards available" [ref=f8e2004] [cursor=pointer]
+              - paragraph [ref=f8e2010]: Not verified
+          - generic [ref=f8e2011]: "Why this is shown (not a chance of winning): Eligibility: unverified; Application closed; Course / level relevance partly confirmed; Published amount available; Limited / unofficial evidence · relevance score 34/100"
+          - paragraph [ref=f8e2020]:
+            - strong [ref=f8e2021]: "Eligibility:"
+            - text: The guidelines are for academic year 2024-25, which is older than the current academic year (2026-27).
+          - paragraph [ref=f8e2026]: Deadline 23 Sep 2025 has passed (extensions are possible; check the official site).
+          - generic [ref=f8e2028]:
+            - generic [ref=f8e2034]:
+              - generic [ref=f8e2035]: Matching
+              - generic [ref=f8e2036]: ✓ Annual family income ≤ ₹3,00,000
+            - generic [ref=f8e2042]:
+              - generic [ref=f8e2043]: Not met
+              - generic [ref=f8e2044]: —
+            - generic [ref=f8e2050]:
+              - generic [ref=f8e2051]: Missing / unknown
+              - generic [ref=f8e2052]: "? Category: General, EWS, SC, ST, OBC"
+              - generic [ref=f8e2053]: "? Level: Undergraduate"
+              - generic [ref=f8e2054]: "? Previous marks ≥ 50%"
+          - paragraph [ref=f8e2059]:
+            - strong [ref=f8e2060]: Important red flags
+          - generic [ref=f8e2064]:
+            - generic [ref=f8e2065]:
+              - text: ⛔ Deadline passed — The deadline (23 Sep 2025) has passed.
+              - generic [ref=f8e2066]:
+                - text: Stated by source ·
+                - link "source" [ref=f8e2067] [cursor=pointer]:
+                  - /url: https://example.org/demo/6/guidelines
+            - generic [ref=f8e2068]:
+              - text: ⛔ Outdated guidelines — These guidelines are for 2024-25; they may not apply to the current year.
+              - generic [ref=f8e2069]: "“DEMO TEXT: guidelines for 2024-25”"
+              - generic [ref=f8e2070]:
+                - text: Stated by source ·
+                - link "source" [ref=f8e2071] [cursor=pointer]:
+                  - /url: https://example.org/demo
+          - paragraph [ref=f8e2076]: "Required documents: not listed in the source."
+          - generic [ref=f8e2078]:
+            - link [ref=f8e2083] [cursor=pointer]:
+              - /url: https://example.org/demo/6/apply
+              - paragraph [ref=f8e2088]: Apply on official site
+            - link [ref=f8e2093] [cursor=pointer]:
+              - /url: https://example.org/demo/6/guidelines
+              - paragraph [ref=f8e2098]: Guidelines
+          - generic [ref=f8e2101]: "Retrieved: 28 Oct 2026, 11:47 UTC · Last verified: 28 Oct 2026, 11:47 UTC · Extraction confidence 100%"
+          - group [ref=f8e2108]:
+            - generic [ref=f8e2110] [cursor=pointer]:
+              - generic [aria-hidden] [ref=f8e2112]: keyboard_arrow_right
+              - paragraph [ref=f8e2115]: Full eligibility details
+          - group [ref=f8e2118]:
+            - generic [ref=f8e2120] [cursor=pointer]:
+              - generic [aria-hidden] [ref=f8e2122]: keyboard_arrow_right
+              - paragraph [ref=f8e2125]: Supporting evidence (2)
+          - group [ref=f8e2128]:
+            - generic [ref=f8e2130] [cursor=pointer]:
+              - generic [aria-hidden] [ref=f8e2132]: keyboard_arrow_right
+              - paragraph [ref=f8e2135]: 🤖 AI explanation (Gemini)

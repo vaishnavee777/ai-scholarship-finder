@@ -1,0 +1,2039 @@
+{
+  "meta": {
+    "started": "2026-10-28T17:18:45",
+    "server": "@playwright/mcp@0.0.83",
+    "tools": [
+      "browser_close",
+      "browser_resize",
+      "browser_console_messages",
+      "browser_handle_dialog",
+      "browser_emulate_media",
+      "browser_evaluate",
+      "browser_file_upload",
+      "browser_drop",
+      "browser_find",
+      "browser_fill_form",
+      "browser_press_key",
+      "browser_type",
+      "browser_navigate",
+      "browser_navigate_back",
+      "browser_network_requests",
+      "browser_network_request",
+      "browser_run_code_unsafe",
+      "browser_take_screenshot",
+      "browser_snapshot",
+      "browser_click",
+      "browser_drag",
+      "browser_hover",
+      "browser_select_option",
+      "browser_tabs",
+      "browser_wait_for"
+    ],
+    "url": "http://localhost:8501",
+    "console_errors_summary": "### Result\nTotal messages: 28 (Errors: 0, Warnings: 28)\nReturning 0 messages for level \"error\"",
+    "finished": "2026-10-28T17:21:42",
+    "mcp_calls": [
+      {
+        "tool": "browser_resize",
+        "args": {
+          "width": 1280,
+          "height": 900
+        },
+        "seconds": 0.48,
+        "ok": true
+      },
+      {
+        "tool": "browser_navigate",
+        "args": {
+          "url": "http://localhost:8501"
+        },
+        "seconds": 0.12,
+        "ok": true
+      },
+      {
+        "tool": "browser_wait_for",
+        "args": {
+          "text": "Data source"
+        },
+        "seconds": 0.19,
+        "ok": true
+      },
+      {
+        "tool": "browser_wait_for",
+        "args": {
+          "time": 1.5
+        },
+        "seconds": 1.53,
+        "ok": true
+      },
+      {
+        "tool": "browser_evaluate",
+        "args": {
+          "function": "() => document.body.innerText"
+        },
+        "seconds": 0.51,
+        "ok": true
+      },
+      {
+        "tool": "browser_evaluate",
+        "args": {
+          "function": "() => document.title"
+        },
+        "seconds": 0.51,
+        "ok": true
+      },
+      {
+        "tool": "browser_console_messages",
+        "args": {
+          "level": "error"
+        },
+        "seconds": 0.01,
+        "ok": true
+      },
+      {
+        "tool": "browser_take_screenshot",
+        "args": {
+          "type": "png",
+          "filename": "/Users/kvaishnaveevbhat/ai-scholarship-finder/mcp_testing/screenshots/TC01-ho...",
+          "fullPage": false
+        },
+        "seconds": 0.06,
+        "ok": true
+      },
+      {
+        "tool": "browser_resize",
+        "args": {
+          "width": 1280,
+          "height": 900
+        },
+        "seconds": 0.0,
+        "ok": true
+      },
+      {
+        "tool": "browser_navigate",
+        "args": {
+          "url": "http://localhost:8501"
+        },
+        "seconds": 0.04,
+        "ok": true
+      },
+      {
+        "tool": "browser_wait_for",
+        "args": {
+          "text": "Data source"
+        },
+        "seconds": 0.19,
+        "ok": true
+      },
+      {
+        "tool": "browser_wait_for",
+        "args": {
+          "time": 1.5
+        },
+        "seconds": 1.53,
+        "ok": true
+      },
+      {
+        "tool": "browser_evaluate",
+        "args": {
+          "function": "() => document.body.innerText"
+        },
+        "seconds": 0.51,
+        "ok": true
+      },
+      {
+        "tool": "browser_resize",
+        "args": {
+          "width": 1280,
+          "height": 900
+        },
+        "seconds": 0.0,
+        "ok": true
+      },
+      {
+        "tool": "browser_navigate",
+        "args": {
+          "url": "http://localhost:8501"
+        },
+        "seconds": 0.05,
+        "ok": true
+      },
+      {
+        "tool": "browser_wait_for",
+        "args": {
+          "text": "Data source"
+        },
+        "seconds": 0.2,
+        "ok": true
+      },
+      {
+        "tool": "browser_wait_for",
+        "args": {
+          "time": 1.5
+        },
+        "seconds": 1.53,
+        "ok": true
+      },
+      {
+        "tool": "browser_snapshot",
+        "args": {},
+        "seconds": 0.01,
+        "ok": true
+      },
+      {
+        "tool": "browser_click",
+        "args": {
+          "element": "paragraph \\[ref=\\w+\\]: .*Demo\\ data",
+          "target": "f2e47"
+        },
+        "seconds": 0.56,
+        "ok": true
+      },
+      {
+        "tool": "browser_wait_for",
+        "args": {
+          "time": 1.5
+        },
+        "seconds": 1.53,
+        "ok": true
+      },
+      {
+        "tool": "browser_snapshot",
+        "args": {},
+        "seconds": 0.01,
+        "ok": true
+      },
+      {
+        "tool": "browser_click",
+        "args": {
+          "element": "paragraph \\[ref=\\w+\\]: .*Find\\ scholarships",
+          "target": "f2e432"
+        },
+        "seconds": 1.11,
+        "ok": true
+      },
+      {
+        "tool": "browser_wait_for",
+        "args": {
+          "time": 4
+        },
+        "seconds": 4.09,
+        "ok": true
+      },
+      {
+        "tool": "browser_evaluate",
+        "args": {
+          "function": "() => document.body.innerText"
+        },
+        "seconds": 0.51,
+        "ok": true
+      },
+      {
+        "tool": "browser_take_screenshot",
+        "args": {
+          "type": "png",
+          "filename": "/Users/kvaishnaveevbhat/ai-scholarship-finder/mcp_testing/screenshots/TC03-de...",
+          "fullPage": false
+        },
+        "seconds": 0.07,
+        "ok": true
+      },
+      {
+        "tool": "browser_resize",
+        "args": {
+          "width": 1280,
+          "height": 900
+        },
+        "seconds": 0.0,
+        "ok": true
+      },
+      {
+        "tool": "browser_navigate",
+        "args": {
+          "url": "http://localhost:8501"
+        },
+        "seconds": 0.05,
+        "ok": true
+      },
+      {
+        "tool": "browser_wait_for",
+        "args": {
+          "text": "Data source"
+        },
+        "seconds": 0.21,
+        "ok": true
+      },
+      {
+        "tool": "browser_wait_for",
+        "args": {
+          "time": 1.5
+        },
+        "seconds": 1.52,
+        "ok": true
+      },
+      {
+        "tool": "browser_snapshot",
+        "args": {},
+        "seconds": 0.01,
+        "ok": true
+      },
+      {
+        "tool": "browser_click",
+        "args": {
+          "element": "paragraph \\[ref=\\w+\\]: .*Demo\\ data",
+          "target": "f3e47"
+        },
+        "seconds": 0.56,
+        "ok": true
+      },
+      {
+        "tool": "browser_wait_for",
+        "args": {
+          "time": 1.5
+        },
+        "seconds": 1.52,
+        "ok": true
+      },
+      {
+        "tool": "browser_snapshot",
+        "args": {},
+        "seconds": 0.01,
+        "ok": true
+      },
+      {
+        "tool": "browser_click",
+        "args": {
+          "element": "combobox \"State of residence / domicile\"",
+          "target": "f3e159"
+        },
+        "seconds": 0.57,
+        "ok": true
+      },
+      {
+        "tool": "browser_wait_for",
+        "args": {
+          "time": 0.8
+        },
+        "seconds": 0.83,
+        "ok": true
+      },
+      {
+        "tool": "browser_press_key",
+        "args": {
+          "key": "Karnataka"
+        },
+        "seconds": 0.0,
+        "ok": false
+      },
+      {
+        "tool": "browser_press_key",
+        "args": {
+          "key": "Enter"
+        },
+        "seconds": 0.54,
+        "ok": true
+      },
+      {
+        "tool": "browser_wait_for",
+        "args": {
+          "time": 1.5
+        },
+        "seconds": 1.53,
+        "ok": true
+      },
+      {
+        "tool": "browser_snapshot",
+        "args": {},
+        "seconds": 0.02,
+        "ok": true
+      },
+      {
+        "tool": "browser_click",
+        "args": {
+          "element": "combobox \"Category\"",
+          "target": "f3e546"
+        },
+        "seconds": 0.56,
+        "ok": true
+      },
+      {
+        "tool": "browser_wait_for",
+        "args": {
+          "time": 0.8
+        },
+        "seconds": 0.83,
+        "ok": true
+      },
+      {
+        "tool": "browser_press_key",
+        "args": {
+          "key": "OBC"
+        },
+        "seconds": 0.0,
+        "ok": false
+      },
+      {
+        "tool": "browser_press_key",
+        "args": {
+          "key": "Enter"
+        },
+        "seconds": 0.53,
+        "ok": true
+      },
+      {
+        "tool": "browser_wait_for",
+        "args": {
+          "time": 1.5
+        },
+        "seconds": 1.53,
+        "ok": true
+      },
+      {
+        "tool": "browser_snapshot",
+        "args": {},
+        "seconds": 0.01,
+        "ok": true
+      },
+      {
+        "tool": "browser_click",
+        "args": {
+          "element": "paragraph \\[ref=\\w+\\]: .*Find\\ scholarships",
+          "target": "f3e432"
+        },
+        "seconds": 1.09,
+        "ok": true
+      },
+      {
+        "tool": "browser_wait_for",
+        "args": {
+          "time": 4
+        },
+        "seconds": 4.06,
+        "ok": true
+      },
+      {
+        "tool": "browser_evaluate",
+        "args": {
+          "function": "() => document.body.innerText"
+        },
+        "seconds": 0.51,
+        "ok": true
+      },
+      {
+        "tool": "browser_take_screenshot",
+        "args": {
+          "type": "png",
+          "filename": "/Users/kvaishnaveevbhat/ai-scholarship-finder/mcp_testing/screenshots/TC04-ka...",
+          "fullPage": false
+        },
+        "seconds": 0.05,
+        "ok": true
+      },
+      {
+        "tool": "browser_resize",
+        "args": {
+          "width": 1280,
+          "height": 900
+        },
+        "seconds": 0.0,
+        "ok": true
+      },
+      {
+        "tool": "browser_navigate",
+        "args": {
+          "url": "http://localhost:8501"
+        },
+        "seconds": 0.03,
+        "ok": true
+      },
+      {
+        "tool": "browser_wait_for",
+        "args": {
+          "text": "Data source"
+        },
+        "seconds": 0.19,
+        "ok": true
+      },
+      {
+        "tool": "browser_wait_for",
+        "args": {
+          "time": 1.5
+        },
+        "seconds": 1.52,
+        "ok": true
+      },
+      {
+        "tool": "browser_snapshot",
+        "args": {},
+        "seconds": 0.01,
+        "ok": true
+      },
+      {
+        "tool": "browser_click",
+        "args": {
+          "element": "paragraph \\[ref=\\w+\\]: .*Demo\\ data",
+          "target": "f4e47"
+        },
+        "seconds": 0.55,
+        "ok": true
+      },
+      {
+        "tool": "browser_wait_for",
+        "args": {
+          "time": 1.5
+        },
+        "seconds": 1.53,
+        "ok": true
+      },
+      {
+        "tool": "browser_snapshot",
+        "args": {},
+        "seconds": 0.01,
+        "ok": true
+      },
+      {
+        "tool": "browser_click",
+        "args": {
+          "element": "paragraph \\[ref=\\w+\\]: .*Find\\ scholarships",
+          "target": "f4e432"
+        },
+        "seconds": 1.09,
+        "ok": true
+      },
+      {
+        "tool": "browser_wait_for",
+        "args": {
+          "time": 4
+        },
+        "seconds": 4.04,
+        "ok": true
+      },
+      {
+        "tool": "browser_snapshot",
+        "args": {},
+        "seconds": 0.03,
+        "ok": true
+      },
+      {
+        "tool": "browser_type",
+        "args": {
+          "element": "textbox \"Provider / name contains\"",
+          "target": "f4e669",
+          "text": "Karnataka",
+          "submit": false
+        },
+        "seconds": 0.06,
+        "ok": true
+      },
+      {
+        "tool": "browser_press_key",
+        "args": {
+          "key": "Tab"
+        },
+        "seconds": 0.01,
+        "ok": true
+      },
+      {
+        "tool": "browser_wait_for",
+        "args": {
+          "time": 1.5
+        },
+        "seconds": 1.54,
+        "ok": true
+      },
+      {
+        "tool": "browser_evaluate",
+        "args": {
+          "function": "() => document.body.innerText"
+        },
+        "seconds": 0.51,
+        "ok": true
+      },
+      {
+        "tool": "browser_take_screenshot",
+        "args": {
+          "type": "png",
+          "filename": "/Users/kvaishnaveevbhat/ai-scholarship-finder/mcp_testing/screenshots/TC05-te...",
+          "fullPage": false
+        },
+        "seconds": 0.05,
+        "ok": true
+      },
+      {
+        "tool": "browser_resize",
+        "args": {
+          "width": 1280,
+          "height": 900
+        },
+        "seconds": 0.0,
+        "ok": true
+      },
+      {
+        "tool": "browser_navigate",
+        "args": {
+          "url": "http://localhost:8501"
+        },
+        "seconds": 0.03,
+        "ok": true
+      },
+      {
+        "tool": "browser_wait_for",
+        "args": {
+          "text": "Data source"
+        },
+        "seconds": 0.2,
+        "ok": true
+      },
+      {
+        "tool": "browser_wait_for",
+        "args": {
+          "time": 1.5
+        },
+        "seconds": 1.53,
+        "ok": true
+      },
+      {
+        "tool": "browser_snapshot",
+        "args": {},
+        "seconds": 0.01,
+        "ok": true
+      },
+      {
+        "tool": "browser_click",
+        "args": {
+          "element": "paragraph \\[ref=\\w+\\]: .*Demo\\ data",
+          "target": "f5e47"
+        },
+        "seconds": 0.56,
+        "ok": true
+      },
+      {
+        "tool": "browser_wait_for",
+        "args": {
+          "time": 1.5
+        },
+        "seconds": 1.53,
+        "ok": true
+      },
+      {
+        "tool": "browser_snapshot",
+        "args": {},
+        "seconds": 0.02,
+        "ok": true
+      },
+      {
+        "tool": "browser_click",
+        "args": {
+          "element": "paragraph \\[ref=\\w+\\]: .*Find\\ scholarships",
+          "target": "f5e432"
+        },
+        "seconds": 1.1,
+        "ok": true
+      },
+      {
+        "tool": "browser_wait_for",
+        "args": {
+          "time": 4
+        },
+        "seconds": 4.06,
+        "ok": true
+      },
+      {
+        "tool": "browser_snapshot",
+        "args": {},
+        "seconds": 0.04,
+        "ok": true
+      },
+      {
+        "tool": "browser_type",
+        "args": {
+          "element": "textbox \"Provider / name contains\"",
+          "target": "f5e669",
+          "text": "zzzz-no-such-scholarship",
+          "submit": false
+        },
+        "seconds": 0.06,
+        "ok": true
+      },
+      {
+        "tool": "browser_press_key",
+        "args": {
+          "key": "Tab"
+        },
+        "seconds": 0.01,
+        "ok": true
+      },
+      {
+        "tool": "browser_wait_for",
+        "args": {
+          "time": 1.5
+        },
+        "seconds": 1.53,
+        "ok": true
+      },
+      {
+        "tool": "browser_evaluate",
+        "args": {
+          "function": "() => document.body.innerText"
+        },
+        "seconds": 0.51,
+        "ok": true
+      },
+      {
+        "tool": "browser_take_screenshot",
+        "args": {
+          "type": "png",
+          "filename": "/Users/kvaishnaveevbhat/ai-scholarship-finder/mcp_testing/screenshots/TC06-no...",
+          "fullPage": false
+        },
+        "seconds": 0.06,
+        "ok": true
+      },
+      {
+        "tool": "browser_resize",
+        "args": {
+          "width": 1280,
+          "height": 900
+        },
+        "seconds": 0.0,
+        "ok": true
+      },
+      {
+        "tool": "browser_navigate",
+        "args": {
+          "url": "http://localhost:8501"
+        },
+        "seconds": 0.03,
+        "ok": true
+      },
+      {
+        "tool": "browser_wait_for",
+        "args": {
+          "text": "Data source"
+        },
+        "seconds": 0.2,
+        "ok": true
+      },
+      {
+        "tool": "browser_wait_for",
+        "args": {
+          "time": 1.5
+        },
+        "seconds": 1.52,
+        "ok": true
+      },
+      {
+        "tool": "browser_snapshot",
+        "args": {},
+        "seconds": 0.01,
+        "ok": true
+      },
+      {
+        "tool": "browser_click",
+        "args": {
+          "element": "paragraph \\[ref=\\w+\\]: .*Demo\\ data",
+          "target": "f6e47"
+        },
+        "seconds": 0.56,
+        "ok": true
+      },
+      {
+        "tool": "browser_wait_for",
+        "args": {
+          "time": 1.5
+        },
+        "seconds": 1.53,
+        "ok": true
+      },
+      {
+        "tool": "browser_snapshot",
+        "args": {},
+        "seconds": 0.01,
+        "ok": true
+      },
+      {
+        "tool": "browser_click",
+        "args": {
+          "element": "paragraph \\[ref=\\w+\\]: .*Find\\ scholarships",
+          "target": "f6e432"
+        },
+        "seconds": 1.1,
+        "ok": true
+      },
+      {
+        "tool": "browser_wait_for",
+        "args": {
+          "time": 4
+        },
+        "seconds": 4.06,
+        "ok": true
+      },
+      {
+        "tool": "browser_evaluate",
+        "args": {
+          "function": "() => document.body.innerText"
+        },
+        "seconds": 0.51,
+        "ok": true
+      },
+      {
+        "tool": "browser_resize",
+        "args": {
+          "width": 1280,
+          "height": 900
+        },
+        "seconds": 0.0,
+        "ok": true
+      },
+      {
+        "tool": "browser_navigate",
+        "args": {
+          "url": "http://localhost:8501"
+        },
+        "seconds": 0.05,
+        "ok": true
+      },
+      {
+        "tool": "browser_wait_for",
+        "args": {
+          "text": "Data source"
+        },
+        "seconds": 0.19,
+        "ok": true
+      },
+      {
+        "tool": "browser_wait_for",
+        "args": {
+          "time": 1.5
+        },
+        "seconds": 1.53,
+        "ok": true
+      },
+      {
+        "tool": "browser_snapshot",
+        "args": {},
+        "seconds": 0.01,
+        "ok": true
+      },
+      {
+        "tool": "browser_click",
+        "args": {
+          "element": "paragraph \\[ref=\\w+\\]: .*Demo\\ data",
+          "target": "f7e47"
+        },
+        "seconds": 0.55,
+        "ok": true
+      },
+      {
+        "tool": "browser_wait_for",
+        "args": {
+          "time": 1.5
+        },
+        "seconds": 1.53,
+        "ok": true
+      },
+      {
+        "tool": "browser_snapshot",
+        "args": {},
+        "seconds": 0.01,
+        "ok": true
+      },
+      {
+        "tool": "browser_click",
+        "args": {
+          "element": "paragraph \\[ref=\\w+\\]: .*Exact\\ amount",
+          "target": "f7e191"
+        },
+        "seconds": 0.54,
+        "ok": true
+      },
+      {
+        "tool": "browser_wait_for",
+        "args": {
+          "time": 1.5
+        },
+        "seconds": 1.53,
+        "ok": true
+      },
+      {
+        "tool": "browser_evaluate",
+        "args": {
+          "function": "() => document.body.innerText"
+        },
+        "seconds": 0.51,
+        "ok": true
+      },
+      {
+        "tool": "browser_snapshot",
+        "args": {},
+        "seconds": 0.03,
+        "ok": true
+      },
+      {
+        "tool": "browser_take_screenshot",
+        "args": {
+          "type": "png",
+          "filename": "/Users/kvaishnaveevbhat/ai-scholarship-finder/mcp_testing/screenshots/TC08-in...",
+          "fullPage": false
+        },
+        "seconds": 0.06,
+        "ok": true
+      },
+      {
+        "tool": "browser_resize",
+        "args": {
+          "width": 1280,
+          "height": 900
+        },
+        "seconds": 0.0,
+        "ok": true
+      },
+      {
+        "tool": "browser_navigate",
+        "args": {
+          "url": "http://localhost:8501"
+        },
+        "seconds": 0.03,
+        "ok": true
+      },
+      {
+        "tool": "browser_wait_for",
+        "args": {
+          "text": "Data source"
+        },
+        "seconds": 0.2,
+        "ok": true
+      },
+      {
+        "tool": "browser_wait_for",
+        "args": {
+          "time": 1.5
+        },
+        "seconds": 1.55,
+        "ok": true
+      },
+      {
+        "tool": "browser_snapshot",
+        "args": {},
+        "seconds": 0.02,
+        "ok": true
+      },
+      {
+        "tool": "browser_click",
+        "args": {
+          "element": "paragraph \\[ref=\\w+\\]: .*Demo\\ data",
+          "target": "f8e47"
+        },
+        "seconds": 0.65,
+        "ok": true
+      },
+      {
+        "tool": "browser_wait_for",
+        "args": {
+          "time": 1.5
+        },
+        "seconds": 1.54,
+        "ok": true
+      },
+      {
+        "tool": "browser_snapshot",
+        "args": {},
+        "seconds": 0.01,
+        "ok": true
+      },
+      {
+        "tool": "browser_type",
+        "args": {
+          "element": "textbox \"Degree / course\"",
+          "target": "f8e261",
+          "text": "<img src=x onerror=alert(1)><script>alert(2)</script>",
+          "submit": false
+        },
+        "seconds": 0.03,
+        "ok": true
+      },
+      {
+        "tool": "browser_press_key",
+        "args": {
+          "key": "Tab"
+        },
+        "seconds": 0.01,
+        "ok": true
+      },
+      {
+        "tool": "browser_wait_for",
+        "args": {
+          "time": 1.5
+        },
+        "seconds": 1.54,
+        "ok": true
+      },
+      {
+        "tool": "browser_snapshot",
+        "args": {},
+        "seconds": 0.01,
+        "ok": true
+      },
+      {
+        "tool": "browser_click",
+        "args": {
+          "element": "paragraph \\[ref=\\w+\\]: .*Find\\ scholarships",
+          "target": "f8e432"
+        },
+        "seconds": 1.13,
+        "ok": true
+      },
+      {
+        "tool": "browser_wait_for",
+        "args": {
+          "time": 4
+        },
+        "seconds": 4.06,
+        "ok": true
+      },
+      {
+        "tool": "browser_evaluate",
+        "args": {
+          "function": "() => document.body.innerText"
+        },
+        "seconds": 0.51,
+        "ok": true
+      },
+      {
+        "tool": "browser_evaluate",
+        "args": {
+          "function": "() => document.querySelectorAll('main img[src=\"x\"], main script:not([src])')...."
+        },
+        "seconds": 0.51,
+        "ok": true
+      },
+      {
+        "tool": "browser_take_screenshot",
+        "args": {
+          "type": "png",
+          "filename": "/Users/kvaishnaveevbhat/ai-scholarship-finder/mcp_testing/screenshots/TC09-xs...",
+          "fullPage": false
+        },
+        "seconds": 0.07,
+        "ok": true
+      },
+      {
+        "tool": "browser_resize",
+        "args": {
+          "width": 1280,
+          "height": 900
+        },
+        "seconds": 0.0,
+        "ok": true
+      },
+      {
+        "tool": "browser_navigate",
+        "args": {
+          "url": "http://localhost:8501"
+        },
+        "seconds": 0.03,
+        "ok": true
+      },
+      {
+        "tool": "browser_wait_for",
+        "args": {
+          "text": "Data source"
+        },
+        "seconds": 0.2,
+        "ok": true
+      },
+      {
+        "tool": "browser_wait_for",
+        "args": {
+          "time": 1.5
+        },
+        "seconds": 1.53,
+        "ok": true
+      },
+      {
+        "tool": "browser_snapshot",
+        "args": {},
+        "seconds": 0.01,
+        "ok": true
+      },
+      {
+        "tool": "browser_click",
+        "args": {
+          "element": "paragraph \\[ref=\\w+\\]: .*Demo\\ data",
+          "target": "f9e47"
+        },
+        "seconds": 0.55,
+        "ok": true
+      },
+      {
+        "tool": "browser_wait_for",
+        "args": {
+          "time": 1.5
+        },
+        "seconds": 1.53,
+        "ok": true
+      },
+      {
+        "tool": "browser_snapshot",
+        "args": {},
+        "seconds": 0.01,
+        "ok": true
+      },
+      {
+        "tool": "browser_type",
+        "args": {
+          "element": "spinbutton \"Current year\"",
+          "target": "f9e274",
+          "text": "99",
+          "submit": false
+        },
+        "seconds": 0.02,
+        "ok": true
+      },
+      {
+        "tool": "browser_press_key",
+        "args": {
+          "key": "Tab"
+        },
+        "seconds": 0.01,
+        "ok": true
+      },
+      {
+        "tool": "browser_wait_for",
+        "args": {
+          "time": 1.5
+        },
+        "seconds": 1.53,
+        "ok": true
+      },
+      {
+        "tool": "browser_snapshot",
+        "args": {},
+        "seconds": 0.01,
+        "ok": true
+      },
+      {
+        "tool": "browser_click",
+        "args": {
+          "element": "paragraph \\[ref=\\w+\\]: .*Find\\ scholarships",
+          "target": "f9e432"
+        },
+        "seconds": 0.54,
+        "ok": true
+      },
+      {
+        "tool": "browser_wait_for",
+        "args": {
+          "time": 4
+        },
+        "seconds": 4.03,
+        "ok": true
+      },
+      {
+        "tool": "browser_evaluate",
+        "args": {
+          "function": "() => document.body.innerText"
+        },
+        "seconds": 0.51,
+        "ok": true
+      },
+      {
+        "tool": "browser_take_screenshot",
+        "args": {
+          "type": "png",
+          "filename": "/Users/kvaishnaveevbhat/ai-scholarship-finder/mcp_testing/screenshots/TC10-in...",
+          "fullPage": false
+        },
+        "seconds": 0.05,
+        "ok": true
+      },
+      {
+        "tool": "browser_resize",
+        "args": {
+          "width": 1280,
+          "height": 900
+        },
+        "seconds": 0.0,
+        "ok": true
+      },
+      {
+        "tool": "browser_navigate",
+        "args": {
+          "url": "http://localhost:8501"
+        },
+        "seconds": 0.03,
+        "ok": true
+      },
+      {
+        "tool": "browser_wait_for",
+        "args": {
+          "text": "Data source"
+        },
+        "seconds": 0.2,
+        "ok": true
+      },
+      {
+        "tool": "browser_wait_for",
+        "args": {
+          "time": 1.5
+        },
+        "seconds": 1.53,
+        "ok": true
+      },
+      {
+        "tool": "browser_evaluate",
+        "args": {
+          "function": "() => document.body.innerText"
+        },
+        "seconds": 0.51,
+        "ok": true
+      },
+      {
+        "tool": "browser_resize",
+        "args": {
+          "width": 1280,
+          "height": 900
+        },
+        "seconds": 0.0,
+        "ok": true
+      },
+      {
+        "tool": "browser_navigate",
+        "args": {
+          "url": "http://localhost:8501"
+        },
+        "seconds": 0.04,
+        "ok": true
+      },
+      {
+        "tool": "browser_wait_for",
+        "args": {
+          "text": "Data source"
+        },
+        "seconds": 0.19,
+        "ok": true
+      },
+      {
+        "tool": "browser_wait_for",
+        "args": {
+          "time": 1.5
+        },
+        "seconds": 1.53,
+        "ok": true
+      },
+      {
+        "tool": "browser_snapshot",
+        "args": {},
+        "seconds": 0.01,
+        "ok": true
+      },
+      {
+        "tool": "browser_click",
+        "args": {
+          "element": "paragraph \\[ref=\\w+\\]: .*Demo\\ data",
+          "target": "f11e47"
+        },
+        "seconds": 0.55,
+        "ok": true
+      },
+      {
+        "tool": "browser_wait_for",
+        "args": {
+          "time": 1.5
+        },
+        "seconds": 1.53,
+        "ok": true
+      },
+      {
+        "tool": "browser_snapshot",
+        "args": {},
+        "seconds": 0.01,
+        "ok": true
+      },
+      {
+        "tool": "browser_click",
+        "args": {
+          "element": "paragraph \\[ref=\\w+\\]: .*Clear\\ saved\\ searches\\ \\&\\ AI\\ cache",
+          "target": "f11e101"
+        },
+        "seconds": 0.54,
+        "ok": true
+      },
+      {
+        "tool": "browser_wait_for",
+        "args": {
+          "time": 2
+        },
+        "seconds": 2.03,
+        "ok": true
+      },
+      {
+        "tool": "browser_evaluate",
+        "args": {
+          "function": "() => document.body.innerText"
+        },
+        "seconds": 0.51,
+        "ok": true
+      },
+      {
+        "tool": "browser_take_screenshot",
+        "args": {
+          "type": "png",
+          "filename": "/Users/kvaishnaveevbhat/ai-scholarship-finder/mcp_testing/screenshots/TC12-cl...",
+          "fullPage": false
+        },
+        "seconds": 0.06,
+        "ok": true
+      },
+      {
+        "tool": "browser_resize",
+        "args": {
+          "width": 1280,
+          "height": 900
+        },
+        "seconds": 0.0,
+        "ok": true
+      },
+      {
+        "tool": "browser_navigate",
+        "args": {
+          "url": "http://localhost:8501"
+        },
+        "seconds": 0.03,
+        "ok": true
+      },
+      {
+        "tool": "browser_wait_for",
+        "args": {
+          "text": "Data source"
+        },
+        "seconds": 0.19,
+        "ok": true
+      },
+      {
+        "tool": "browser_wait_for",
+        "args": {
+          "time": 1.5
+        },
+        "seconds": 1.52,
+        "ok": true
+      },
+      {
+        "tool": "browser_snapshot",
+        "args": {},
+        "seconds": 0.01,
+        "ok": true
+      },
+      {
+        "tool": "browser_click",
+        "args": {
+          "element": "paragraph \\[ref=\\w+\\]: .*Demo\\ data",
+          "target": "f12e47"
+        },
+        "seconds": 0.55,
+        "ok": true
+      },
+      {
+        "tool": "browser_wait_for",
+        "args": {
+          "time": 1.5
+        },
+        "seconds": 1.53,
+        "ok": true
+      },
+      {
+        "tool": "browser_snapshot",
+        "args": {},
+        "seconds": 0.01,
+        "ok": true
+      },
+      {
+        "tool": "browser_click",
+        "args": {
+          "element": "paragraph \\[ref=\\w+\\]: .*Find\\ scholarships",
+          "target": "f12e432"
+        },
+        "seconds": 1.09,
+        "ok": true
+      },
+      {
+        "tool": "browser_wait_for",
+        "args": {
+          "time": 4
+        },
+        "seconds": 4.06,
+        "ok": true
+      },
+      {
+        "tool": "browser_resize",
+        "args": {
+          "width": 390,
+          "height": 844
+        },
+        "seconds": 0.02,
+        "ok": true
+      },
+      {
+        "tool": "browser_wait_for",
+        "args": {
+          "time": 2
+        },
+        "seconds": 2.07,
+        "ok": true
+      },
+      {
+        "tool": "browser_evaluate",
+        "args": {
+          "function": "() => ({sw: document.documentElement.scrollWidth, iw: window.innerWidth})"
+        },
+        "seconds": 0.51,
+        "ok": true
+      },
+      {
+        "tool": "browser_take_screenshot",
+        "args": {
+          "type": "png",
+          "filename": "/Users/kvaishnaveevbhat/ai-scholarship-finder/mcp_testing/screenshots/TC13-mo...",
+          "fullPage": false
+        },
+        "seconds": 0.03,
+        "ok": true
+      },
+      {
+        "tool": "browser_resize",
+        "args": {
+          "width": 1280,
+          "height": 900
+        },
+        "seconds": 0.03,
+        "ok": true
+      },
+      {
+        "tool": "browser_navigate",
+        "args": {
+          "url": "http://localhost:8501"
+        },
+        "seconds": 0.03,
+        "ok": true
+      },
+      {
+        "tool": "browser_wait_for",
+        "args": {
+          "text": "Data source"
+        },
+        "seconds": 0.2,
+        "ok": true
+      },
+      {
+        "tool": "browser_wait_for",
+        "args": {
+          "time": 1.5
+        },
+        "seconds": 1.53,
+        "ok": true
+      },
+      {
+        "tool": "browser_snapshot",
+        "args": {},
+        "seconds": 0.01,
+        "ok": true
+      },
+      {
+        "tool": "browser_click",
+        "args": {
+          "element": "paragraph \\[ref=\\w+\\]: .*Demo\\ data",
+          "target": "f13e47"
+        },
+        "seconds": 0.55,
+        "ok": true
+      },
+      {
+        "tool": "browser_wait_for",
+        "args": {
+          "time": 1.5
+        },
+        "seconds": 1.53,
+        "ok": true
+      },
+      {
+        "tool": "browser_snapshot",
+        "args": {},
+        "seconds": 0.01,
+        "ok": true
+      },
+      {
+        "tool": "browser_click",
+        "args": {
+          "element": "paragraph \\[ref=\\w+\\]: .*Force\\ fresh\\ verification",
+          "target": "f13e76"
+        },
+        "seconds": 0.54,
+        "ok": true
+      },
+      {
+        "tool": "browser_wait_for",
+        "args": {
+          "time": 1
+        },
+        "seconds": 1.02,
+        "ok": true
+      },
+      {
+        "tool": "browser_snapshot",
+        "args": {},
+        "seconds": 0.02,
+        "ok": true
+      },
+      {
+        "tool": "browser_click",
+        "args": {
+          "element": "paragraph \\[ref=\\w+\\]: .*Save\\ my\\ search\\ summary\\ on\\ this\\ device",
+          "target": "f13e58"
+        },
+        "seconds": 0.54,
+        "ok": true
+      },
+      {
+        "tool": "browser_wait_for",
+        "args": {
+          "time": 1.5
+        },
+        "seconds": 1.53,
+        "ok": true
+      },
+      {
+        "tool": "browser_evaluate",
+        "args": {
+          "function": "() => document.body.innerText"
+        },
+        "seconds": 0.51,
+        "ok": true
+      },
+      {
+        "tool": "browser_take_screenshot",
+        "args": {
+          "type": "png",
+          "filename": "/Users/kvaishnaveevbhat/ai-scholarship-finder/mcp_testing/screenshots/TC14-hi...",
+          "fullPage": false
+        },
+        "seconds": 0.05,
+        "ok": true
+      },
+      {
+        "tool": "browser_resize",
+        "args": {
+          "width": 1280,
+          "height": 900
+        },
+        "seconds": 0.0,
+        "ok": true
+      },
+      {
+        "tool": "browser_navigate",
+        "args": {
+          "url": "http://localhost:8501"
+        },
+        "seconds": 0.03,
+        "ok": true
+      },
+      {
+        "tool": "browser_wait_for",
+        "args": {
+          "text": "Data source"
+        },
+        "seconds": 0.2,
+        "ok": true
+      },
+      {
+        "tool": "browser_wait_for",
+        "args": {
+          "time": 1.5
+        },
+        "seconds": 1.53,
+        "ok": true
+      },
+      {
+        "tool": "browser_snapshot",
+        "args": {},
+        "seconds": 0.01,
+        "ok": true
+      },
+      {
+        "tool": "browser_click",
+        "args": {
+          "element": "paragraph \\[ref=\\w+\\]: .*Demo\\ data",
+          "target": "f14e47"
+        },
+        "seconds": 0.56,
+        "ok": true
+      },
+      {
+        "tool": "browser_wait_for",
+        "args": {
+          "time": 1.5
+        },
+        "seconds": 1.53,
+        "ok": true
+      },
+      {
+        "tool": "browser_snapshot",
+        "args": {},
+        "seconds": 0.01,
+        "ok": true
+      },
+      {
+        "tool": "browser_click",
+        "args": {
+          "element": "paragraph \\[ref=\\w+\\]: .*Find\\ scholarships",
+          "target": "f14e432"
+        },
+        "seconds": 1.1,
+        "ok": true
+      },
+      {
+        "tool": "browser_wait_for",
+        "args": {
+          "time": 4
+        },
+        "seconds": 4.1,
+        "ok": true
+      },
+      {
+        "tool": "browser_evaluate",
+        "args": {
+          "function": "() => document.body.innerText"
+        },
+        "seconds": 0.52,
+        "ok": true
+      },
+      {
+        "tool": "browser_resize",
+        "args": {
+          "width": 1280,
+          "height": 900
+        },
+        "seconds": 0.01,
+        "ok": true
+      },
+      {
+        "tool": "browser_navigate",
+        "args": {
+          "url": "http://localhost:8501"
+        },
+        "seconds": 0.12,
+        "ok": true
+      },
+      {
+        "tool": "browser_wait_for",
+        "args": {
+          "text": "Data source"
+        },
+        "seconds": 0.21,
+        "ok": true
+      },
+      {
+        "tool": "browser_wait_for",
+        "args": {
+          "time": 1.5
+        },
+        "seconds": 1.56,
+        "ok": true
+      },
+      {
+        "tool": "browser_snapshot",
+        "args": {},
+        "seconds": 0.04,
+        "ok": true
+      },
+      {
+        "tool": "browser_click",
+        "args": {
+          "element": "combobox \"State of residence / domicile\"",
+          "target": "f15e159"
+        },
+        "seconds": 0.71,
+        "ok": true
+      },
+      {
+        "tool": "browser_wait_for",
+        "args": {
+          "time": 0.8
+        },
+        "seconds": 0.86,
+        "ok": true
+      },
+      {
+        "tool": "browser_press_key",
+        "args": {
+          "key": "Karnataka"
+        },
+        "seconds": 0.01,
+        "ok": false
+      },
+      {
+        "tool": "browser_press_key",
+        "args": {
+          "key": "Enter"
+        },
+        "seconds": 0.56,
+        "ok": true
+      },
+      {
+        "tool": "browser_wait_for",
+        "args": {
+          "time": 1.5
+        },
+        "seconds": 1.53,
+        "ok": true
+      },
+      {
+        "tool": "browser_snapshot",
+        "args": {},
+        "seconds": 0.01,
+        "ok": true
+      },
+      {
+        "tool": "browser_click",
+        "args": {
+          "element": "combobox \"Education level\"",
+          "target": "f15e550"
+        },
+        "seconds": 0.56,
+        "ok": true
+      },
+      {
+        "tool": "browser_wait_for",
+        "args": {
+          "time": 0.8
+        },
+        "seconds": 0.84,
+        "ok": true
+      },
+      {
+        "tool": "browser_press_key",
+        "args": {
+          "key": "Undergraduate"
+        },
+        "seconds": 0.0,
+        "ok": false
+      },
+      {
+        "tool": "browser_press_key",
+        "args": {
+          "key": "Enter"
+        },
+        "seconds": 0.54,
+        "ok": true
+      },
+      {
+        "tool": "browser_wait_for",
+        "args": {
+          "time": 1.5
+        },
+        "seconds": 1.53,
+        "ok": true
+      },
+      {
+        "tool": "browser_snapshot",
+        "args": {},
+        "seconds": 0.01,
+        "ok": true
+      },
+      {
+        "tool": "browser_type",
+        "args": {
+          "element": "textbox \"Degree / course\"",
+          "target": "f15e675",
+          "text": "B.E.",
+          "submit": false
+        },
+        "seconds": 0.02,
+        "ok": true
+      },
+      {
+        "tool": "browser_press_key",
+        "args": {
+          "key": "Tab"
+        },
+        "seconds": 0.01,
+        "ok": true
+      },
+      {
+        "tool": "browser_wait_for",
+        "args": {
+          "time": 1.5
+        },
+        "seconds": 1.53,
+        "ok": true
+      },
+      {
+        "tool": "browser_snapshot",
+        "args": {},
+        "seconds": 0.01,
+        "ok": true
+      },
+      {
+        "tool": "browser_click",
+        "args": {
+          "element": "paragraph \\[ref=\\w+\\]: .*Find\\ scholarships",
+          "target": "f15e432"
+        },
+        "seconds": 1.09,
+        "ok": true
+      },
+      {
+        "tool": "browser_wait_for",
+        "args": {
+          "time": 2
+        },
+        "seconds": 2.03,
+        "ok": true
+      },
+      {
+        "tool": "browser_wait_for",
+        "args": {
+          "time": 10
+        },
+        "seconds": 10.04,
+        "ok": true
+      },
+      {
+        "tool": "browser_evaluate",
+        "args": {
+          "function": "() => document.body.innerText"
+        },
+        "seconds": 0.51,
+        "ok": true
+      },
+      {
+        "tool": "browser_wait_for",
+        "args": {
+          "time": 10
+        },
+        "seconds": 10.03,
+        "ok": true
+      },
+      {
+        "tool": "browser_evaluate",
+        "args": {
+          "function": "() => document.body.innerText"
+        },
+        "seconds": 0.51,
+        "ok": true
+      },
+      {
+        "tool": "browser_wait_for",
+        "args": {
+          "time": 10
+        },
+        "seconds": 10.11,
+        "ok": true
+      },
+      {
+        "tool": "browser_evaluate",
+        "args": {
+          "function": "() => document.body.innerText"
+        },
+        "seconds": 0.51,
+        "ok": true
+      },
+      {
+        "tool": "browser_take_screenshot",
+        "args": {
+          "type": "png",
+          "filename": "/Users/kvaishnaveevbhat/ai-scholarship-finder/mcp_testing/screenshots/TC16-li...",
+          "fullPage": false
+        },
+        "seconds": 0.05,
+        "ok": true
+      },
+      {
+        "tool": "browser_console_messages",
+        "args": {
+          "level": "error",
+          "all": true
+        },
+        "seconds": 0.0,
+        "ok": true
+      }
+    ]
+  },
+  "results": [
+    {
+      "id": "TC-01",
+      "title": "Home page loads",
+      "steps": "Open http://localhost:8501; read title, text, console",
+      "expected": "Title 'AI Scholarship Finder', heading + Find button visible, 0 console errors",
+      "actual": "title='AI Scholarship Finder'; heading and Find button present; browser console errors: 0",
+      "status": "PASS",
+      "screenshot": "TC01-home.png",
+      "mcp_calls": 8,
+      "seconds": 3.4
+    },
+    {
+      "id": "TC-02",
+      "title": "Initial empty state",
+      "steps": "Open page without searching",
+      "expected": "Prompt 'Fill in your profile…' is shown",
+      "actual": "Info prompt shown before any search",
+      "status": "PASS",
+      "screenshot": null,
+      "mcp_calls": 5,
+      "seconds": 2.3
+    },
+    {
+      "id": "TC-03",
+      "title": "Demo search, empty profile",
+      "steps": "Select Demo data; click Find scholarships",
+      "expected": "8 fictional cards, demo banner, 'Showing 8 of 8'",
+      "actual": "Demo banner shown; 8 cards labelled DEMO RECORD; 'Showing 8 of 8' present=True",
+      "status": "PASS",
+      "screenshot": "TC03-demo-results.png",
+      "mcp_calls": 12,
+      "seconds": 9.7
+    },
+    {
+      "id": "TC-04",
+      "title": "Profile: Karnataka + OBC",
+      "steps": "Demo data; pick State=Karnataka, Category=OBC; search",
+      "expected": "Results and eligibility metrics render without errors",
+      "actual": "Results rendered for Karnataka/OBC: Showing 8 of 8; eligibility metrics visible",
+      "status": "PASS",
+      "screenshot": "TC04-karnataka-obc.png",
+      "mcp_calls": 24,
+      "seconds": 16.5
+    },
+    {
+      "id": "TC-05",
+      "title": "Text filter narrows list",
+      "steps": "Search demo; type 'Karnataka' in name filter",
+      "expected": "Count drops below 8 but stays >=1",
+      "actual": "Text filter 'Karnataka' -> Showing 1 of 8",
+      "status": "PASS",
+      "screenshot": "TC05-text-filter.png",
+      "mcp_calls": 16,
+      "seconds": 11.2
+    },
+    {
+      "id": "TC-06",
+      "title": "Filter with no match",
+      "steps": "Type nonsense in name filter",
+      "expected": "Friendly 'No results match' warning",
+      "actual": "Warning 'No results match these filters' shown, no crash",
+      "status": "PASS",
+      "screenshot": "TC06-no-match.png",
+      "mcp_calls": 16,
+      "seconds": 11.2
+    },
+    {
+      "id": "TC-07",
+      "title": "Missing-field warning",
+      "steps": "Search with a blank profile",
+      "expected": "Warning lists blank details / potential matches",
+      "actual": "Warning about blank profile fields (potential matches only) displayed",
+      "status": "PASS",
+      "screenshot": null,
+      "mcp_calls": 11,
+      "seconds": 9.5
+    },
+    {
+      "id": "TC-08",
+      "title": "Income input mode switch",
+      "steps": "Click radio 'Exact amount'",
+      "expected": "Exact-amount number box appears",
+      "actual": "DEFECT: after selecting 'Exact amount' the radio changed but the form still showed the 'Income range' dropdown; the 'Amount' box only appears after pressing Find (widgets inside st.form do not re-render until submit). See screenshot.",
+      "status": "FAIL",
+      "screenshot": "TC08-income-exact.png",
+      "mcp_calls": 13,
+      "seconds": 6.5
+    },
+    {
+      "id": "TC-09",
+      "title": "HTML/script injection in text field",
+      "steps": "Enter <img onerror><script> in course; search",
+      "expected": "Text escaped; nothing injected; no crash",
+      "actual": "Hostile HTML in course field: injected elements in DOM = 0; no dialog/crash",
+      "status": "PASS",
+      "screenshot": "TC09-xss.png",
+      "mcp_calls": 17,
+      "seconds": 11.9
+    },
+    {
+      "id": "TC-10",
+      "title": "Out-of-range number",
+      "steps": "Type 99 in Current year; search",
+      "expected": "App does not crash",
+      "actual": "Out-of-range year (99) did not crash the app (Streamlit enforces max 8)",
+      "status": "PASS",
+      "screenshot": "TC10-invalid-year.png",
+      "mcp_calls": 16,
+      "seconds": 10.6
+    },
+    {
+      "id": "TC-11",
+      "title": "Gemini status indicator",
+      "steps": "Read sidebar",
+      "expected": "Shows configured / not-configured status",
+      "actual": "Sidebar status: Gemini: configured ✅",
+      "status": "PASS",
+      "screenshot": null,
+      "mcp_calls": 5,
+      "seconds": 2.3
+    },
+    {
+      "id": "TC-12",
+      "title": "Clear saved searches button",
+      "steps": "Click 'Clear saved searches & AI cache'",
+      "expected": "'Cleared.' confirmation",
+      "actual": "Confirmation 'Cleared.' shown",
+      "status": "PASS",
+      "screenshot": "TC12-clear.png",
+      "mcp_calls": 12,
+      "seconds": 7.0
+    },
+    {
+      "id": "TC-13",
+      "title": "Mobile layout (390x844)",
+      "steps": "Resize to phone size after search",
+      "expected": "No horizontal scrolling",
+      "actual": "Mobile 390px: scrollWidth=390, viewport=390 -> no horizontal scroll",
+      "status": "PASS",
+      "screenshot": "TC13-mobile.png",
+      "mcp_calls": 14,
+      "seconds": 11.6
+    },
+    {
+      "id": "TC-14",
+      "title": "Opt-in search history",
+      "steps": "Tick 'Save my search summary'",
+      "expected": "Search history panel appears",
+      "actual": "Opt-in history checkbox reveals the 'Search history' panel",
+      "status": "PASS",
+      "screenshot": "TC14-history.png",
+      "mcp_calls": 15,
+      "seconds": 8.1
+    },
+    {
+      "id": "TC-15",
+      "title": "Result cards show labels",
+      "steps": "Search demo; read cards",
+      "expected": "Eligibility status + DEMO label on each card",
+      "actual": "Cards show eligibility status and DEMO label",
+      "status": "PASS",
+      "screenshot": null,
+      "mcp_calls": 11,
+      "seconds": 9.6
+    },
+    {
+      "id": "TC-16",
+      "title": "Live search against official sites",
+      "steps": "Live search; Karnataka, Undergraduate, B.E.; wait for completion",
+      "expected": "Real scholarships returned (or problems clearly reported), no crash",
+      "actual": "Live search finished: Showing 29 of 29; 1 problem(s)",
+      "status": "PASS",
+      "screenshot": "TC16-live.png",
+      "mcp_calls": 30,
+      "seconds": 45.5
+    }
+  ]
+}

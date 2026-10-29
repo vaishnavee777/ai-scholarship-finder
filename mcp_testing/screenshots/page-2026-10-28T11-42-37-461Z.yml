@@ -1,0 +1,84 @@
+- generic [ref=f7e2]:
+  - link "Skip to main content" [ref=f7e3] [cursor=pointer]:
+    - /url: "#stMain"
+  - region "Sidebar" [ref=f7e7]:
+    - generic [ref=f7e12]:
+      - heading "Settings" [level=2] [ref=f7e16]
+      - generic [ref=f7e18]:
+        - generic [ref=f7e19]:
+          - paragraph [ref=f7e22]: Data source
+          - button "Help for Data source" [ref=f7e26] [cursor=pointer]
+        - radiogroup "Data source" [ref=f7e30]:
+          - generic [ref=f7e32] [cursor=pointer]:
+            - radio "Live search" [checked] [ref=f7e34]
+            - paragraph [ref=f7e39]: Live search
+          - generic [ref=f7e41] [cursor=pointer]:
+            - radio "Demo data" [ref=f7e43]
+            - paragraph [ref=f7e47]: Demo data
+      - generic [ref=f7e50] [cursor=pointer]:
+        - checkbox "Save my search summary on this device" [ref=f7e52]
+        - generic [ref=f7e54]:
+          - paragraph [ref=f7e58]: Save my search summary on this device
+          - button "Help for Save my search summary on this device" [ref=f7e62]
+      - generic [ref=f7e68] [cursor=pointer]:
+        - checkbox "Force fresh verification" [ref=f7e70]
+        - generic [ref=f7e72]:
+          - paragraph [ref=f7e76]: Force fresh verification
+          - button "Help for Force fresh verification" [ref=f7e80]
+      - separator [ref=f7e88]
+      - paragraph [ref=f7e93]: "Gemini: configured ✅"
+  - generic [ref=f7e4]:
+    - banner [ref=f7e98]:
+      - generic [ref=f7e101]:
+        - button "Deploy" [ref=f7e103] [cursor=pointer]
+        - button "Main menu" [ref=f7e107] [cursor=pointer]
+    - main [ref=f7e5]:
+      - generic [ref=f7e111]:
+        - generic [ref=f7e116]:
+          - heading "🎓 AI Scholarship Finder" [level=1] [ref=f7e118]:
+            - text: 🎓 AI Scholarship Finder
+            - generic [ref=f7e119]:
+              - link "Link to heading":
+                - /url: "#ai-scholarship-finder"
+          - paragraph [ref=f7e120]: Find Indian scholarships you may qualify for — with the exact conditions, red flags and official sources. Accuracy and source verification come before the number of results.
+        - generic [ref=f7e123]:
+          - heading "Your profile" [level=3] [ref=f7e128]:
+            - text: Your profile
+            - generic [ref=f7e129]:
+              - link "Link to heading":
+                - /url: "#your-profile"
+          - paragraph [ref=f7e134]: Leave anything blank if you prefer. Missing details only make results less certain. We never ask for Aadhaar, bank details or documents, and your profile is not stored.
+          - generic [ref=f7e136]:
+            - generic [ref=f7e138]:
+              - paragraph [ref=f7e143]:
+                - strong [ref=f7e144]: Personal
+              - generic [ref=f7e150]:
+                - paragraph [ref=f7e154]: Annual family income
+                - radiogroup "Annual family income" [ref=f7e155]:
+                  - generic [ref=f7e157] [cursor=pointer]:
+                    - radio "Exact amount" [ref=f7e159]
+                    - paragraph [ref=f7e163]: Exact amount
+                  - generic [ref=f7e165] [cursor=pointer]:
+                    - radio "Select a range" [checked] [ref=f7e167]
+                    - paragraph [ref=f7e172]: Select a range
+                  - generic [ref=f7e174] [cursor=pointer]:
+                    - radio "Prefer not to say" [ref=f7e176]
+                    - paragraph [ref=f7e180]: Prefer not to say
+              - group [ref=f7e185]:
+                - generic [ref=f7e187] [cursor=pointer]:
+                  - generic [aria-hidden] [ref=f7e189]: keyboard_arrow_right
+                  - paragraph [ref=f7e192]: Only if a scheme asks (optional)
+            - paragraph [ref=f7e199]:
+              - strong [ref=f7e200]: Academic
+          - paragraph [ref=f7e233]:
+            - strong [ref=f7e234]: Search preferences
+          - generic [ref=f7e247] [cursor=pointer]:
+            - checkbox "Only show currently open applications" [ref=f7e249]
+            - paragraph [ref=f7e255]: Only show currently open applications
+          - button [ref=f7e261] [cursor=pointer]:
+            - paragraph [ref=f7e266]: 🔍 Find scholarships
+        - status [ref=f7e269]:
+          - paragraph [ref=f7e273]:
+            - text: Fill in your profile (everything is optional) and press
+            - strong [ref=f7e274]: Find scholarships
+            - text: .

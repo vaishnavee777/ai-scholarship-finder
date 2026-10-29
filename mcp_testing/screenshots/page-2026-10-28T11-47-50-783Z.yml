@@ -1,0 +1,173 @@
+- generic [ref=f11e2]:
+  - link "Skip to main content" [ref=f11e3] [cursor=pointer]:
+    - /url: "#stMain"
+  - region "Sidebar" [ref=f11e7]:
+    - generic [ref=f11e8]:
+      - button "Collapse sidebar" [expanded] [ref=f11e442] [cursor=pointer]:
+        - generic [aria-hidden] [ref=f11e444]: keyboard_double_arrow_left
+      - generic [ref=f11e12]:
+        - heading "Settings" [level=2] [ref=f11e16]
+        - generic [ref=f11e18]:
+          - generic [ref=f11e19]:
+            - paragraph [ref=f11e22]: Data source
+            - button "Help for Data source" [ref=f11e26] [cursor=pointer]
+          - radiogroup "Data source" [ref=f11e30]:
+            - generic [ref=f11e32] [cursor=pointer]:
+              - radio "Live search" [ref=f11e34]
+              - paragraph [ref=f11e39]: Live search
+            - generic [ref=f11e41] [cursor=pointer]:
+              - radio "Demo data" [checked] [ref=f11e43]
+              - paragraph [ref=f11e47]: Demo data
+        - generic [ref=f11e50] [cursor=pointer]:
+          - checkbox "Save my search summary on this device" [ref=f11e52]
+          - generic [ref=f11e54]:
+            - paragraph [ref=f11e58]: Save my search summary on this device
+            - button "Help for Save my search summary on this device" [ref=f11e62]
+        - generic [ref=f11e68] [cursor=pointer]:
+          - checkbox "Force fresh verification" [ref=f11e70]
+          - generic [ref=f11e72]:
+            - paragraph [ref=f11e76]: Force fresh verification
+            - button "Help for Force fresh verification" [ref=f11e80]
+        - separator [ref=f11e88]
+        - paragraph [ref=f11e93]: "Gemini: configured ✅"
+        - button [active] [ref=f11e96] [cursor=pointer]:
+          - paragraph [ref=f11e101]: Clear saved searches & AI cache
+        - status [ref=f11e448]:
+          - paragraph [ref=f11e452]: Cleared.
+  - generic [ref=f11e4]:
+    - banner [ref=f11e104]:
+      - generic [ref=f11e107]:
+        - button "Deploy" [ref=f11e109] [cursor=pointer]
+        - button "Main menu" [ref=f11e113] [cursor=pointer]
+    - main [ref=f11e5]:
+      - generic [ref=f11e117]:
+        - generic [ref=f11e122]:
+          - heading "🎓 AI Scholarship Finder" [level=1] [ref=f11e124]:
+            - text: 🎓 AI Scholarship Finder
+            - generic [ref=f11e125]:
+              - link "Link to heading":
+                - /url: "#ai-scholarship-finder"
+          - paragraph [ref=f11e126]: Find Indian scholarships you may qualify for — with the exact conditions, red flags and official sources. Accuracy and source verification come before the number of results.
+        - generic [ref=f11e129]:
+          - heading "Your profile" [level=3] [ref=f11e134]:
+            - text: Your profile
+            - generic [ref=f11e135]:
+              - link "Link to heading":
+                - /url: "#your-profile"
+          - paragraph [ref=f11e140]: Leave anything blank if you prefer. Missing details only make results less certain. We never ask for Aadhaar, bank details or documents, and your profile is not stored.
+          - generic [ref=f11e142]:
+            - generic [ref=f11e144]:
+              - paragraph [ref=f11e149]:
+                - strong [ref=f11e150]: Personal
+              - generic [ref=f11e152]:
+                - paragraph [ref=f11e156]: State of residence / domicile
+                - group [ref=f11e158]:
+                  - combobox "State of residence / domicile" [ref=f11e159]: — Not specified —
+                  - button "Open" [ref=f11e160] [cursor=pointer]
+              - generic [ref=f11e165]:
+                - paragraph [ref=f11e169]: Category
+                - group [ref=f11e171]:
+                  - combobox "Category" [ref=f11e172]: — Not specified —
+                  - button "Open" [ref=f11e173] [cursor=pointer]
+              - generic [ref=f11e178]:
+                - paragraph [ref=f11e182]: Annual family income
+                - radiogroup "Annual family income" [ref=f11e183]:
+                  - generic [ref=f11e185] [cursor=pointer]:
+                    - radio "Exact amount" [ref=f11e187]
+                    - paragraph [ref=f11e191]: Exact amount
+                  - generic [ref=f11e193] [cursor=pointer]:
+                    - radio "Select a range" [checked] [ref=f11e195]
+                    - paragraph [ref=f11e200]: Select a range
+                  - generic [ref=f11e202] [cursor=pointer]:
+                    - radio "Prefer not to say" [ref=f11e204]
+                    - paragraph [ref=f11e208]: Prefer not to say
+              - generic [ref=f11e210]:
+                - paragraph [ref=f11e214]: Income range
+                - group [ref=f11e216]:
+                  - combobox "Income range" [ref=f11e217]: Up to ₹1 lakh
+                  - button "Open" [ref=f11e218] [cursor=pointer]
+              - group [ref=f11e224]:
+                - generic [ref=f11e226] [cursor=pointer]:
+                  - generic [aria-hidden] [ref=f11e228]: keyboard_arrow_right
+                  - paragraph [ref=f11e231]: Only if a scheme asks (optional)
+            - generic [ref=f11e233]:
+              - paragraph [ref=f11e238]:
+                - strong [ref=f11e239]: Academic
+              - generic [ref=f11e241]:
+                - paragraph [ref=f11e245]: Education level
+                - group [ref=f11e247]:
+                  - combobox "Education level" [ref=f11e248]: — Not specified —
+                  - button "Open" [ref=f11e249] [cursor=pointer]
+              - generic [ref=f11e254]:
+                - paragraph [ref=f11e258]: Degree / course
+                - textbox "Degree / course" [ref=f11e261]:
+                  - /placeholder: e.g. B.E., B.Tech, B.Sc, B.Com
+              - generic [ref=f11e263]:
+                - generic [ref=f11e267]:
+                  - paragraph [ref=f11e271]: Current year
+                  - generic [ref=f11e273]:
+                    - spinbutton "Current year" [ref=f11e274]
+                    - generic [ref=f11e275]:
+                      - button "Decrement" [disabled] [ref=f11e276]
+                      - button "Increment" [disabled] [ref=f11e279]
+                - generic [ref=f11e285]:
+                  - paragraph [ref=f11e289]: Applying
+                  - group [ref=f11e291]:
+                    - combobox "Applying" [ref=f11e292]: — Not specified —
+                    - button "Open" [ref=f11e293] [cursor=pointer]
+              - generic [ref=f11e298]:
+                - paragraph [ref=f11e302]: College / university
+                - textbox "College / university" [ref=f11e305]:
+                  - /placeholder: ""
+              - generic [ref=f11e307]:
+                - paragraph [ref=f11e311]: Institution type
+                - group [ref=f11e313]:
+                  - combobox "Institution type" [ref=f11e314]: — Not specified —
+                  - button "Open" [ref=f11e315] [cursor=pointer]
+              - generic [ref=f11e320]:
+                - generic [ref=f11e324]:
+                  - paragraph [ref=f11e328]: Previous exam %
+                  - generic [ref=f11e330]:
+                    - spinbutton "Previous exam %" [ref=f11e331]
+                    - generic [ref=f11e332]:
+                      - button "Decrement" [disabled] [ref=f11e333]
+                      - button "Increment" [disabled] [ref=f11e336]
+                - generic [ref=f11e342]:
+                  - paragraph [ref=f11e346]: Previous CGPA (/10)
+                  - generic [ref=f11e348]:
+                    - spinbutton "Previous CGPA (/10)" [ref=f11e349]
+                    - generic [ref=f11e350]:
+                      - button "Decrement" [disabled] [ref=f11e351]
+                      - button "Increment" [disabled] [ref=f11e354]
+          - paragraph [ref=f11e361]:
+            - strong [ref=f11e362]: Search preferences
+          - generic [ref=f11e364]:
+            - generic [ref=f11e366]:
+              - generic [ref=f11e368]:
+                - paragraph [ref=f11e372]: Provider type
+                - group [ref=f11e374]:
+                  - combobox "Provider type" [ref=f11e376]
+                  - button "Open" [ref=f11e377] [cursor=pointer]
+              - generic [ref=f11e382]:
+                - paragraph [ref=f11e386]: Basis
+                - group [ref=f11e388]:
+                  - combobox "Basis" [ref=f11e390]
+                  - button "Open" [ref=f11e391] [cursor=pointer]
+            - generic [ref=f11e396]:
+              - generic [ref=f11e399] [cursor=pointer]:
+                - checkbox "Only show currently open applications" [ref=f11e401]
+                - paragraph [ref=f11e407]: Only show currently open applications
+              - generic [ref=f11e409]:
+                - paragraph [ref=f11e413]: Minimum award (₹, when published)
+                - generic [ref=f11e415]:
+                  - spinbutton "Minimum award (₹, when published)" [ref=f11e416]: "0"
+                  - generic [ref=f11e417]:
+                    - button "Decrement" [disabled] [ref=f11e418]
+                    - button "Increment" [ref=f11e421] [cursor=pointer]
+          - button [ref=f11e427] [cursor=pointer]:
+            - paragraph [ref=f11e432]: 🔍 Find scholarships
+        - status [ref=f11e435]:
+          - paragraph [ref=f11e439]:
+            - text: Fill in your profile (everything is optional) and press
+            - strong [ref=f11e440]: Find scholarships
+            - text: .

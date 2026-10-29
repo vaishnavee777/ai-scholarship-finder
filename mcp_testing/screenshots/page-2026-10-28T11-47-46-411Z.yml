@@ -1,0 +1,6 @@
+- generic [ref=f11e2]:
+  - link "Skip to main content" [ref=f11e3] [cursor=pointer]:
+    - /url: "#stMain"
+  - generic [ref=f11e4]:
+    - banner
+    - main [ref=f11e5]

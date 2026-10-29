@@ -1,0 +1,1838 @@
+- generic:
+  - generic [ref=f15e441]:
+    - log
+    - log
+  - generic [ref=f15e2]:
+    - link "Skip to main content" [ref=f15e647] [cursor=pointer]:
+      - /url: "#stMain"
+    - region "Sidebar" [ref=f15e648]:
+      - generic [ref=f15e12]:
+        - heading "Settings" [level=2] [ref=f15e649]
+        - generic [ref=f15e18]:
+          - generic [ref=f15e19]:
+            - paragraph [ref=f15e22]: Data source
+            - button "Help for Data source" [ref=f15e650] [cursor=pointer]
+          - radiogroup "Data source" [ref=f15e651]:
+            - generic [ref=f15e32] [cursor=pointer]:
+              - radio "Live search" [checked] [ref=f15e652]
+              - paragraph [ref=f15e39]: Live search
+            - generic [ref=f15e41] [cursor=pointer]:
+              - radio "Demo data" [ref=f15e653]
+              - paragraph [ref=f15e47]: Demo data
+        - generic [ref=f15e50] [cursor=pointer]:
+          - checkbox "Save my search summary on this device" [ref=f15e654]
+          - generic [ref=f15e54]:
+            - paragraph [ref=f15e58]: Save my search summary on this device
+            - button "Help for Save my search summary on this device" [ref=f15e655]
+        - generic [ref=f15e68] [cursor=pointer]:
+          - checkbox "Force fresh verification" [ref=f15e656]
+          - generic [ref=f15e72]:
+            - paragraph [ref=f15e76]: Force fresh verification
+            - button "Help for Force fresh verification" [ref=f15e657]
+        - separator [ref=f15e88]
+        - paragraph [ref=f15e93]: "Gemini: configured ✅"
+        - button [ref=f15e658] [cursor=pointer]:
+          - paragraph [ref=f15e101]: Clear saved searches & AI cache
+    - generic [ref=f15e4]:
+      - banner [ref=f15e104]:
+        - generic [ref=f15e107]:
+          - button "Deploy" [ref=f15e659] [cursor=pointer]
+          - button "Main menu" [ref=f15e660] [cursor=pointer]
+      - main [ref=f15e5]:
+        - generic [ref=f15e117]:
+          - generic [ref=f15e122]:
+            - heading "🎓 AI Scholarship Finder" [level=1] [ref=f15e661]:
+              - text: 🎓 AI Scholarship Finder
+              - generic [ref=f15e125]:
+                - link "Link to heading":
+                  - /url: "#ai-scholarship-finder"
+            - paragraph [ref=f15e126]: Find Indian scholarships you may qualify for — with the exact conditions, red flags and official sources. Accuracy and source verification come before the number of results.
+          - generic [ref=f15e129]:
+            - heading "Your profile" [level=3] [ref=f15e662]:
+              - text: Your profile
+              - generic [ref=f15e135]:
+                - link "Link to heading":
+                  - /url: "#your-profile"
+            - paragraph [ref=f15e140]: Leave anything blank if you prefer. Missing details only make results less certain. We never ask for Aadhaar, bank details or documents, and your profile is not stored.
+            - generic [ref=f15e142]:
+              - generic [ref=f15e144]:
+                - paragraph [ref=f15e149]:
+                  - strong [ref=f15e150]: Personal
+                - generic [ref=f15e152]:
+                  - paragraph [ref=f15e156]: State of residence / domicile
+                  - group [ref=f15e158]:
+                    - combobox "State of residence / domicile" [ref=f15e663]: — Not specified —
+                    - button "Open" [ref=f15e664] [cursor=pointer]
+                - generic [ref=f15e165]:
+                  - paragraph [ref=f15e169]: Category
+                  - group [ref=f15e171]:
+                    - combobox "Category" [ref=f15e665]: — Not specified —
+                    - button "Open" [ref=f15e666] [cursor=pointer]
+                - generic [ref=f15e178]:
+                  - paragraph [ref=f15e182]: Annual family income
+                  - radiogroup "Annual family income" [ref=f15e667]:
+                    - generic [ref=f15e185] [cursor=pointer]:
+                      - radio "Exact amount" [ref=f15e668]
+                      - paragraph [ref=f15e191]: Exact amount
+                    - generic [ref=f15e193] [cursor=pointer]:
+                      - radio "Select a range" [checked] [ref=f15e669]
+                      - paragraph [ref=f15e200]: Select a range
+                    - generic [ref=f15e202] [cursor=pointer]:
+                      - radio "Prefer not to say" [ref=f15e670]
+                      - paragraph [ref=f15e208]: Prefer not to say
+                - generic [ref=f15e210]:
+                  - paragraph [ref=f15e214]: Income range
+                  - group [ref=f15e216]:
+                    - combobox "Income range" [ref=f15e671]: Up to ₹1 lakh
+                    - button "Open" [ref=f15e672] [cursor=pointer]
+                - group [ref=f15e224]:
+                  - generic [ref=f15e226] [cursor=pointer]:
+                    - generic [aria-hidden] [ref=f15e228]: keyboard_arrow_right
+                    - paragraph [ref=f15e231]: Only if a scheme asks (optional)
+              - generic [ref=f15e233]:
+                - paragraph [ref=f15e238]:
+                  - strong [ref=f15e239]: Academic
+                - generic [ref=f15e241]:
+                  - paragraph [ref=f15e245]: Education level
+                  - group [ref=f15e247]:
+                    - combobox "Education level" [ref=f15e550]: — Not specified —
+                    - button "Open" [ref=f15e674] [cursor=pointer]
+                - generic [ref=f15e254]:
+                  - paragraph [ref=f15e258]: Degree / course
+                  - textbox "Degree / course" [ref=f15e675]:
+                    - /placeholder: e.g. B.E., B.Tech, B.Sc, B.Com
+                    - text: B.E.
+                - generic [ref=f15e263]:
+                  - generic [ref=f15e267]:
+                    - paragraph [ref=f15e271]: Current year
+                    - generic [ref=f15e273]:
+                      - spinbutton "Current year" [ref=f15e676]
+                      - generic [ref=f15e275]:
+                        - button "Decrement" [disabled] [ref=f15e677]
+                        - button "Increment" [disabled] [ref=f15e678]
+                  - generic [ref=f15e285]:
+                    - paragraph [ref=f15e289]: Applying
+                    - group [ref=f15e291]:
+                      - combobox "Applying" [ref=f15e679]: — Not specified —
+                      - button "Open" [ref=f15e680] [cursor=pointer]
+                - generic [ref=f15e298]:
+                  - paragraph [ref=f15e302]: College / university
+                  - textbox "College / university" [ref=f15e681]:
+                    - /placeholder: ""
+                - generic [ref=f15e307]:
+                  - paragraph [ref=f15e311]: Institution type
+                  - group [ref=f15e313]:
+                    - combobox "Institution type" [ref=f15e682]: — Not specified —
+                    - button "Open" [ref=f15e683] [cursor=pointer]
+                - generic [ref=f15e320]:
+                  - generic [ref=f15e324]:
+                    - paragraph [ref=f15e328]: Previous exam %
+                    - generic [ref=f15e330]:
+                      - spinbutton "Previous exam %" [ref=f15e684]
+                      - generic [ref=f15e332]:
+                        - button "Decrement" [disabled] [ref=f15e685]
+                        - button "Increment" [disabled] [ref=f15e686]
+                  - generic [ref=f15e342]:
+                    - paragraph [ref=f15e346]: Previous CGPA (/10)
+                    - generic [ref=f15e348]:
+                      - spinbutton "Previous CGPA (/10)" [ref=f15e687]
+                      - generic [ref=f15e350]:
+                        - button "Decrement" [disabled] [ref=f15e688]
+                        - button "Increment" [disabled] [ref=f15e689]
+            - paragraph [ref=f15e361]:
+              - strong [ref=f15e362]: Search preferences
+            - generic [ref=f15e364]:
+              - generic [ref=f15e366]:
+                - generic [ref=f15e368]:
+                  - paragraph [ref=f15e372]: Provider type
+                  - group [ref=f15e374]:
+                    - combobox "Provider type" [ref=f15e690]
+                    - button "Open" [ref=f15e691] [cursor=pointer]
+                - generic [ref=f15e382]:
+                  - paragraph [ref=f15e386]: Basis
+                  - group [ref=f15e388]:
+                    - combobox "Basis" [ref=f15e692]
+                    - button "Open" [ref=f15e693] [cursor=pointer]
+              - generic [ref=f15e396]:
+                - generic [ref=f15e399] [cursor=pointer]:
+                  - checkbox "Only show currently open applications" [ref=f15e694]
+                  - paragraph [ref=f15e407]: Only show currently open applications
+                - generic [ref=f15e409]:
+                  - paragraph [ref=f15e413]: Minimum award (₹, when published)
+                  - generic [ref=f15e415]:
+                    - spinbutton "Minimum award (₹, when published)" [ref=f15e695]: "0"
+                    - generic [ref=f15e417]:
+                      - button "Decrement" [disabled] [ref=f15e696]
+                      - button "Increment" [ref=f15e697] [cursor=pointer]
+            - button [active] [ref=f15e698] [cursor=pointer]:
+              - paragraph [ref=f15e432]: 🔍 Find scholarships
+          - alert [ref=f15e729]:
+            - paragraph [ref=f15e733]:
+              - text: Some details were left blank, so some results can only be
+              - strong [ref=f15e734]: potential matches
+              - text: ": State of domicile, Category, Education level, Current academic year, College / university, Previous marks (percentage), Fresh or renewal, Previous marks (CGPA)."
+          - group [ref=f15e737]:
+            - generic [ref=f15e739] [cursor=pointer]:
+              - generic [aria-hidden] [ref=f15e741]: keyboard_arrow_right
+              - paragraph [ref=f15e744]: ⚠️ 1 problem(s) during the search
+          - generic [ref=f15e746]:
+            - generic [ref=f15e751]:
+              - paragraph [ref=f15e755]: Discovered
+              - paragraph [ref=f15e758]: "29"
+            - generic [ref=f15e763]:
+              - paragraph [ref=f15e767]: Eligible
+              - paragraph [ref=f15e770]: "0"
+            - generic [ref=f15e775]:
+              - paragraph [ref=f15e779]: Potential
+              - paragraph [ref=f15e782]: "29"
+            - generic [ref=f15e787]:
+              - paragraph [ref=f15e791]: Likely ineligible
+              - paragraph [ref=f15e794]: "0"
+            - generic [ref=f15e799]:
+              - paragraph [ref=f15e803]: Unverified
+              - paragraph [ref=f15e806]: "0"
+            - generic [ref=f15e811]:
+              - paragraph [ref=f15e815]: Open now
+              - paragraph [ref=f15e818]: "10"
+          - group [ref=f15e821]:
+            - generic [ref=f15e823] [cursor=pointer]:
+              - generic [aria-hidden] [ref=f15e825]: keyboard_arrow_down
+              - paragraph [ref=f15e828]: Sort & filter
+            - generic [ref=f15e830]:
+              - generic [ref=f15e832]:
+                - generic [ref=f15e836]:
+                  - paragraph [ref=f15e840]: Sort by
+                  - group [ref=f15e842]:
+                    - combobox "Sort by" [ref=f15e843]: Best match (relevance score)
+                    - button "Open" [ref=f15e844] [cursor=pointer]
+                - generic [ref=f15e851]:
+                  - paragraph [ref=f15e855]: Eligibility status
+                  - group [ref=f15e857]:
+                    - combobox "Eligibility status" [ref=f15e859]
+                    - button "Open" [ref=f15e860] [cursor=pointer]
+                - generic [ref=f15e867]:
+                  - paragraph [ref=f15e871]: Provider type
+                  - group [ref=f15e873]:
+                    - combobox "Provider type" [ref=f15e875]
+                    - button "Open" [ref=f15e876] [cursor=pointer]
+              - generic [ref=f15e881]:
+                - generic [ref=f15e885]:
+                  - paragraph [ref=f15e889]: Min award (₹)
+                  - generic [ref=f15e891]:
+                    - spinbutton "Min award (₹)" [ref=f15e892]: "0"
+                    - generic [ref=f15e893]:
+                      - button "Decrement" [disabled] [ref=f15e894]
+                      - button "Increment" [ref=f15e897] [cursor=pointer]
+                - generic [ref=f15e901]:
+                  - generic [ref=f15e904] [cursor=pointer]:
+                    - checkbox "Deadline before…" [ref=f15e906]
+                    - paragraph [ref=f15e912]: Deadline before…
+                  - generic [ref=f15e916]:
+                    - generic [ref=f15e918]:
+                      - group "Date" [disabled] [ref=f15e920]:
+                        - spinbutton "year, Date" [disabled] [ref=f15e921]: "2026"
+                        - generic [aria-hidden] [ref=f15e922]: /
+                        - spinbutton "month, Date" [disabled] [ref=f15e923]: "10"
+                        - generic [aria-hidden] [ref=f15e924]: /
+                        - spinbutton "day, Date" [disabled] [ref=f15e925]: "28"
+                      - textbox [disabled] [ref=f15e927]: 2026-10-28
+                    - button "Choose date" [disabled] [ref=f15e929]
+                - generic [ref=f15e937] [cursor=pointer]:
+                  - checkbox "Open applications only" [ref=f15e939]
+                  - paragraph [ref=f15e945]: Open applications only
+                - generic [ref=f15e949]:
+                  - paragraph [ref=f15e953]: Provider / name contains
+                  - textbox "Provider / name contains" [ref=f15e956]:
+                    - /placeholder: ""
+          - paragraph [ref=f15e961]: Showing 29 of 29
+          - generic [ref=f15e963]:
+            - generic [ref=f15e967]:
+              - paragraph [ref=f15e968]: PM USP Special Scholarship Scheme For Jammu Kashmir And Ladakh (Merit Based Scheme)
+              - paragraph [ref=f15e969]: Government of India · Central government · AY 2026-27
+              - generic [ref=f15e970]: 🟡 Potential match
+              - generic [ref=f15e971]: Applications open
+              - generic [ref=f15e972]: 🔒 Official (government)
+            - generic [ref=f15e974]:
+              - generic [ref=f15e979]:
+                - paragraph [ref=f15e983]: Award
+                - paragraph [ref=f15e986]: Not published
+              - generic [ref=f15e991]:
+                - paragraph [ref=f15e995]: Deadline
+                - paragraph [ref=f15e998]: 31 Oct 2026
+              - generic [ref=f15e1003]:
+                - generic [ref=f15e1004]:
+                  - paragraph [ref=f15e1007]: Awards available
+                  - button "Help for Awards available" [ref=f15e1011] [cursor=pointer]
+                - paragraph [ref=f15e1017]: Not verified
+            - generic [ref=f15e1018]: "Why this is shown (not a chance of winning): Eligibility: potential match; Application open; Course / level relevance partly confirmed; State / institution partly confirmed; Award amount not published; Backed by official evidence · relevance score 55/100"
+            - paragraph [ref=f15e1027]:
+              - strong [ref=f15e1028]: "Eligibility:"
+              - text: "No known exclusion, but these criteria could not be confirmed: Family income, Category, State / domicile, Education level, Minimum marks."
+            - paragraph [ref=f15e1033]: Open until 31 Oct 2026 (verified 28 Oct 2026).
+            - generic [ref=f15e1035]:
+              - generic [ref=f15e1041]:
+                - generic [ref=f15e1042]: Matching
+                - generic [ref=f15e1043]: —
+              - generic [ref=f15e1049]:
+                - generic [ref=f15e1050]: Not met
+                - generic [ref=f15e1051]: —
+              - generic [ref=f15e1057]:
+                - generic [ref=f15e1058]: Missing / unknown
+                - generic [ref=f15e1059]: "? Family income: not found in the source"
+                - generic [ref=f15e1060]: "? Category: not found in the source"
+                - generic [ref=f15e1061]: "? Domicile / state: Jammu Kashmir, Ladakh"
+                - generic [ref=f15e1062]: "? Education level: not found in the source"
+                - generic [ref=f15e1063]: "? Minimum marks: not found in the source"
+            - paragraph [ref=f15e1068]:
+              - strong [ref=f15e1069]: Important red flags
+            - generic [ref=f15e1073]:
+              - generic [ref=f15e1074]:
+                - text: ⛔ Deadline approaching — Deadline in 3 day(s) (31 Oct 2026).
+                - generic [ref=f15e1075]: “Closing dates for student application is 31-10-2026”
+                - generic [ref=f15e1076]:
+                  - text: Stated by source ·
+                  - link "source" [ref=f15e1077] [cursor=pointer]:
+                    - /url: https://scholarships.gov.in/home
+              - generic [ref=f15e1078]:
+                - text: "⚠️ State / domicile restriction — Restricted to residents / domiciles of: Jammu Kashmir, Ladakh."
+                - generic [ref=f15e1079]: “Jammu Kashmir And Ladakh”
+                - generic [ref=f15e1080]:
+                  - text: Stated by source ·
+                  - link "source" [ref=f15e1081] [cursor=pointer]:
+                    - /url: https://scholarships.gov.in/home
+            - paragraph [ref=f15e1086]: "Required documents: not listed in the source."
+            - generic [ref=f15e1087]: "Retrieved: 28 Oct 2026, 11:51 UTC · Last verified: 28 Oct 2026, 11:51 UTC · Extraction confidence 60%"
+            - group [ref=f15e1094]:
+              - generic [ref=f15e1096] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f15e1098]: keyboard_arrow_right
+                - paragraph [ref=f15e1101]: Full eligibility details
+            - group [ref=f15e1104]:
+              - generic [ref=f15e1106] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f15e1108]: keyboard_arrow_right
+                - paragraph [ref=f15e1111]: Supporting evidence (3)
+            - group [ref=f15e1114]:
+              - generic [ref=f15e1116] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f15e1118]: keyboard_arrow_right
+                - paragraph [ref=f15e1121]: 🤖 AI explanation (Gemini)
+          - generic [ref=f15e1123]:
+            - generic [ref=f15e1127]:
+              - paragraph [ref=f15e1128]: PM-USP – Central Sector Scheme Of Scholarship For College And University Students (CSSS) (Merit Based Scheme)
+              - paragraph [ref=f15e1129]: Government of India · Central government · AY 2026-27
+              - generic [ref=f15e1130]: 🟡 Potential match
+              - generic [ref=f15e1131]: Applications open
+              - generic [ref=f15e1132]: 🔒 Official (government)
+            - generic [ref=f15e1134]:
+              - generic [ref=f15e1139]:
+                - paragraph [ref=f15e1143]: Award
+                - paragraph [ref=f15e1146]: Not published
+              - generic [ref=f15e1151]:
+                - paragraph [ref=f15e1155]: Deadline
+                - paragraph [ref=f15e1158]: 31 Oct 2026
+              - generic [ref=f15e1163]:
+                - generic [ref=f15e1164]:
+                  - paragraph [ref=f15e1167]: Awards available
+                  - button "Help for Awards available" [ref=f15e1171] [cursor=pointer]
+                - paragraph [ref=f15e1177]: Not verified
+            - generic [ref=f15e1178]: "Why this is shown (not a chance of winning): Eligibility: potential match; Application open; Course / level relevance partly confirmed; State / institution partly confirmed; Award amount not published; Backed by official evidence · relevance score 55/100"
+            - paragraph [ref=f15e1187]:
+              - strong [ref=f15e1188]: "Eligibility:"
+              - text: "No known exclusion, but these criteria could not be confirmed: Family income, Category, State / domicile, Education level, Minimum marks."
+            - paragraph [ref=f15e1193]: Open until 31 Oct 2026 (verified 28 Oct 2026).
+            - generic [ref=f15e1195]:
+              - generic [ref=f15e1201]:
+                - generic [ref=f15e1202]: Matching
+                - generic [ref=f15e1203]: —
+              - generic [ref=f15e1209]:
+                - generic [ref=f15e1210]: Not met
+                - generic [ref=f15e1211]: —
+              - generic [ref=f15e1217]:
+                - generic [ref=f15e1218]: Missing / unknown
+                - generic [ref=f15e1219]: "? Family income: not found in the source"
+                - generic [ref=f15e1220]: "? Category: not found in the source"
+                - generic [ref=f15e1221]: "? State / domicile: not found in the source"
+                - generic [ref=f15e1222]: "? Education level: not found in the source"
+                - generic [ref=f15e1223]: "? Minimum marks: not found in the source"
+            - paragraph [ref=f15e1228]:
+              - strong [ref=f15e1229]: Important red flags
+            - generic [ref=f15e1234]:
+              - text: ⛔ Deadline approaching — Deadline in 3 day(s) (31 Oct 2026).
+              - generic [ref=f15e1235]: “Closing dates for student application is 31-10-2026”
+              - generic [ref=f15e1236]:
+                - text: Stated by source ·
+                - link "source" [ref=f15e1237] [cursor=pointer]:
+                  - /url: https://scholarships.gov.in/home
+            - paragraph [ref=f15e1242]: "Required documents: not listed in the source."
+            - generic [ref=f15e1243]: "Retrieved: 28 Oct 2026, 11:51 UTC · Last verified: 28 Oct 2026, 11:51 UTC · Extraction confidence 47%"
+            - group [ref=f15e1250]:
+              - generic [ref=f15e1252] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f15e1254]: keyboard_arrow_right
+                - paragraph [ref=f15e1257]: Full eligibility details
+            - group [ref=f15e1260]:
+              - generic [ref=f15e1262] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f15e1264]: keyboard_arrow_right
+                - paragraph [ref=f15e1267]: Supporting evidence (3)
+            - group [ref=f15e1270]:
+              - generic [ref=f15e1272] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f15e1274]: keyboard_arrow_right
+                - paragraph [ref=f15e1277]: 🤖 AI explanation (Gemini)
+          - generic [ref=f15e1279]:
+            - generic [ref=f15e1283]:
+              - paragraph [ref=f15e1284]: Arya Vyshya Department Scheme
+              - paragraph [ref=f15e1285]: Karnataka Arya Vysya Community Development Corporation · State government · AY 2026-27
+              - generic [ref=f15e1286]: 🟡 Potential match
+              - generic [ref=f15e1287]: Applications open
+              - generic [ref=f15e1288]: 🔒 Official (government)
+            - generic [ref=f15e1290]:
+              - generic [ref=f15e1295]:
+                - paragraph [ref=f15e1299]: Award
+                - paragraph [ref=f15e1302]: Not published
+              - generic [ref=f15e1307]:
+                - paragraph [ref=f15e1311]: Deadline
+                - paragraph [ref=f15e1314]: 30 Nov 2026
+              - generic [ref=f15e1319]:
+                - generic [ref=f15e1320]:
+                  - paragraph [ref=f15e1323]: Awards available
+                  - button "Help for Awards available" [ref=f15e1327] [cursor=pointer]
+                - paragraph [ref=f15e1333]: Not verified
+            - generic [ref=f15e1334]: "Why this is shown (not a chance of winning): Eligibility: potential match; Application open; Course / level relevance partly confirmed; State / institution partly confirmed; Award amount not published; Backed by official evidence · relevance score 54/100"
+            - paragraph [ref=f15e1343]:
+              - strong [ref=f15e1344]: "Eligibility:"
+              - text: "No known exclusion, but these criteria could not be confirmed: Family income, Category, State / domicile, Education level, Minimum marks."
+            - paragraph [ref=f15e1349]: Open until 30 Nov 2026 (verified 28 Oct 2026).
+            - generic [ref=f15e1351]:
+              - generic [ref=f15e1357]:
+                - generic [ref=f15e1358]: Matching
+                - generic [ref=f15e1359]: —
+              - generic [ref=f15e1365]:
+                - generic [ref=f15e1366]: Not met
+                - generic [ref=f15e1367]: —
+              - generic [ref=f15e1373]:
+                - generic [ref=f15e1374]: Missing / unknown
+                - generic [ref=f15e1375]: "? Family income: not found in the source"
+                - generic [ref=f15e1376]: "? Category: not found in the source"
+                - generic [ref=f15e1377]: "? State / domicile: not found in the source"
+                - generic [ref=f15e1378]: "? Education level: not found in the source"
+                - generic [ref=f15e1379]: "? Minimum marks: not found in the source"
+            - paragraph [ref=f15e1384]: "Required documents: not listed in the source."
+            - generic [ref=f15e1385]: "Retrieved: 28 Oct 2026, 11:51 UTC · Last verified: 28 Oct 2026, 11:51 UTC · Extraction confidence 47%"
+            - group [ref=f15e1392]:
+              - generic [ref=f15e1394] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f15e1396]: keyboard_arrow_right
+                - paragraph [ref=f15e1399]: Full eligibility details
+            - group [ref=f15e1402]:
+              - generic [ref=f15e1404] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f15e1406]: keyboard_arrow_right
+                - paragraph [ref=f15e1409]: Supporting evidence (2)
+            - group [ref=f15e1412]:
+              - generic [ref=f15e1414] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f15e1416]: keyboard_arrow_right
+                - paragraph [ref=f15e1419]: 🤖 AI explanation (Gemini)
+          - generic [ref=f15e1421]:
+            - generic [ref=f15e1425]:
+              - paragraph [ref=f15e1426]: Backward Classes Welfare Department Scheme
+              - paragraph [ref=f15e1427]: Government of Karnataka · State government · AY 2026-27
+              - generic [ref=f15e1428]: 🟡 Potential match
+              - generic [ref=f15e1429]: Applications open
+              - generic [ref=f15e1430]: 🔒 Official (government)
+            - generic [ref=f15e1432]:
+              - generic [ref=f15e1437]:
+                - paragraph [ref=f15e1441]: Award
+                - paragraph [ref=f15e1444]: Not published
+              - generic [ref=f15e1449]:
+                - paragraph [ref=f15e1453]: Deadline
+                - paragraph [ref=f15e1456]: 31 Oct 2026
+              - generic [ref=f15e1461]:
+                - generic [ref=f15e1462]:
+                  - paragraph [ref=f15e1465]: Awards available
+                  - button "Help for Awards available" [ref=f15e1469] [cursor=pointer]
+                - paragraph [ref=f15e1475]: Not verified
+            - generic [ref=f15e1476]: "Why this is shown (not a chance of winning): Eligibility: potential match; Application open; Course / level relevance partly confirmed; State / institution partly confirmed; Award amount not published; Backed by official evidence · relevance score 54/100"
+            - paragraph [ref=f15e1485]:
+              - strong [ref=f15e1486]: "Eligibility:"
+              - text: "No known exclusion, but these criteria could not be confirmed: Family income, Category, State / domicile, Education level, Minimum marks."
+            - paragraph [ref=f15e1491]: Open until 31 Oct 2026 (verified 28 Oct 2026).
+            - generic [ref=f15e1493]:
+              - generic [ref=f15e1499]:
+                - generic [ref=f15e1500]: Matching
+                - generic [ref=f15e1501]: —
+              - generic [ref=f15e1507]:
+                - generic [ref=f15e1508]: Not met
+                - generic [ref=f15e1509]: —
+              - generic [ref=f15e1515]:
+                - generic [ref=f15e1516]: Missing / unknown
+                - generic [ref=f15e1517]: "? Family income: not found in the source"
+                - generic [ref=f15e1518]: "? Category: not found in the source"
+                - generic [ref=f15e1519]: "? State / domicile: not found in the source"
+                - generic [ref=f15e1520]: "? Education level: not found in the source"
+                - generic [ref=f15e1521]: "? Minimum marks: not found in the source"
+            - paragraph [ref=f15e1526]:
+              - strong [ref=f15e1527]: Important red flags
+            - generic [ref=f15e1532]:
+              - text: ⛔ Deadline approaching — Deadline in 3 day(s) (31 Oct 2026).
+              - generic [ref=f15e1533]: "“Last date to Submit Application for Backward Classes Welfare Department Scheme is: 31/10/2026”"
+              - generic [ref=f15e1534]:
+                - text: Stated by source ·
+                - link "source" [ref=f15e1535] [cursor=pointer]:
+                  - /url: https://ssp.karnataka.gov.in/
+            - paragraph [ref=f15e1540]: "Required documents: not listed in the source."
+            - generic [ref=f15e1541]: "Retrieved: 28 Oct 2026, 11:51 UTC · Last verified: 28 Oct 2026, 11:51 UTC · Extraction confidence 47%"
+            - group [ref=f15e1548]:
+              - generic [ref=f15e1550] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f15e1552]: keyboard_arrow_right
+                - paragraph [ref=f15e1555]: Full eligibility details
+            - group [ref=f15e1558]:
+              - generic [ref=f15e1560] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f15e1562]: keyboard_arrow_right
+                - paragraph [ref=f15e1565]: Supporting evidence (2)
+            - group [ref=f15e1568]:
+              - generic [ref=f15e1570] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f15e1572]: keyboard_arrow_right
+                - paragraph [ref=f15e1575]: 🤖 AI explanation (Gemini)
+          - generic [ref=f15e1577]:
+            - generic [ref=f15e1581]:
+              - paragraph [ref=f15e1582]: Department of Technical Education Scheme
+              - paragraph [ref=f15e1583]: Government of Karnataka · State government · AY 2026-27
+              - generic [ref=f15e1584]: 🟡 Potential match
+              - generic [ref=f15e1585]: Applications open
+              - generic [ref=f15e1586]: 🔒 Official (government)
+            - generic [ref=f15e1588]:
+              - generic [ref=f15e1593]:
+                - paragraph [ref=f15e1597]: Award
+                - paragraph [ref=f15e1600]: Not published
+              - generic [ref=f15e1605]:
+                - paragraph [ref=f15e1609]: Deadline
+                - paragraph [ref=f15e1612]: 31 Oct 2026
+              - generic [ref=f15e1617]:
+                - generic [ref=f15e1618]:
+                  - paragraph [ref=f15e1621]: Awards available
+                  - button "Help for Awards available" [ref=f15e1625] [cursor=pointer]
+                - paragraph [ref=f15e1631]: Not verified
+            - generic [ref=f15e1632]: "Why this is shown (not a chance of winning): Eligibility: potential match; Application open; Course / level relevance partly confirmed; State / institution partly confirmed; Award amount not published; Backed by official evidence · relevance score 54/100"
+            - paragraph [ref=f15e1641]:
+              - strong [ref=f15e1642]: "Eligibility:"
+              - text: "No known exclusion, but these criteria could not be confirmed: Family income, Category, State / domicile, Education level, Minimum marks."
+            - paragraph [ref=f15e1647]: Open until 31 Oct 2026 (verified 28 Oct 2026).
+            - generic [ref=f15e1649]:
+              - generic [ref=f15e1655]:
+                - generic [ref=f15e1656]: Matching
+                - generic [ref=f15e1657]: —
+              - generic [ref=f15e1663]:
+                - generic [ref=f15e1664]: Not met
+                - generic [ref=f15e1665]: —
+              - generic [ref=f15e1671]:
+                - generic [ref=f15e1672]: Missing / unknown
+                - generic [ref=f15e1673]: "? Family income: not found in the source"
+                - generic [ref=f15e1674]: "? Category: not found in the source"
+                - generic [ref=f15e1675]: "? State / domicile: not found in the source"
+                - generic [ref=f15e1676]: "? Education level: not found in the source"
+                - generic [ref=f15e1677]: "? Minimum marks: not found in the source"
+            - paragraph [ref=f15e1682]:
+              - strong [ref=f15e1683]: Important red flags
+            - generic [ref=f15e1688]:
+              - text: ⛔ Deadline approaching — Deadline in 3 day(s) (31 Oct 2026).
+              - generic [ref=f15e1689]: "“Last date to Submit Application for Department of Technical Education Scheme is: 31/10/2026”"
+              - generic [ref=f15e1690]:
+                - text: Stated by source ·
+                - link "source" [ref=f15e1691] [cursor=pointer]:
+                  - /url: https://ssp.karnataka.gov.in/
+            - paragraph [ref=f15e1696]: "Required documents: not listed in the source."
+            - generic [ref=f15e1697]: "Retrieved: 28 Oct 2026, 11:51 UTC · Last verified: 28 Oct 2026, 11:51 UTC · Extraction confidence 47%"
+            - group [ref=f15e1704]:
+              - generic [ref=f15e1706] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f15e1708]: keyboard_arrow_right
+                - paragraph [ref=f15e1711]: Full eligibility details
+            - group [ref=f15e1714]:
+              - generic [ref=f15e1716] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f15e1718]: keyboard_arrow_right
+                - paragraph [ref=f15e1721]: Supporting evidence (2)
+            - group [ref=f15e1724]:
+              - generic [ref=f15e1726] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f15e1728]: keyboard_arrow_right
+                - paragraph [ref=f15e1731]: 🤖 AI explanation (Gemini)
+          - generic [ref=f15e1733]:
+            - generic [ref=f15e1737]:
+              - paragraph [ref=f15e1738]: Disability Welfare Department Scheme
+              - paragraph [ref=f15e1739]: Government of Karnataka · State government · AY 2026-27
+              - generic [ref=f15e1740]: 🟡 Potential match
+              - generic [ref=f15e1741]: Applications open
+              - generic [ref=f15e1742]: 🔒 Official (government)
+            - generic [ref=f15e1744]:
+              - generic [ref=f15e1749]:
+                - paragraph [ref=f15e1753]: Award
+                - paragraph [ref=f15e1756]: Not published
+              - generic [ref=f15e1761]:
+                - paragraph [ref=f15e1765]: Deadline
+                - paragraph [ref=f15e1768]: 30 Nov 2026
+              - generic [ref=f15e1773]:
+                - generic [ref=f15e1774]:
+                  - paragraph [ref=f15e1777]: Awards available
+                  - button "Help for Awards available" [ref=f15e1781] [cursor=pointer]
+                - paragraph [ref=f15e1787]: Not verified
+            - generic [ref=f15e1788]: "Why this is shown (not a chance of winning): Eligibility: potential match; Application open; Course / level relevance partly confirmed; State / institution partly confirmed; Award amount not published; Backed by official evidence · relevance score 54/100"
+            - paragraph [ref=f15e1797]:
+              - strong [ref=f15e1798]: "Eligibility:"
+              - text: "No known exclusion, but these criteria could not be confirmed: Family income, Category, State / domicile, Education level, Minimum marks."
+            - paragraph [ref=f15e1803]: Open until 30 Nov 2026 (verified 28 Oct 2026).
+            - generic [ref=f15e1805]:
+              - generic [ref=f15e1811]:
+                - generic [ref=f15e1812]: Matching
+                - generic [ref=f15e1813]: —
+              - generic [ref=f15e1819]:
+                - generic [ref=f15e1820]: Not met
+                - generic [ref=f15e1821]: —
+              - generic [ref=f15e1827]:
+                - generic [ref=f15e1828]: Missing / unknown
+                - generic [ref=f15e1829]: "? Family income: not found in the source"
+                - generic [ref=f15e1830]: "? Category: not found in the source"
+                - generic [ref=f15e1831]: "? State / domicile: not found in the source"
+                - generic [ref=f15e1832]: "? Education level: not found in the source"
+                - generic [ref=f15e1833]: "? Minimum marks: not found in the source"
+            - paragraph [ref=f15e1838]: "Required documents: not listed in the source."
+            - generic [ref=f15e1839]: "Retrieved: 28 Oct 2026, 11:51 UTC · Last verified: 28 Oct 2026, 11:51 UTC · Extraction confidence 47%"
+            - group [ref=f15e1846]:
+              - generic [ref=f15e1848] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f15e1850]: keyboard_arrow_right
+                - paragraph [ref=f15e1853]: Full eligibility details
+            - group [ref=f15e1856]:
+              - generic [ref=f15e1858] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f15e1860]: keyboard_arrow_right
+                - paragraph [ref=f15e1863]: Supporting evidence (2)
+            - group [ref=f15e1866]:
+              - generic [ref=f15e1868] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f15e1870]: keyboard_arrow_right
+                - paragraph [ref=f15e1873]: 🤖 AI explanation (Gemini)
+          - generic [ref=f15e1875]:
+            - generic [ref=f15e1879]:
+              - paragraph [ref=f15e1880]: Karnataka State Brahmin Development Board Scheme
+              - paragraph [ref=f15e1881]: Government of Karnataka · State government · AY 2026-27
+              - generic [ref=f15e1882]: 🟡 Potential match
+              - generic [ref=f15e1883]: Applications open
+              - generic [ref=f15e1884]: 🔒 Official (government)
+            - generic [ref=f15e1886]:
+              - generic [ref=f15e1891]:
+                - paragraph [ref=f15e1895]: Award
+                - paragraph [ref=f15e1898]: Not published
+              - generic [ref=f15e1903]:
+                - paragraph [ref=f15e1907]: Deadline
+                - paragraph [ref=f15e1910]: 31 Dec 2026
+              - generic [ref=f15e1915]:
+                - generic [ref=f15e1916]:
+                  - paragraph [ref=f15e1919]: Awards available
+                  - button "Help for Awards available" [ref=f15e1923] [cursor=pointer]
+                - paragraph [ref=f15e1929]: Not verified
+            - generic [ref=f15e1930]: "Why this is shown (not a chance of winning): Eligibility: potential match; Application open; Course / level relevance partly confirmed; State / institution partly confirmed; Award amount not published; Backed by official evidence · relevance score 54/100"
+            - paragraph [ref=f15e1939]:
+              - strong [ref=f15e1940]: "Eligibility:"
+              - text: "No known exclusion, but these criteria could not be confirmed: Family income, Category, State / domicile, Education level, Minimum marks."
+            - paragraph [ref=f15e1945]: Open until 31 Dec 2026 (verified 28 Oct 2026).
+            - generic [ref=f15e1947]:
+              - generic [ref=f15e1953]:
+                - generic [ref=f15e1954]: Matching
+                - generic [ref=f15e1955]: —
+              - generic [ref=f15e1961]:
+                - generic [ref=f15e1962]: Not met
+                - generic [ref=f15e1963]: —
+              - generic [ref=f15e1969]:
+                - generic [ref=f15e1970]: Missing / unknown
+                - generic [ref=f15e1971]: "? Family income: not found in the source"
+                - generic [ref=f15e1972]: "? Category: not found in the source"
+                - generic [ref=f15e1973]: "? State / domicile: not found in the source"
+                - generic [ref=f15e1974]: "? Education level: not found in the source"
+                - generic [ref=f15e1975]: "? Minimum marks: not found in the source"
+            - paragraph [ref=f15e1980]: "Required documents: not listed in the source."
+            - generic [ref=f15e1981]: "Retrieved: 28 Oct 2026, 11:51 UTC · Last verified: 28 Oct 2026, 11:51 UTC · Extraction confidence 47%"
+            - group [ref=f15e1988]:
+              - generic [ref=f15e1990] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f15e1992]: keyboard_arrow_right
+                - paragraph [ref=f15e1995]: Full eligibility details
+            - group [ref=f15e1998]:
+              - generic [ref=f15e2000] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f15e2002]: keyboard_arrow_right
+                - paragraph [ref=f15e2005]: Supporting evidence (2)
+            - group [ref=f15e2008]:
+              - generic [ref=f15e2010] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f15e2012]: keyboard_arrow_right
+                - paragraph [ref=f15e2015]: 🤖 AI explanation (Gemini)
+          - generic [ref=f15e2017]:
+            - generic [ref=f15e2021]:
+              - paragraph [ref=f15e2022]: Minorities Welfare Department Scheme
+              - paragraph [ref=f15e2023]: Government of Karnataka · State government · AY 2026-27
+              - generic [ref=f15e2024]: 🟡 Potential match
+              - generic [ref=f15e2025]: Applications open
+              - generic [ref=f15e2026]: 🔒 Official (government)
+            - generic [ref=f15e2028]:
+              - generic [ref=f15e2033]:
+                - paragraph [ref=f15e2037]: Award
+                - paragraph [ref=f15e2040]: Not published
+              - generic [ref=f15e2045]:
+                - paragraph [ref=f15e2049]: Deadline
+                - paragraph [ref=f15e2052]: 30 Nov 2026
+              - generic [ref=f15e2057]:
+                - generic [ref=f15e2058]:
+                  - paragraph [ref=f15e2061]: Awards available
+                  - button "Help for Awards available" [ref=f15e2065] [cursor=pointer]
+                - paragraph [ref=f15e2071]: Not verified
+            - generic [ref=f15e2072]: "Why this is shown (not a chance of winning): Eligibility: potential match; Application open; Course / level relevance partly confirmed; State / institution partly confirmed; Award amount not published; Backed by official evidence · relevance score 54/100"
+            - paragraph [ref=f15e2081]:
+              - strong [ref=f15e2082]: "Eligibility:"
+              - text: "No known exclusion, but these criteria could not be confirmed: Family income, Category, State / domicile, Education level, Minimum marks."
+            - paragraph [ref=f15e2087]: Open until 30 Nov 2026 (verified 28 Oct 2026).
+            - generic [ref=f15e2089]:
+              - generic [ref=f15e2095]:
+                - generic [ref=f15e2096]: Matching
+                - generic [ref=f15e2097]: —
+              - generic [ref=f15e2103]:
+                - generic [ref=f15e2104]: Not met
+                - generic [ref=f15e2105]: —
+              - generic [ref=f15e2111]:
+                - generic [ref=f15e2112]: Missing / unknown
+                - generic [ref=f15e2113]: "? Family income: not found in the source"
+                - generic [ref=f15e2114]: "? Category: not found in the source"
+                - generic [ref=f15e2115]: "? State / domicile: not found in the source"
+                - generic [ref=f15e2116]: "? Education level: not found in the source"
+                - generic [ref=f15e2117]: "? Minimum marks: not found in the source"
+            - paragraph [ref=f15e2122]: "Required documents: not listed in the source."
+            - generic [ref=f15e2123]: "Retrieved: 28 Oct 2026, 11:51 UTC · Last verified: 28 Oct 2026, 11:51 UTC · Extraction confidence 47%"
+            - group [ref=f15e2130]:
+              - generic [ref=f15e2132] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f15e2134]: keyboard_arrow_right
+                - paragraph [ref=f15e2137]: Full eligibility details
+            - group [ref=f15e2140]:
+              - generic [ref=f15e2142] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f15e2144]: keyboard_arrow_right
+                - paragraph [ref=f15e2147]: Supporting evidence (2)
+            - group [ref=f15e2150]:
+              - generic [ref=f15e2152] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f15e2154]: keyboard_arrow_right
+                - paragraph [ref=f15e2157]: 🤖 AI explanation (Gemini)
+          - generic [ref=f15e2159]:
+            - generic [ref=f15e2163]:
+              - paragraph [ref=f15e2164]: Social Welfare Department Scheme
+              - paragraph [ref=f15e2165]: Government of Karnataka · State government · AY 2026-27
+              - generic [ref=f15e2166]: 🟡 Potential match
+              - generic [ref=f15e2167]: Applications open
+              - generic [ref=f15e2168]: 🔒 Official (government)
+            - generic [ref=f15e2170]:
+              - generic [ref=f15e2175]:
+                - paragraph [ref=f15e2179]: Award
+                - paragraph [ref=f15e2182]: Not published
+              - generic [ref=f15e2187]:
+                - paragraph [ref=f15e2191]: Deadline
+                - paragraph [ref=f15e2194]: 31 Jan 2027
+              - generic [ref=f15e2199]:
+                - generic [ref=f15e2200]:
+                  - paragraph [ref=f15e2203]: Awards available
+                  - button "Help for Awards available" [ref=f15e2207] [cursor=pointer]
+                - paragraph [ref=f15e2213]: Not verified
+            - generic [ref=f15e2214]: "Why this is shown (not a chance of winning): Eligibility: potential match; Application open; Course / level relevance partly confirmed; State / institution partly confirmed; Award amount not published; Backed by official evidence · relevance score 54/100"
+            - paragraph [ref=f15e2223]:
+              - strong [ref=f15e2224]: "Eligibility:"
+              - text: "No known exclusion, but these criteria could not be confirmed: Family income, Category, State / domicile, Education level, Minimum marks."
+            - paragraph [ref=f15e2229]: Open until 31 Jan 2027 (verified 28 Oct 2026).
+            - generic [ref=f15e2231]:
+              - generic [ref=f15e2237]:
+                - generic [ref=f15e2238]: Matching
+                - generic [ref=f15e2239]: —
+              - generic [ref=f15e2245]:
+                - generic [ref=f15e2246]: Not met
+                - generic [ref=f15e2247]: —
+              - generic [ref=f15e2253]:
+                - generic [ref=f15e2254]: Missing / unknown
+                - generic [ref=f15e2255]: "? Family income: not found in the source"
+                - generic [ref=f15e2256]: "? Category: not found in the source"
+                - generic [ref=f15e2257]: "? State / domicile: not found in the source"
+                - generic [ref=f15e2258]: "? Education level: not found in the source"
+                - generic [ref=f15e2259]: "? Minimum marks: not found in the source"
+            - paragraph [ref=f15e2264]: "Required documents: not listed in the source."
+            - generic [ref=f15e2265]: "Retrieved: 28 Oct 2026, 11:51 UTC · Last verified: 28 Oct 2026, 11:51 UTC · Extraction confidence 47%"
+            - group [ref=f15e2272]:
+              - generic [ref=f15e2274] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f15e2276]: keyboard_arrow_right
+                - paragraph [ref=f15e2279]: Full eligibility details
+            - group [ref=f15e2282]:
+              - generic [ref=f15e2284] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f15e2286]: keyboard_arrow_right
+                - paragraph [ref=f15e2289]: Supporting evidence (2)
+            - group [ref=f15e2292]:
+              - generic [ref=f15e2294] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f15e2296]: keyboard_arrow_right
+                - paragraph [ref=f15e2299]: 🤖 AI explanation (Gemini)
+          - generic [ref=f15e2301]:
+            - generic [ref=f15e2305]:
+              - paragraph [ref=f15e2306]: Tribal Welfare Department Scheme
+              - paragraph [ref=f15e2307]: Government of Karnataka · State government · AY 2026-27
+              - generic [ref=f15e2308]: 🟡 Potential match
+              - generic [ref=f15e2309]: Applications open
+              - generic [ref=f15e2310]: 🔒 Official (government)
+            - generic [ref=f15e2312]:
+              - generic [ref=f15e2317]:
+                - paragraph [ref=f15e2321]: Award
+                - paragraph [ref=f15e2324]: Not published
+              - generic [ref=f15e2329]:
+                - paragraph [ref=f15e2333]: Deadline
+                - paragraph [ref=f15e2336]: 31 Dec 2026
+              - generic [ref=f15e2341]:
+                - generic [ref=f15e2342]:
+                  - paragraph [ref=f15e2345]: Awards available
+                  - button "Help for Awards available" [ref=f15e2349] [cursor=pointer]
+                - paragraph [ref=f15e2355]: Not verified
+            - generic [ref=f15e2356]: "Why this is shown (not a chance of winning): Eligibility: potential match; Application open; Course / level relevance partly confirmed; State / institution partly confirmed; Award amount not published; Backed by official evidence · relevance score 54/100"
+            - paragraph [ref=f15e2365]:
+              - strong [ref=f15e2366]: "Eligibility:"
+              - text: "No known exclusion, but these criteria could not be confirmed: Family income, Category, State / domicile, Education level, Minimum marks."
+            - paragraph [ref=f15e2371]: Open until 31 Dec 2026 (verified 28 Oct 2026).
+            - generic [ref=f15e2373]:
+              - generic [ref=f15e2379]:
+                - generic [ref=f15e2380]: Matching
+                - generic [ref=f15e2381]: —
+              - generic [ref=f15e2387]:
+                - generic [ref=f15e2388]: Not met
+                - generic [ref=f15e2389]: —
+              - generic [ref=f15e2395]:
+                - generic [ref=f15e2396]: Missing / unknown
+                - generic [ref=f15e2397]: "? Family income: not found in the source"
+                - generic [ref=f15e2398]: "? Category: not found in the source"
+                - generic [ref=f15e2399]: "? State / domicile: not found in the source"
+                - generic [ref=f15e2400]: "? Education level: not found in the source"
+                - generic [ref=f15e2401]: "? Minimum marks: not found in the source"
+            - paragraph [ref=f15e2406]: "Required documents: not listed in the source."
+            - generic [ref=f15e2407]: "Retrieved: 28 Oct 2026, 11:51 UTC · Last verified: 28 Oct 2026, 11:51 UTC · Extraction confidence 47%"
+            - group [ref=f15e2414]:
+              - generic [ref=f15e2416] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f15e2418]: keyboard_arrow_right
+                - paragraph [ref=f15e2421]: Full eligibility details
+            - group [ref=f15e2424]:
+              - generic [ref=f15e2426] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f15e2428]: keyboard_arrow_right
+                - paragraph [ref=f15e2431]: Supporting evidence (2)
+            - group [ref=f15e2434]:
+              - generic [ref=f15e2436] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f15e2438]: keyboard_arrow_right
+                - paragraph [ref=f15e2441]: 🤖 AI explanation (Gemini)
+          - generic [ref=f15e2443]:
+            - generic [ref=f15e2447]:
+              - paragraph [ref=f15e2448]: SWANATH Scholarship Scheme
+              - paragraph [ref=f15e2449]: AICTE · Central government
+              - generic [ref=f15e2450]: 🟡 Potential match
+              - generic [ref=f15e2451]: Application status unknown
+              - generic [ref=f15e2452]: 🔒 Official (government)
+            - generic [ref=f15e2454]:
+              - generic [ref=f15e2459]:
+                - generic [ref=f15e2460]:
+                  - paragraph [ref=f15e2463]: Award
+                  - button "Help for Award" [ref=f15e2467] [cursor=pointer]
+                - paragraph [ref=f15e2473]: ₹50,000
+              - generic [ref=f15e2478]:
+                - paragraph [ref=f15e2482]: Deadline
+                - paragraph [ref=f15e2485]: Not found
+              - generic [ref=f15e2490]:
+                - generic [ref=f15e2491]:
+                  - paragraph [ref=f15e2494]: "Awards · scope: category"
+                  - 'button "Help for Awards · scope: category" [ref=f15e2498] [cursor=pointer]'
+                - paragraph [ref=f15e2504]: 1,000
+            - generic [ref=f15e2505]: "Why this is shown (not a chance of winning): Eligibility: potential match; Application unknown; Course / level relevance partly confirmed; State / institution partly confirmed; Published amount available; Backed by official evidence · relevance score 53.5/100"
+            - paragraph [ref=f15e2514]:
+              - strong [ref=f15e2515]: "Eligibility:"
+              - text: "No known exclusion, but these criteria could not be confirmed: Category, State / domicile, Education level, Course, Year of study, Institution."
+            - paragraph [ref=f15e2520]: No application deadline was found in the source.
+            - generic [ref=f15e2522]:
+              - generic [ref=f15e2528]:
+                - generic [ref=f15e2529]: Matching
+                - generic [ref=f15e2530]: ✓ Annual family income ≤ ₹8,00,000
+              - generic [ref=f15e2536]:
+                - generic [ref=f15e2537]: Not met
+                - generic [ref=f15e2538]: —
+              - generic [ref=f15e2544]:
+                - generic [ref=f15e2545]: Missing / unknown
+                - generic [ref=f15e2546]: "? Category: SC, ST"
+                - generic [ref=f15e2547]: "? State / domicile: not found in the source"
+                - generic [ref=f15e2548]: "? Level: Undergraduate, Diploma"
+                - generic [ref=f15e2549]: "? Course: Degree, Diploma"
+                - generic [ref=f15e2550]: "? Year of study: 1, 2, 3, 4"
+                - generic [ref=f15e2551]: "? Institution: AICTE Approved institutions"
+            - paragraph [ref=f15e2556]:
+              - strong [ref=f15e2557]: Important red flags
+            - generic [ref=f15e2561]:
+              - generic [ref=f15e2562]:
+                - text: "⛔ Conflicting information — Sources disagree on award_count: 1000 vs 2000."
+                - generic [ref=f15e2563]:
+                  - text: Stated by source ·
+                  - link "source" [ref=f15e2564] [cursor=pointer]:
+                    - /url: https://scholarships.gov.in/public/schemeGuidelines/AICTE/AICTE_3039_F.pdf
+              - generic [ref=f15e2565]:
+                - text: "⚠️ Institution-specific — Only students of specific institutions can apply: AICTE Approved institutions."
+                - generic [ref=f15e2566]: “University / Institute is not approved by the AICTE in the current academic year.”
+                - generic [ref=f15e2567]:
+                  - text: Stated by source ·
+                  - link "source" [ref=f15e2568] [cursor=pointer]:
+                    - /url: https://scholarships.gov.in/public/schemeGuidelines/AICTE/AICTE_3039_F.pdf
+            - paragraph [ref=f15e2573]:
+              - strong [ref=f15e2574]: "Documents:"
+              - text: Death Certificates of both Father & Mother (if available), A certificate issued by Tehsildar / S D M as per enclosed format (Annexure – I), Bonafide Certificate issued by the institution, 10+2 / equivalent and 10th Mark sheet for Degree Level, 10th /equivalent Mark sheet for Diploma Level, Category Certificate (SC/ST/OBC-NCL), Death Certificate of Father/Mother or both explicitly mentioning that the death was due to Covid-19, If one parent (Father or Mother) is alive, current year income certificate, explicitly mentioning that income of family less than 8 Lakh, issued by Competent Authority, Death Certificate, Shaheed Certificate issued by the Armed Forces/ Central Paramilitary Forces, Current year income certificate, explicitly mentioning that income of family less than 8 Lakh, issued by Competent Authority
+            - generic [ref=f15e2576]:
+              - link [ref=f15e2581] [cursor=pointer]:
+                - /url: https://scholarships.gov.in/
+                - paragraph [ref=f15e2586]: Apply on official site
+              - link [ref=f15e2591] [cursor=pointer]:
+                - /url: https://scholarships.gov.in/public/schemeGuidelines/AICTE/AICTE_3039_F.pdf
+                - paragraph [ref=f15e2596]: Guidelines
+            - generic [ref=f15e2599]: "Retrieved: 28 Oct 2026, 11:51 UTC · Last verified: 28 Oct 2026, 11:51 UTC · Extraction confidence 47%"
+            - group [ref=f15e2606]:
+              - generic [ref=f15e2608] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f15e2610]: keyboard_arrow_right
+                - paragraph [ref=f15e2613]: Full eligibility details
+            - group [ref=f15e2616]:
+              - generic [ref=f15e2618] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f15e2620]: keyboard_arrow_right
+                - paragraph [ref=f15e2623]: Supporting evidence (44)
+            - group [ref=f15e2626]:
+              - generic [ref=f15e2628] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f15e2630]: keyboard_arrow_right
+                - paragraph [ref=f15e2633]: 🤖 AI explanation (Gemini)
+          - generic [ref=f15e2635]:
+            - generic [ref=f15e2639]:
+              - paragraph [ref=f15e2640]: PM YASASVI Central Sector Scheme Of Top Class Education In Schools For OBC, EBC And DNT Students
+              - paragraph [ref=f15e2641]: Government of India · Central government · AY 2026-27
+              - generic [ref=f15e2642]: 🟡 Potential match
+              - generic [ref=f15e2643]: Application status unknown
+              - generic [ref=f15e2644]: 🔒 Official (government)
+            - generic [ref=f15e2646]:
+              - generic [ref=f15e2651]:
+                - paragraph [ref=f15e2655]: Award
+                - paragraph [ref=f15e2658]: Not published
+              - generic [ref=f15e2663]:
+                - paragraph [ref=f15e2667]: Deadline
+                - paragraph [ref=f15e2670]: Not found
+              - generic [ref=f15e2675]:
+                - generic [ref=f15e2676]:
+                  - paragraph [ref=f15e2679]: Awards available
+                  - button "Help for Awards available" [ref=f15e2683] [cursor=pointer]
+                - paragraph [ref=f15e2689]: Not verified
+            - generic [ref=f15e2690]: "Why this is shown (not a chance of winning): Eligibility: potential match; Application unknown; Course / level relevance partly confirmed; State / institution partly confirmed; Award amount not published; Backed by official evidence · relevance score 44/100"
+            - paragraph [ref=f15e2699]:
+              - strong [ref=f15e2700]: "Eligibility:"
+              - text: "No known exclusion, but these criteria could not be confirmed: Family income, Category, State / domicile, Education level, Minimum marks."
+            - paragraph [ref=f15e2705]: No application deadline was found in the source.
+            - generic [ref=f15e2707]:
+              - generic [ref=f15e2713]:
+                - generic [ref=f15e2714]: Matching
+                - generic [ref=f15e2715]: —
+              - generic [ref=f15e2721]:
+                - generic [ref=f15e2722]: Not met
+                - generic [ref=f15e2723]: —
+              - generic [ref=f15e2729]:
+                - generic [ref=f15e2730]: Missing / unknown
+                - generic [ref=f15e2731]: "? Family income: not found in the source"
+                - generic [ref=f15e2732]: "? Category: OBC"
+                - generic [ref=f15e2733]: "? Domicile / state: Rajasthan, Keralam, Karnataka"
+                - generic [ref=f15e2734]: "? Education level: not found in the source"
+                - generic [ref=f15e2735]: "? Minimum marks: not found in the source"
+            - paragraph [ref=f15e2740]:
+              - strong [ref=f15e2741]: Important red flags
+            - generic [ref=f15e2746]:
+              - text: "⚠️ State / domicile restriction — Restricted to residents / domiciles of: Rajasthan, Keralam, Karnataka."
+              - generic [ref=f15e2747]: “Students who do not belong to Rajasthan, Keralam and Karnataka can submit their applications.”
+              - generic [ref=f15e2748]:
+                - text: Stated by source ·
+                - link "source" [ref=f15e2749] [cursor=pointer]:
+                  - /url: https://scholarships.gov.in/home
+            - paragraph [ref=f15e2754]: "Required documents: not listed in the source."
+            - generic [ref=f15e2755]: "Retrieved: 28 Oct 2026, 11:51 UTC · Last verified: 28 Oct 2026, 11:51 UTC · Extraction confidence 60%"
+            - group [ref=f15e2762]:
+              - generic [ref=f15e2764] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f15e2766]: keyboard_arrow_right
+                - paragraph [ref=f15e2769]: Full eligibility details
+            - group [ref=f15e2772]:
+              - generic [ref=f15e2774] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f15e2776]: keyboard_arrow_right
+                - paragraph [ref=f15e2779]: Supporting evidence (4)
+            - group [ref=f15e2782]:
+              - generic [ref=f15e2784] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f15e2786]: keyboard_arrow_right
+                - paragraph [ref=f15e2789]: 🤖 AI explanation (Gemini)
+          - generic [ref=f15e2791]:
+            - generic [ref=f15e2795]:
+              - paragraph [ref=f15e2796]: Aicte – Pragati Scholarship
+              - paragraph [ref=f15e2797]: Unknown
+              - generic [ref=f15e2798]: 🟡 Potential match
+              - generic [ref=f15e2799]: Application status unknown
+              - generic [ref=f15e2800]: 🔒 Official (government)
+            - generic [ref=f15e2802]:
+              - generic [ref=f15e2807]:
+                - paragraph [ref=f15e2811]: Award
+                - paragraph [ref=f15e2814]: Not published
+              - generic [ref=f15e2819]:
+                - paragraph [ref=f15e2823]: Deadline
+                - paragraph [ref=f15e2826]: Not found
+              - generic [ref=f15e2831]:
+                - generic [ref=f15e2832]:
+                  - paragraph [ref=f15e2835]: Awards available
+                  - button "Help for Awards available" [ref=f15e2839] [cursor=pointer]
+                - paragraph [ref=f15e2845]: Not verified
+            - generic [ref=f15e2846]: "Why this is shown (not a chance of winning): Eligibility: potential match; Application unknown; Course / level relevance partly confirmed; State / institution partly confirmed; Award amount not published; Backed by official evidence · relevance score 41/100"
+            - paragraph [ref=f15e2855]:
+              - strong [ref=f15e2856]: "Eligibility:"
+              - text: "No known exclusion, but these criteria could not be confirmed: Category, State / domicile, Education level, Minimum marks."
+            - paragraph [ref=f15e2861]: No application deadline was found in the source.
+            - generic [ref=f15e2863]:
+              - generic [ref=f15e2869]:
+                - generic [ref=f15e2870]: Matching
+                - generic [ref=f15e2871]: ✓ Annual family income ≤ ₹8,00,000
+              - generic [ref=f15e2877]:
+                - generic [ref=f15e2878]: Not met
+                - generic [ref=f15e2879]: —
+              - generic [ref=f15e2885]:
+                - generic [ref=f15e2886]: Missing / unknown
+                - generic [ref=f15e2887]: "? Category: not found in the source"
+                - generic [ref=f15e2888]: "? State / domicile: not found in the source"
+                - generic [ref=f15e2889]: "? Education level: not found in the source"
+                - generic [ref=f15e2890]: "? Minimum marks: not found in the source"
+            - paragraph [ref=f15e2895]: "Required documents: not listed in the source."
+            - link [ref=f15e2902] [cursor=pointer]:
+              - /url: https://scholarships.gov.in/public/schemeGuidelines/AICTE/AICTE_2010_G.pdf
+              - paragraph [ref=f15e2907]: Guidelines
+            - generic [ref=f15e2910]: "Retrieved: 28 Oct 2026, 11:51 UTC · Last verified: 28 Oct 2026, 11:51 UTC · Extraction confidence 33%"
+            - group [ref=f15e2917]:
+              - generic [ref=f15e2919] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f15e2921]: keyboard_arrow_right
+                - paragraph [ref=f15e2924]: Full eligibility details
+            - group [ref=f15e2927]:
+              - generic [ref=f15e2929] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f15e2931]: keyboard_arrow_right
+                - paragraph [ref=f15e2934]: Supporting evidence (1)
+            - group [ref=f15e2937]:
+              - generic [ref=f15e2939] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f15e2941]: keyboard_arrow_right
+                - paragraph [ref=f15e2944]: 🤖 AI explanation (Gemini)
+          - generic [ref=f15e2946]:
+            - generic [ref=f15e2950]:
+              - paragraph [ref=f15e2951]: Central Sector Scheme
+              - paragraph [ref=f15e2952]: All India Council For Technical Education · Central government · AY 2026-27
+              - generic [ref=f15e2953]: 🟡 Potential match
+              - generic [ref=f15e2954]: Application status unknown
+              - generic [ref=f15e2955]: 🔒 Official (government)
+            - generic [ref=f15e2957]:
+              - generic [ref=f15e2962]:
+                - paragraph [ref=f15e2966]: Award
+                - paragraph [ref=f15e2969]: Not published
+              - generic [ref=f15e2974]:
+                - paragraph [ref=f15e2978]: Deadline
+                - paragraph [ref=f15e2981]: Not found
+              - generic [ref=f15e2986]:
+                - generic [ref=f15e2987]:
+                  - paragraph [ref=f15e2990]: Awards available
+                  - button "Help for Awards available" [ref=f15e2994] [cursor=pointer]
+                - paragraph [ref=f15e3000]: Not verified
+            - generic [ref=f15e3001]: "Why this is shown (not a chance of winning): Eligibility: potential match; Application unknown; Course / level relevance partly confirmed; State / institution partly confirmed; Award amount not published; Backed by official evidence · relevance score 41/100"
+            - paragraph [ref=f15e3010]:
+              - strong [ref=f15e3011]: "Eligibility:"
+              - text: "No known exclusion, but these criteria could not be confirmed: Family income, Category, State / domicile, Education level, Minimum marks."
+            - paragraph [ref=f15e3016]: No application deadline was found in the source.
+            - generic [ref=f15e3018]:
+              - generic [ref=f15e3024]:
+                - generic [ref=f15e3025]: Matching
+                - generic [ref=f15e3026]: —
+              - generic [ref=f15e3032]:
+                - generic [ref=f15e3033]: Not met
+                - generic [ref=f15e3034]: —
+              - generic [ref=f15e3040]:
+                - generic [ref=f15e3041]: Missing / unknown
+                - generic [ref=f15e3042]: "? Family income: not found in the source"
+                - generic [ref=f15e3043]: "? Category: not found in the source"
+                - generic [ref=f15e3044]: "? State / domicile: not found in the source"
+                - generic [ref=f15e3045]: "? Education level: not found in the source"
+                - generic [ref=f15e3046]: "? Minimum marks: not found in the source"
+            - paragraph [ref=f15e3051]: "Required documents: not listed in the source."
+            - generic [ref=f15e3052]: "Retrieved: 28 Oct 2026, 11:51 UTC · Last verified: 28 Oct 2026, 11:51 UTC · Extraction confidence 33%"
+            - group [ref=f15e3059]:
+              - generic [ref=f15e3061] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f15e3063]: keyboard_arrow_right
+                - paragraph [ref=f15e3066]: Full eligibility details
+            - group [ref=f15e3069]:
+              - generic [ref=f15e3071] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f15e3073]: keyboard_arrow_right
+                - paragraph [ref=f15e3076]: Supporting evidence (1)
+            - group [ref=f15e3079]:
+              - generic [ref=f15e3081] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f15e3083]: keyboard_arrow_right
+                - paragraph [ref=f15e3086]: 🤖 AI explanation (Gemini)
+          - generic [ref=f15e3088]:
+            - generic [ref=f15e3092]:
+              - paragraph [ref=f15e3093]: Central Sector Scheme
+              - paragraph [ref=f15e3094]: Department of Agriculture Research and Education · Central government · AY 2026-27
+              - generic [ref=f15e3095]: 🟡 Potential match
+              - generic [ref=f15e3096]: Application status unknown
+              - generic [ref=f15e3097]: 🔒 Official (government)
+            - generic [ref=f15e3099]:
+              - generic [ref=f15e3104]:
+                - paragraph [ref=f15e3108]: Award
+                - paragraph [ref=f15e3111]: Not published
+              - generic [ref=f15e3116]:
+                - paragraph [ref=f15e3120]: Deadline
+                - paragraph [ref=f15e3123]: Not found
+              - generic [ref=f15e3128]:
+                - generic [ref=f15e3129]:
+                  - paragraph [ref=f15e3132]: Awards available
+                  - button "Help for Awards available" [ref=f15e3136] [cursor=pointer]
+                - paragraph [ref=f15e3142]: Not verified
+            - generic [ref=f15e3143]: "Why this is shown (not a chance of winning): Eligibility: potential match; Application unknown; Course / level relevance partly confirmed; State / institution partly confirmed; Award amount not published; Backed by official evidence · relevance score 41/100"
+            - paragraph [ref=f15e3152]:
+              - strong [ref=f15e3153]: "Eligibility:"
+              - text: "No known exclusion, but these criteria could not be confirmed: Family income, Category, State / domicile, Education level, Minimum marks."
+            - paragraph [ref=f15e3158]: No application deadline was found in the source.
+            - generic [ref=f15e3160]:
+              - generic [ref=f15e3166]:
+                - generic [ref=f15e3167]: Matching
+                - generic [ref=f15e3168]: —
+              - generic [ref=f15e3174]:
+                - generic [ref=f15e3175]: Not met
+                - generic [ref=f15e3176]: —
+              - generic [ref=f15e3182]:
+                - generic [ref=f15e3183]: Missing / unknown
+                - generic [ref=f15e3184]: "? Family income: not found in the source"
+                - generic [ref=f15e3185]: "? Category: not found in the source"
+                - generic [ref=f15e3186]: "? State / domicile: not found in the source"
+                - generic [ref=f15e3187]: "? Education level: not found in the source"
+                - generic [ref=f15e3188]: "? Minimum marks: not found in the source"
+            - paragraph [ref=f15e3193]: "Required documents: not listed in the source."
+            - generic [ref=f15e3194]: "Retrieved: 28 Oct 2026, 11:51 UTC · Last verified: 28 Oct 2026, 11:51 UTC · Extraction confidence 33%"
+            - group [ref=f15e3201]:
+              - generic [ref=f15e3203] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f15e3205]: keyboard_arrow_right
+                - paragraph [ref=f15e3208]: Full eligibility details
+            - group [ref=f15e3211]:
+              - generic [ref=f15e3213] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f15e3215]: keyboard_arrow_right
+                - paragraph [ref=f15e3218]: Supporting evidence (1)
+            - group [ref=f15e3221]:
+              - generic [ref=f15e3223] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f15e3225]: keyboard_arrow_right
+                - paragraph [ref=f15e3228]: 🤖 AI explanation (Gemini)
+          - generic [ref=f15e3230]:
+            - generic [ref=f15e3234]:
+              - paragraph [ref=f15e3235]: Central Sector Scheme
+              - paragraph [ref=f15e3236]: Department of Empowerment of Persons with Disabilities · Central government · AY 2026-27
+              - generic [ref=f15e3237]: 🟡 Potential match
+              - generic [ref=f15e3238]: Application status unknown
+              - generic [ref=f15e3239]: 🔒 Official (government)
+            - generic [ref=f15e3241]:
+              - generic [ref=f15e3246]:
+                - paragraph [ref=f15e3250]: Award
+                - paragraph [ref=f15e3253]: Not published
+              - generic [ref=f15e3258]:
+                - paragraph [ref=f15e3262]: Deadline
+                - paragraph [ref=f15e3265]: Not found
+              - generic [ref=f15e3270]:
+                - generic [ref=f15e3271]:
+                  - paragraph [ref=f15e3274]: Awards available
+                  - button "Help for Awards available" [ref=f15e3278] [cursor=pointer]
+                - paragraph [ref=f15e3284]: Not verified
+            - generic [ref=f15e3285]: "Why this is shown (not a chance of winning): Eligibility: potential match; Application unknown; Course / level relevance partly confirmed; State / institution partly confirmed; Award amount not published; Backed by official evidence · relevance score 41/100"
+            - paragraph [ref=f15e3294]:
+              - strong [ref=f15e3295]: "Eligibility:"
+              - text: "No known exclusion, but these criteria could not be confirmed: Family income, Category, State / domicile, Education level, Minimum marks."
+            - paragraph [ref=f15e3300]: No application deadline was found in the source.
+            - generic [ref=f15e3302]:
+              - generic [ref=f15e3308]:
+                - generic [ref=f15e3309]: Matching
+                - generic [ref=f15e3310]: —
+              - generic [ref=f15e3316]:
+                - generic [ref=f15e3317]: Not met
+                - generic [ref=f15e3318]: —
+              - generic [ref=f15e3324]:
+                - generic [ref=f15e3325]: Missing / unknown
+                - generic [ref=f15e3326]: "? Family income: not found in the source"
+                - generic [ref=f15e3327]: "? Category: not found in the source"
+                - generic [ref=f15e3328]: "? State / domicile: not found in the source"
+                - generic [ref=f15e3329]: "? Education level: not found in the source"
+                - generic [ref=f15e3330]: "? Minimum marks: not found in the source"
+            - paragraph [ref=f15e3335]: "Required documents: not listed in the source."
+            - generic [ref=f15e3336]: "Retrieved: 28 Oct 2026, 11:51 UTC · Last verified: 28 Oct 2026, 11:51 UTC · Extraction confidence 33%"
+            - group [ref=f15e3343]:
+              - generic [ref=f15e3345] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f15e3347]: keyboard_arrow_right
+                - paragraph [ref=f15e3350]: Full eligibility details
+            - group [ref=f15e3353]:
+              - generic [ref=f15e3355] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f15e3357]: keyboard_arrow_right
+                - paragraph [ref=f15e3360]: Supporting evidence (1)
+            - group [ref=f15e3363]:
+              - generic [ref=f15e3365] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f15e3367]: keyboard_arrow_right
+                - paragraph [ref=f15e3370]: 🤖 AI explanation (Gemini)
+          - generic [ref=f15e3372]:
+            - generic [ref=f15e3376]:
+              - paragraph [ref=f15e3377]: Central Sector Scheme
+              - paragraph [ref=f15e3378]: Department of Higher Education · Central government · AY 2026-27
+              - generic [ref=f15e3379]: 🟡 Potential match
+              - generic [ref=f15e3380]: Application status unknown
+              - generic [ref=f15e3381]: 🔒 Official (government)
+            - generic [ref=f15e3383]:
+              - generic [ref=f15e3388]:
+                - paragraph [ref=f15e3392]: Award
+                - paragraph [ref=f15e3395]: Not published
+              - generic [ref=f15e3400]:
+                - paragraph [ref=f15e3404]: Deadline
+                - paragraph [ref=f15e3407]: Not found
+              - generic [ref=f15e3412]:
+                - generic [ref=f15e3413]:
+                  - paragraph [ref=f15e3416]: Awards available
+                  - button "Help for Awards available" [ref=f15e3420] [cursor=pointer]
+                - paragraph [ref=f15e3426]: Not verified
+            - generic [ref=f15e3427]: "Why this is shown (not a chance of winning): Eligibility: potential match; Application unknown; Course / level relevance partly confirmed; State / institution partly confirmed; Award amount not published; Backed by official evidence · relevance score 41/100"
+            - paragraph [ref=f15e3436]:
+              - strong [ref=f15e3437]: "Eligibility:"
+              - text: "No known exclusion, but these criteria could not be confirmed: Family income, Category, State / domicile, Education level, Minimum marks."
+            - paragraph [ref=f15e3442]: No application deadline was found in the source.
+            - generic [ref=f15e3444]:
+              - generic [ref=f15e3450]:
+                - generic [ref=f15e3451]: Matching
+                - generic [ref=f15e3452]: —
+              - generic [ref=f15e3458]:
+                - generic [ref=f15e3459]: Not met
+                - generic [ref=f15e3460]: —
+              - generic [ref=f15e3466]:
+                - generic [ref=f15e3467]: Missing / unknown
+                - generic [ref=f15e3468]: "? Family income: not found in the source"
+                - generic [ref=f15e3469]: "? Category: not found in the source"
+                - generic [ref=f15e3470]: "? State / domicile: not found in the source"
+                - generic [ref=f15e3471]: "? Education level: not found in the source"
+                - generic [ref=f15e3472]: "? Minimum marks: not found in the source"
+            - paragraph [ref=f15e3477]: "Required documents: not listed in the source."
+            - generic [ref=f15e3478]: "Retrieved: 28 Oct 2026, 11:51 UTC · Last verified: 28 Oct 2026, 11:51 UTC · Extraction confidence 33%"
+            - group [ref=f15e3485]:
+              - generic [ref=f15e3487] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f15e3489]: keyboard_arrow_right
+                - paragraph [ref=f15e3492]: Full eligibility details
+            - group [ref=f15e3495]:
+              - generic [ref=f15e3497] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f15e3499]: keyboard_arrow_right
+                - paragraph [ref=f15e3502]: Supporting evidence (1)
+            - group [ref=f15e3505]:
+              - generic [ref=f15e3507] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f15e3509]: keyboard_arrow_right
+                - paragraph [ref=f15e3512]: 🤖 AI explanation (Gemini)
+          - generic [ref=f15e3514]:
+            - generic [ref=f15e3518]:
+              - paragraph [ref=f15e3519]: Central Sector Scheme
+              - paragraph [ref=f15e3520]: Department of School Education & Literacy · Central government · AY 2026-27
+              - generic [ref=f15e3521]: 🟡 Potential match
+              - generic [ref=f15e3522]: Application status unknown
+              - generic [ref=f15e3523]: 🔒 Official (government)
+            - generic [ref=f15e3525]:
+              - generic [ref=f15e3530]:
+                - paragraph [ref=f15e3534]: Award
+                - paragraph [ref=f15e3537]: Not published
+              - generic [ref=f15e3542]:
+                - paragraph [ref=f15e3546]: Deadline
+                - paragraph [ref=f15e3549]: Not found
+              - generic [ref=f15e3554]:
+                - generic [ref=f15e3555]:
+                  - paragraph [ref=f15e3558]: Awards available
+                  - button "Help for Awards available" [ref=f15e3562] [cursor=pointer]
+                - paragraph [ref=f15e3568]: Not verified
+            - generic [ref=f15e3569]: "Why this is shown (not a chance of winning): Eligibility: potential match; Application unknown; Course / level relevance partly confirmed; State / institution partly confirmed; Award amount not published; Backed by official evidence · relevance score 41/100"
+            - paragraph [ref=f15e3578]:
+              - strong [ref=f15e3579]: "Eligibility:"
+              - text: "No known exclusion, but these criteria could not be confirmed: Family income, Category, State / domicile, Education level, Minimum marks."
+            - paragraph [ref=f15e3584]: No application deadline was found in the source.
+            - generic [ref=f15e3586]:
+              - generic [ref=f15e3592]:
+                - generic [ref=f15e3593]: Matching
+                - generic [ref=f15e3594]: —
+              - generic [ref=f15e3600]:
+                - generic [ref=f15e3601]: Not met
+                - generic [ref=f15e3602]: —
+              - generic [ref=f15e3608]:
+                - generic [ref=f15e3609]: Missing / unknown
+                - generic [ref=f15e3610]: "? Family income: not found in the source"
+                - generic [ref=f15e3611]: "? Category: not found in the source"
+                - generic [ref=f15e3612]: "? State / domicile: not found in the source"
+                - generic [ref=f15e3613]: "? Education level: not found in the source"
+                - generic [ref=f15e3614]: "? Minimum marks: not found in the source"
+            - paragraph [ref=f15e3619]: "Required documents: not listed in the source."
+            - generic [ref=f15e3620]: "Retrieved: 28 Oct 2026, 11:51 UTC · Last verified: 28 Oct 2026, 11:51 UTC · Extraction confidence 33%"
+            - group [ref=f15e3627]:
+              - generic [ref=f15e3629] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f15e3631]: keyboard_arrow_right
+                - paragraph [ref=f15e3634]: Full eligibility details
+            - group [ref=f15e3637]:
+              - generic [ref=f15e3639] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f15e3641]: keyboard_arrow_right
+                - paragraph [ref=f15e3644]: Supporting evidence (1)
+            - group [ref=f15e3647]:
+              - generic [ref=f15e3649] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f15e3651]: keyboard_arrow_right
+                - paragraph [ref=f15e3654]: 🤖 AI explanation (Gemini)
+          - generic [ref=f15e3656]:
+            - generic [ref=f15e3660]:
+              - paragraph [ref=f15e3661]: Central Sector Scheme
+              - paragraph [ref=f15e3662]: Department of Social Justice & Empowerment · Central government · AY 2026-27
+              - generic [ref=f15e3663]: 🟡 Potential match
+              - generic [ref=f15e3664]: Application status unknown
+              - generic [ref=f15e3665]: 🔒 Official (government)
+            - generic [ref=f15e3667]:
+              - generic [ref=f15e3672]:
+                - paragraph [ref=f15e3676]: Award
+                - paragraph [ref=f15e3679]: Not published
+              - generic [ref=f15e3684]:
+                - paragraph [ref=f15e3688]: Deadline
+                - paragraph [ref=f15e3691]: Not found
+              - generic [ref=f15e3696]:
+                - generic [ref=f15e3697]:
+                  - paragraph [ref=f15e3700]: Awards available
+                  - button "Help for Awards available" [ref=f15e3704] [cursor=pointer]
+                - paragraph [ref=f15e3710]: Not verified
+            - generic [ref=f15e3711]: "Why this is shown (not a chance of winning): Eligibility: potential match; Application unknown; Course / level relevance partly confirmed; State / institution partly confirmed; Award amount not published; Backed by official evidence · relevance score 41/100"
+            - paragraph [ref=f15e3720]:
+              - strong [ref=f15e3721]: "Eligibility:"
+              - text: "No known exclusion, but these criteria could not be confirmed: Family income, Category, State / domicile, Education level, Minimum marks."
+            - paragraph [ref=f15e3726]: No application deadline was found in the source.
+            - generic [ref=f15e3728]:
+              - generic [ref=f15e3734]:
+                - generic [ref=f15e3735]: Matching
+                - generic [ref=f15e3736]: —
+              - generic [ref=f15e3742]:
+                - generic [ref=f15e3743]: Not met
+                - generic [ref=f15e3744]: —
+              - generic [ref=f15e3750]:
+                - generic [ref=f15e3751]: Missing / unknown
+                - generic [ref=f15e3752]: "? Family income: not found in the source"
+                - generic [ref=f15e3753]: "? Category: not found in the source"
+                - generic [ref=f15e3754]: "? State / domicile: not found in the source"
+                - generic [ref=f15e3755]: "? Education level: not found in the source"
+                - generic [ref=f15e3756]: "? Minimum marks: not found in the source"
+            - paragraph [ref=f15e3761]: "Required documents: not listed in the source."
+            - generic [ref=f15e3762]: "Retrieved: 28 Oct 2026, 11:51 UTC · Last verified: 28 Oct 2026, 11:51 UTC · Extraction confidence 33%"
+            - group [ref=f15e3769]:
+              - generic [ref=f15e3771] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f15e3773]: keyboard_arrow_right
+                - paragraph [ref=f15e3776]: Full eligibility details
+            - group [ref=f15e3779]:
+              - generic [ref=f15e3781] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f15e3783]: keyboard_arrow_right
+                - paragraph [ref=f15e3786]: Supporting evidence (1)
+            - group [ref=f15e3789]:
+              - generic [ref=f15e3791] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f15e3793]: keyboard_arrow_right
+                - paragraph [ref=f15e3796]: 🤖 AI explanation (Gemini)
+          - generic [ref=f15e3798]:
+            - generic [ref=f15e3802]:
+              - paragraph [ref=f15e3803]: Central Sector Scheme
+              - paragraph [ref=f15e3804]: Department of Social Justice & Empowerment(Backward Classes) · Central government · AY 2026-27
+              - generic [ref=f15e3805]: 🟡 Potential match
+              - generic [ref=f15e3806]: Application status unknown
+              - generic [ref=f15e3807]: 🔒 Official (government)
+            - generic [ref=f15e3809]:
+              - generic [ref=f15e3814]:
+                - paragraph [ref=f15e3818]: Award
+                - paragraph [ref=f15e3821]: Not published
+              - generic [ref=f15e3826]:
+                - paragraph [ref=f15e3830]: Deadline
+                - paragraph [ref=f15e3833]: Not found
+              - generic [ref=f15e3838]:
+                - generic [ref=f15e3839]:
+                  - paragraph [ref=f15e3842]: Awards available
+                  - button "Help for Awards available" [ref=f15e3846] [cursor=pointer]
+                - paragraph [ref=f15e3852]: Not verified
+            - generic [ref=f15e3853]: "Why this is shown (not a chance of winning): Eligibility: potential match; Application unknown; Course / level relevance partly confirmed; State / institution partly confirmed; Award amount not published; Backed by official evidence · relevance score 41/100"
+            - paragraph [ref=f15e3862]:
+              - strong [ref=f15e3863]: "Eligibility:"
+              - text: "No known exclusion, but these criteria could not be confirmed: Family income, Category, State / domicile, Education level, Minimum marks."
+            - paragraph [ref=f15e3868]: No application deadline was found in the source.
+            - generic [ref=f15e3870]:
+              - generic [ref=f15e3876]:
+                - generic [ref=f15e3877]: Matching
+                - generic [ref=f15e3878]: —
+              - generic [ref=f15e3884]:
+                - generic [ref=f15e3885]: Not met
+                - generic [ref=f15e3886]: —
+              - generic [ref=f15e3892]:
+                - generic [ref=f15e3893]: Missing / unknown
+                - generic [ref=f15e3894]: "? Family income: not found in the source"
+                - generic [ref=f15e3895]: "? Category: not found in the source"
+                - generic [ref=f15e3896]: "? State / domicile: not found in the source"
+                - generic [ref=f15e3897]: "? Education level: not found in the source"
+                - generic [ref=f15e3898]: "? Minimum marks: not found in the source"
+            - paragraph [ref=f15e3903]: "Required documents: not listed in the source."
+            - generic [ref=f15e3904]: "Retrieved: 28 Oct 2026, 11:51 UTC · Last verified: 28 Oct 2026, 11:51 UTC · Extraction confidence 33%"
+            - group [ref=f15e3911]:
+              - generic [ref=f15e3913] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f15e3915]: keyboard_arrow_right
+                - paragraph [ref=f15e3918]: Full eligibility details
+            - group [ref=f15e3921]:
+              - generic [ref=f15e3923] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f15e3925]: keyboard_arrow_right
+                - paragraph [ref=f15e3928]: Supporting evidence (1)
+            - group [ref=f15e3931]:
+              - generic [ref=f15e3933] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f15e3935]: keyboard_arrow_right
+                - paragraph [ref=f15e3938]: 🤖 AI explanation (Gemini)
+          - generic [ref=f15e3940]:
+            - generic [ref=f15e3944]:
+              - paragraph [ref=f15e3945]: Central Sector Scheme
+              - paragraph [ref=f15e3946]: Ministry of Home Affairs · Central government · AY 2026-27
+              - generic [ref=f15e3947]: 🟡 Potential match
+              - generic [ref=f15e3948]: Application status unknown
+              - generic [ref=f15e3949]: 🔒 Official (government)
+            - generic [ref=f15e3951]:
+              - generic [ref=f15e3956]:
+                - paragraph [ref=f15e3960]: Award
+                - paragraph [ref=f15e3963]: Not published
+              - generic [ref=f15e3968]:
+                - paragraph [ref=f15e3972]: Deadline
+                - paragraph [ref=f15e3975]: Not found
+              - generic [ref=f15e3980]:
+                - generic [ref=f15e3981]:
+                  - paragraph [ref=f15e3984]: Awards available
+                  - button "Help for Awards available" [ref=f15e3988] [cursor=pointer]
+                - paragraph [ref=f15e3994]: Not verified
+            - generic [ref=f15e3995]: "Why this is shown (not a chance of winning): Eligibility: potential match; Application unknown; Course / level relevance partly confirmed; State / institution partly confirmed; Award amount not published; Backed by official evidence · relevance score 41/100"
+            - paragraph [ref=f15e4004]:
+              - strong [ref=f15e4005]: "Eligibility:"
+              - text: "No known exclusion, but these criteria could not be confirmed: Family income, Category, State / domicile, Education level, Minimum marks."
+            - paragraph [ref=f15e4010]: No application deadline was found in the source.
+            - generic [ref=f15e4012]:
+              - generic [ref=f15e4018]:
+                - generic [ref=f15e4019]: Matching
+                - generic [ref=f15e4020]: —
+              - generic [ref=f15e4026]:
+                - generic [ref=f15e4027]: Not met
+                - generic [ref=f15e4028]: —
+              - generic [ref=f15e4034]:
+                - generic [ref=f15e4035]: Missing / unknown
+                - generic [ref=f15e4036]: "? Family income: not found in the source"
+                - generic [ref=f15e4037]: "? Category: not found in the source"
+                - generic [ref=f15e4038]: "? State / domicile: not found in the source"
+                - generic [ref=f15e4039]: "? Education level: not found in the source"
+                - generic [ref=f15e4040]: "? Minimum marks: not found in the source"
+            - paragraph [ref=f15e4045]: "Required documents: not listed in the source."
+            - generic [ref=f15e4046]: "Retrieved: 28 Oct 2026, 11:51 UTC · Last verified: 28 Oct 2026, 11:51 UTC · Extraction confidence 33%"
+            - group [ref=f15e4053]:
+              - generic [ref=f15e4055] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f15e4057]: keyboard_arrow_right
+                - paragraph [ref=f15e4060]: Full eligibility details
+            - group [ref=f15e4063]:
+              - generic [ref=f15e4065] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f15e4067]: keyboard_arrow_right
+                - paragraph [ref=f15e4070]: Supporting evidence (1)
+            - group [ref=f15e4073]:
+              - generic [ref=f15e4075] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f15e4077]: keyboard_arrow_right
+                - paragraph [ref=f15e4080]: 🤖 AI explanation (Gemini)
+          - generic [ref=f15e4082]:
+            - generic [ref=f15e4086]:
+              - paragraph [ref=f15e4087]: Central Sector Scheme
+              - paragraph [ref=f15e4088]: Ministry of Labour & Employment · Central government · AY 2026-27
+              - generic [ref=f15e4089]: 🟡 Potential match
+              - generic [ref=f15e4090]: Application status unknown
+              - generic [ref=f15e4091]: 🔒 Official (government)
+            - generic [ref=f15e4093]:
+              - generic [ref=f15e4098]:
+                - paragraph [ref=f15e4102]: Award
+                - paragraph [ref=f15e4105]: Not published
+              - generic [ref=f15e4110]:
+                - paragraph [ref=f15e4114]: Deadline
+                - paragraph [ref=f15e4117]: Not found
+              - generic [ref=f15e4122]:
+                - generic [ref=f15e4123]:
+                  - paragraph [ref=f15e4126]: Awards available
+                  - button "Help for Awards available" [ref=f15e4130] [cursor=pointer]
+                - paragraph [ref=f15e4136]: Not verified
+            - generic [ref=f15e4137]: "Why this is shown (not a chance of winning): Eligibility: potential match; Application unknown; Course / level relevance partly confirmed; State / institution partly confirmed; Award amount not published; Backed by official evidence · relevance score 41/100"
+            - paragraph [ref=f15e4146]:
+              - strong [ref=f15e4147]: "Eligibility:"
+              - text: "No known exclusion, but these criteria could not be confirmed: Family income, Category, State / domicile, Education level, Minimum marks."
+            - paragraph [ref=f15e4152]: No application deadline was found in the source.
+            - generic [ref=f15e4154]:
+              - generic [ref=f15e4160]:
+                - generic [ref=f15e4161]: Matching
+                - generic [ref=f15e4162]: —
+              - generic [ref=f15e4168]:
+                - generic [ref=f15e4169]: Not met
+                - generic [ref=f15e4170]: —
+              - generic [ref=f15e4176]:
+                - generic [ref=f15e4177]: Missing / unknown
+                - generic [ref=f15e4178]: "? Family income: not found in the source"
+                - generic [ref=f15e4179]: "? Category: not found in the source"
+                - generic [ref=f15e4180]: "? State / domicile: not found in the source"
+                - generic [ref=f15e4181]: "? Education level: not found in the source"
+                - generic [ref=f15e4182]: "? Minimum marks: not found in the source"
+            - paragraph [ref=f15e4187]: "Required documents: not listed in the source."
+            - generic [ref=f15e4188]: "Retrieved: 28 Oct 2026, 11:51 UTC · Last verified: 28 Oct 2026, 11:51 UTC · Extraction confidence 33%"
+            - group [ref=f15e4195]:
+              - generic [ref=f15e4197] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f15e4199]: keyboard_arrow_right
+                - paragraph [ref=f15e4202]: Full eligibility details
+            - group [ref=f15e4205]:
+              - generic [ref=f15e4207] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f15e4209]: keyboard_arrow_right
+                - paragraph [ref=f15e4212]: Supporting evidence (1)
+            - group [ref=f15e4215]:
+              - generic [ref=f15e4217] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f15e4219]: keyboard_arrow_right
+                - paragraph [ref=f15e4222]: 🤖 AI explanation (Gemini)
+          - generic [ref=f15e4224]:
+            - generic [ref=f15e4228]:
+              - paragraph [ref=f15e4229]: Central Sector Scheme
+              - paragraph [ref=f15e4230]: Ministry of Railways (Railway Board) · Central government · AY 2026-27
+              - generic [ref=f15e4231]: 🟡 Potential match
+              - generic [ref=f15e4232]: Application status unknown
+              - generic [ref=f15e4233]: 🔒 Official (government)
+            - generic [ref=f15e4235]:
+              - generic [ref=f15e4240]:
+                - paragraph [ref=f15e4244]: Award
+                - paragraph [ref=f15e4247]: Not published
+              - generic [ref=f15e4252]:
+                - paragraph [ref=f15e4256]: Deadline
+                - paragraph [ref=f15e4259]: Not found
+              - generic [ref=f15e4264]:
+                - generic [ref=f15e4265]:
+                  - paragraph [ref=f15e4268]: Awards available
+                  - button "Help for Awards available" [ref=f15e4272] [cursor=pointer]
+                - paragraph [ref=f15e4278]: Not verified
+            - generic [ref=f15e4279]: "Why this is shown (not a chance of winning): Eligibility: potential match; Application unknown; Course / level relevance partly confirmed; State / institution partly confirmed; Award amount not published; Backed by official evidence · relevance score 41/100"
+            - paragraph [ref=f15e4288]:
+              - strong [ref=f15e4289]: "Eligibility:"
+              - text: "No known exclusion, but these criteria could not be confirmed: Family income, Category, State / domicile, Education level, Minimum marks."
+            - paragraph [ref=f15e4294]: No application deadline was found in the source.
+            - generic [ref=f15e4296]:
+              - generic [ref=f15e4302]:
+                - generic [ref=f15e4303]: Matching
+                - generic [ref=f15e4304]: —
+              - generic [ref=f15e4310]:
+                - generic [ref=f15e4311]: Not met
+                - generic [ref=f15e4312]: —
+              - generic [ref=f15e4318]:
+                - generic [ref=f15e4319]: Missing / unknown
+                - generic [ref=f15e4320]: "? Family income: not found in the source"
+                - generic [ref=f15e4321]: "? Category: not found in the source"
+                - generic [ref=f15e4322]: "? State / domicile: not found in the source"
+                - generic [ref=f15e4323]: "? Education level: not found in the source"
+                - generic [ref=f15e4324]: "? Minimum marks: not found in the source"
+            - paragraph [ref=f15e4329]: "Required documents: not listed in the source."
+            - generic [ref=f15e4330]: "Retrieved: 28 Oct 2026, 11:51 UTC · Last verified: 28 Oct 2026, 11:51 UTC · Extraction confidence 33%"
+            - group [ref=f15e4337]:
+              - generic [ref=f15e4339] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f15e4341]: keyboard_arrow_right
+                - paragraph [ref=f15e4344]: Full eligibility details
+            - group [ref=f15e4347]:
+              - generic [ref=f15e4349] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f15e4351]: keyboard_arrow_right
+                - paragraph [ref=f15e4354]: Supporting evidence (1)
+            - group [ref=f15e4357]:
+              - generic [ref=f15e4359] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f15e4361]: keyboard_arrow_right
+                - paragraph [ref=f15e4364]: 🤖 AI explanation (Gemini)
+          - generic [ref=f15e4366]:
+            - generic [ref=f15e4370]:
+              - paragraph [ref=f15e4371]: Central Sector Scheme
+              - paragraph [ref=f15e4372]: Ministry of Statistics and Programme Implementation · Central government · AY 2026-27
+              - generic [ref=f15e4373]: 🟡 Potential match
+              - generic [ref=f15e4374]: Application status unknown
+              - generic [ref=f15e4375]: 🔒 Official (government)
+            - generic [ref=f15e4377]:
+              - generic [ref=f15e4382]:
+                - paragraph [ref=f15e4386]: Award
+                - paragraph [ref=f15e4389]: Not published
+              - generic [ref=f15e4394]:
+                - paragraph [ref=f15e4398]: Deadline
+                - paragraph [ref=f15e4401]: Not found
+              - generic [ref=f15e4406]:
+                - generic [ref=f15e4407]:
+                  - paragraph [ref=f15e4410]: Awards available
+                  - button "Help for Awards available" [ref=f15e4414] [cursor=pointer]
+                - paragraph [ref=f15e4420]: Not verified
+            - generic [ref=f15e4421]: "Why this is shown (not a chance of winning): Eligibility: potential match; Application unknown; Course / level relevance partly confirmed; State / institution partly confirmed; Award amount not published; Backed by official evidence · relevance score 41/100"
+            - paragraph [ref=f15e4430]:
+              - strong [ref=f15e4431]: "Eligibility:"
+              - text: "No known exclusion, but these criteria could not be confirmed: Family income, Category, State / domicile, Education level, Minimum marks."
+            - paragraph [ref=f15e4436]: No application deadline was found in the source.
+            - generic [ref=f15e4438]:
+              - generic [ref=f15e4444]:
+                - generic [ref=f15e4445]: Matching
+                - generic [ref=f15e4446]: —
+              - generic [ref=f15e4452]:
+                - generic [ref=f15e4453]: Not met
+                - generic [ref=f15e4454]: —
+              - generic [ref=f15e4460]:
+                - generic [ref=f15e4461]: Missing / unknown
+                - generic [ref=f15e4462]: "? Family income: not found in the source"
+                - generic [ref=f15e4463]: "? Category: not found in the source"
+                - generic [ref=f15e4464]: "? State / domicile: not found in the source"
+                - generic [ref=f15e4465]: "? Education level: not found in the source"
+                - generic [ref=f15e4466]: "? Minimum marks: not found in the source"
+            - paragraph [ref=f15e4471]: "Required documents: not listed in the source."
+            - generic [ref=f15e4472]: "Retrieved: 28 Oct 2026, 11:51 UTC · Last verified: 28 Oct 2026, 11:51 UTC · Extraction confidence 33%"
+            - group [ref=f15e4479]:
+              - generic [ref=f15e4481] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f15e4483]: keyboard_arrow_right
+                - paragraph [ref=f15e4486]: Full eligibility details
+            - group [ref=f15e4489]:
+              - generic [ref=f15e4491] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f15e4493]: keyboard_arrow_right
+                - paragraph [ref=f15e4496]: Supporting evidence (1)
+            - group [ref=f15e4499]:
+              - generic [ref=f15e4501] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f15e4503]: keyboard_arrow_right
+                - paragraph [ref=f15e4506]: 🤖 AI explanation (Gemini)
+          - generic [ref=f15e4508]:
+            - generic [ref=f15e4512]:
+              - paragraph [ref=f15e4513]: Central Sector Scheme
+              - paragraph [ref=f15e4514]: Ministry of Tribal Affairs · Central government · AY 2026-27
+              - generic [ref=f15e4515]: 🟡 Potential match
+              - generic [ref=f15e4516]: Application status unknown
+              - generic [ref=f15e4517]: 🔒 Official (government)
+            - generic [ref=f15e4519]:
+              - generic [ref=f15e4524]:
+                - paragraph [ref=f15e4528]: Award
+                - paragraph [ref=f15e4531]: Not published
+              - generic [ref=f15e4536]:
+                - paragraph [ref=f15e4540]: Deadline
+                - paragraph [ref=f15e4543]: Not found
+              - generic [ref=f15e4548]:
+                - generic [ref=f15e4549]:
+                  - paragraph [ref=f15e4552]: Awards available
+                  - button "Help for Awards available" [ref=f15e4556] [cursor=pointer]
+                - paragraph [ref=f15e4562]: Not verified
+            - generic [ref=f15e4563]: "Why this is shown (not a chance of winning): Eligibility: potential match; Application unknown; Course / level relevance partly confirmed; State / institution partly confirmed; Award amount not published; Backed by official evidence · relevance score 41/100"
+            - paragraph [ref=f15e4572]:
+              - strong [ref=f15e4573]: "Eligibility:"
+              - text: "No known exclusion, but these criteria could not be confirmed: Family income, Category, State / domicile, Education level, Minimum marks."
+            - paragraph [ref=f15e4578]: No application deadline was found in the source.
+            - generic [ref=f15e4580]:
+              - generic [ref=f15e4586]:
+                - generic [ref=f15e4587]: Matching
+                - generic [ref=f15e4588]: —
+              - generic [ref=f15e4594]:
+                - generic [ref=f15e4595]: Not met
+                - generic [ref=f15e4596]: —
+              - generic [ref=f15e4602]:
+                - generic [ref=f15e4603]: Missing / unknown
+                - generic [ref=f15e4604]: "? Family income: not found in the source"
+                - generic [ref=f15e4605]: "? Category: not found in the source"
+                - generic [ref=f15e4606]: "? State / domicile: not found in the source"
+                - generic [ref=f15e4607]: "? Education level: not found in the source"
+                - generic [ref=f15e4608]: "? Minimum marks: not found in the source"
+            - paragraph [ref=f15e4613]: "Required documents: not listed in the source."
+            - generic [ref=f15e4614]: "Retrieved: 28 Oct 2026, 11:51 UTC · Last verified: 28 Oct 2026, 11:51 UTC · Extraction confidence 33%"
+            - group [ref=f15e4621]:
+              - generic [ref=f15e4623] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f15e4625]: keyboard_arrow_right
+                - paragraph [ref=f15e4628]: Full eligibility details
+            - group [ref=f15e4631]:
+              - generic [ref=f15e4633] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f15e4635]: keyboard_arrow_right
+                - paragraph [ref=f15e4638]: Supporting evidence (1)
+            - group [ref=f15e4641]:
+              - generic [ref=f15e4643] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f15e4645]: keyboard_arrow_right
+                - paragraph [ref=f15e4648]: 🤖 AI explanation (Gemini)
+          - generic [ref=f15e4650]:
+            - generic [ref=f15e4654]:
+              - paragraph [ref=f15e4655]: Central Sector Scheme
+              - paragraph [ref=f15e4656]: North Eastern Council(NEC),DoNER · Central government · AY 2026-27
+              - generic [ref=f15e4657]: 🟡 Potential match
+              - generic [ref=f15e4658]: Application status unknown
+              - generic [ref=f15e4659]: 🔒 Official (government)
+            - generic [ref=f15e4661]:
+              - generic [ref=f15e4666]:
+                - paragraph [ref=f15e4670]: Award
+                - paragraph [ref=f15e4673]: Not published
+              - generic [ref=f15e4678]:
+                - paragraph [ref=f15e4682]: Deadline
+                - paragraph [ref=f15e4685]: Not found
+              - generic [ref=f15e4690]:
+                - generic [ref=f15e4691]:
+                  - paragraph [ref=f15e4694]: Awards available
+                  - button "Help for Awards available" [ref=f15e4698] [cursor=pointer]
+                - paragraph [ref=f15e4704]: Not verified
+            - generic [ref=f15e4705]: "Why this is shown (not a chance of winning): Eligibility: potential match; Application unknown; Course / level relevance partly confirmed; State / institution partly confirmed; Award amount not published; Backed by official evidence · relevance score 41/100"
+            - paragraph [ref=f15e4714]:
+              - strong [ref=f15e4715]: "Eligibility:"
+              - text: "No known exclusion, but these criteria could not be confirmed: Family income, Category, State / domicile, Education level, Minimum marks."
+            - paragraph [ref=f15e4720]: No application deadline was found in the source.
+            - generic [ref=f15e4722]:
+              - generic [ref=f15e4728]:
+                - generic [ref=f15e4729]: Matching
+                - generic [ref=f15e4730]: —
+              - generic [ref=f15e4736]:
+                - generic [ref=f15e4737]: Not met
+                - generic [ref=f15e4738]: —
+              - generic [ref=f15e4744]:
+                - generic [ref=f15e4745]: Missing / unknown
+                - generic [ref=f15e4746]: "? Family income: not found in the source"
+                - generic [ref=f15e4747]: "? Category: not found in the source"
+                - generic [ref=f15e4748]: "? State / domicile: not found in the source"
+                - generic [ref=f15e4749]: "? Education level: not found in the source"
+                - generic [ref=f15e4750]: "? Minimum marks: not found in the source"
+            - paragraph [ref=f15e4755]: "Required documents: not listed in the source."
+            - generic [ref=f15e4756]: "Retrieved: 28 Oct 2026, 11:51 UTC · Last verified: 28 Oct 2026, 11:51 UTC · Extraction confidence 33%"
+            - group [ref=f15e4763]:
+              - generic [ref=f15e4765] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f15e4767]: keyboard_arrow_right
+                - paragraph [ref=f15e4770]: Full eligibility details
+            - group [ref=f15e4773]:
+              - generic [ref=f15e4775] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f15e4777]: keyboard_arrow_right
+                - paragraph [ref=f15e4780]: Supporting evidence (1)
+            - group [ref=f15e4783]:
+              - generic [ref=f15e4785] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f15e4787]: keyboard_arrow_right
+                - paragraph [ref=f15e4790]: 🤖 AI explanation (Gemini)
+          - generic [ref=f15e4792]:
+            - generic [ref=f15e4796]:
+              - paragraph [ref=f15e4797]: Central Sector Scheme
+              - paragraph [ref=f15e4798]: UGC · Central government · AY 2026-27
+              - generic [ref=f15e4799]: 🟡 Potential match
+              - generic [ref=f15e4800]: Application status unknown
+              - generic [ref=f15e4801]: 🔒 Official (government)
+            - generic [ref=f15e4803]:
+              - generic [ref=f15e4808]:
+                - paragraph [ref=f15e4812]: Award
+                - paragraph [ref=f15e4815]: Not published
+              - generic [ref=f15e4820]:
+                - paragraph [ref=f15e4824]: Deadline
+                - paragraph [ref=f15e4827]: Not found
+              - generic [ref=f15e4832]:
+                - generic [ref=f15e4833]:
+                  - paragraph [ref=f15e4836]: Awards available
+                  - button "Help for Awards available" [ref=f15e4840] [cursor=pointer]
+                - paragraph [ref=f15e4846]: Not verified
+            - generic [ref=f15e4847]: "Why this is shown (not a chance of winning): Eligibility: potential match; Application unknown; Course / level relevance partly confirmed; State / institution partly confirmed; Award amount not published; Backed by official evidence · relevance score 41/100"
+            - paragraph [ref=f15e4856]:
+              - strong [ref=f15e4857]: "Eligibility:"
+              - text: "No known exclusion, but these criteria could not be confirmed: Family income, Category, State / domicile, Education level, Minimum marks."
+            - paragraph [ref=f15e4862]: No application deadline was found in the source.
+            - generic [ref=f15e4864]:
+              - generic [ref=f15e4870]:
+                - generic [ref=f15e4871]: Matching
+                - generic [ref=f15e4872]: —
+              - generic [ref=f15e4878]:
+                - generic [ref=f15e4879]: Not met
+                - generic [ref=f15e4880]: —
+              - generic [ref=f15e4886]:
+                - generic [ref=f15e4887]: Missing / unknown
+                - generic [ref=f15e4888]: "? Family income: not found in the source"
+                - generic [ref=f15e4889]: "? Category: not found in the source"
+                - generic [ref=f15e4890]: "? State / domicile: not found in the source"
+                - generic [ref=f15e4891]: "? Education level: not found in the source"
+                - generic [ref=f15e4892]: "? Minimum marks: not found in the source"
+            - paragraph [ref=f15e4897]: "Required documents: not listed in the source."
+            - generic [ref=f15e4898]: "Retrieved: 28 Oct 2026, 11:51 UTC · Last verified: 28 Oct 2026, 11:51 UTC · Extraction confidence 33%"
+            - group [ref=f15e4905]:
+              - generic [ref=f15e4907] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f15e4909]: keyboard_arrow_right
+                - paragraph [ref=f15e4912]: Full eligibility details
+            - group [ref=f15e4915]:
+              - generic [ref=f15e4917] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f15e4919]: keyboard_arrow_right
+                - paragraph [ref=f15e4922]: Supporting evidence (1)
+            - group [ref=f15e4925]:
+              - generic [ref=f15e4927] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f15e4929]: keyboard_arrow_right
+                - paragraph [ref=f15e4932]: 🤖 AI explanation (Gemini)
+          - generic [ref=f15e4934]:
+            - generic [ref=f15e4938]:
+              - paragraph [ref=f15e4939]: Schemes On NSP
+              - paragraph [ref=f15e4940]: Ministry of Home Affairs · Central government · AY 2026-27
+              - generic [ref=f15e4941]: 🟡 Potential match
+              - generic [ref=f15e4942]: Application status unknown
+              - generic [ref=f15e4943]: 🔒 Official (government)
+            - generic [ref=f15e4945]:
+              - generic [ref=f15e4950]:
+                - paragraph [ref=f15e4954]: Award
+                - paragraph [ref=f15e4957]: Not published
+              - generic [ref=f15e4962]:
+                - paragraph [ref=f15e4966]: Deadline
+                - paragraph [ref=f15e4969]: Not found
+              - generic [ref=f15e4974]:
+                - generic [ref=f15e4975]:
+                  - paragraph [ref=f15e4978]: Awards available
+                  - button "Help for Awards available" [ref=f15e4982] [cursor=pointer]
+                - paragraph [ref=f15e4988]: Not verified
+            - generic [ref=f15e4989]: "Why this is shown (not a chance of winning): Eligibility: potential match; Application unknown; Course / level relevance partly confirmed; State / institution partly confirmed; Award amount not published; Backed by official evidence · relevance score 41/100"
+            - paragraph [ref=f15e4998]:
+              - strong [ref=f15e4999]: "Eligibility:"
+              - text: "No known exclusion, but these criteria could not be confirmed: Family income, Category, State / domicile, Education level, Minimum marks."
+            - paragraph [ref=f15e5004]: No application deadline was found in the source.
+            - generic [ref=f15e5006]:
+              - generic [ref=f15e5012]:
+                - generic [ref=f15e5013]: Matching
+                - generic [ref=f15e5014]: —
+              - generic [ref=f15e5020]:
+                - generic [ref=f15e5021]: Not met
+                - generic [ref=f15e5022]: —
+              - generic [ref=f15e5028]:
+                - generic [ref=f15e5029]: Missing / unknown
+                - generic [ref=f15e5030]: "? Family income: not found in the source"
+                - generic [ref=f15e5031]: "? Category: not found in the source"
+                - generic [ref=f15e5032]: "? State / domicile: not found in the source"
+                - generic [ref=f15e5033]: "? Education level: not found in the source"
+                - generic [ref=f15e5034]: "? Minimum marks: not found in the source"
+            - paragraph [ref=f15e5039]: "Required documents: not listed in the source."
+            - generic [ref=f15e5040]: "Retrieved: 28 Oct 2026, 11:51 UTC · Last verified: 28 Oct 2026, 11:51 UTC · Extraction confidence 33%"
+            - group [ref=f15e5047]:
+              - generic [ref=f15e5049] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f15e5051]: keyboard_arrow_right
+                - paragraph [ref=f15e5054]: Full eligibility details
+            - group [ref=f15e5057]:
+              - generic [ref=f15e5059] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f15e5061]: keyboard_arrow_right
+                - paragraph [ref=f15e5064]: Supporting evidence (1)
+            - group [ref=f15e5067]:
+              - generic [ref=f15e5069] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f15e5071]: keyboard_arrow_right
+                - paragraph [ref=f15e5074]: 🤖 AI explanation (Gemini)
+          - generic [ref=f15e5076]:
+            - generic [ref=f15e5080]:
+              - paragraph [ref=f15e5081]: State Scheme
+              - paragraph [ref=f15e5082]: State of Arunachal Pradesh · State government · AY 2026-27
+              - generic [ref=f15e5083]: 🟡 Potential match
+              - generic [ref=f15e5084]: Application status unknown
+              - generic [ref=f15e5085]: 🔒 Official (government)
+            - generic [ref=f15e5087]:
+              - generic [ref=f15e5092]:
+                - paragraph [ref=f15e5096]: Award
+                - paragraph [ref=f15e5099]: Not published
+              - generic [ref=f15e5104]:
+                - paragraph [ref=f15e5108]: Deadline
+                - paragraph [ref=f15e5111]: Not found
+              - generic [ref=f15e5116]:
+                - generic [ref=f15e5117]:
+                  - paragraph [ref=f15e5120]: Awards available
+                  - button "Help for Awards available" [ref=f15e5124] [cursor=pointer]
+                - paragraph [ref=f15e5130]: Not verified
+            - generic [ref=f15e5131]: "Why this is shown (not a chance of winning): Eligibility: potential match; Application unknown; Course / level relevance partly confirmed; State / institution partly confirmed; Award amount not published; Backed by official evidence · relevance score 41/100"
+            - paragraph [ref=f15e5140]:
+              - strong [ref=f15e5141]: "Eligibility:"
+              - text: "No known exclusion, but these criteria could not be confirmed: Family income, Category, State / domicile, Education level, Minimum marks."
+            - paragraph [ref=f15e5146]: No application deadline was found in the source.
+            - generic [ref=f15e5148]:
+              - generic [ref=f15e5154]:
+                - generic [ref=f15e5155]: Matching
+                - generic [ref=f15e5156]: —
+              - generic [ref=f15e5162]:
+                - generic [ref=f15e5163]: Not met
+                - generic [ref=f15e5164]: —
+              - generic [ref=f15e5170]:
+                - generic [ref=f15e5171]: Missing / unknown
+                - generic [ref=f15e5172]: "? Family income: not found in the source"
+                - generic [ref=f15e5173]: "? Category: not found in the source"
+                - generic [ref=f15e5174]: "? State / domicile: not found in the source"
+                - generic [ref=f15e5175]: "? Education level: not found in the source"
+                - generic [ref=f15e5176]: "? Minimum marks: not found in the source"
+            - paragraph [ref=f15e5181]: "Required documents: not listed in the source."
+            - generic [ref=f15e5182]: "Retrieved: 28 Oct 2026, 11:51 UTC · Last verified: 28 Oct 2026, 11:51 UTC · Extraction confidence 33%"
+            - group [ref=f15e5189]:
+              - generic [ref=f15e5191] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f15e5193]: keyboard_arrow_right
+                - paragraph [ref=f15e5196]: Full eligibility details
+            - group [ref=f15e5199]:
+              - generic [ref=f15e5201] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f15e5203]: keyboard_arrow_right
+                - paragraph [ref=f15e5206]: Supporting evidence (1)
+            - group [ref=f15e5209]:
+              - generic [ref=f15e5211] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f15e5213]: keyboard_arrow_right
+                - paragraph [ref=f15e5216]: 🤖 AI explanation (Gemini)

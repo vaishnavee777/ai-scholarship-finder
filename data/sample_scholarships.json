@@ -1,0 +1,459 @@
+{
+  "_comment": "FICTIONAL demo records for local UI development. Not real scholarships. deadline_in_days is relative to load time.",
+  "scholarships": [
+    {
+      "id": "demo-1",
+      "name": "[DEMO] Merit Scholarship for Engineering Students",
+      "provider": "Demo Provider (fictional)",
+      "academic_year": "2026-27",
+      "application_url": "https://example.org/demo/1/apply",
+      "guideline_url": "https://example.org/demo/1/guidelines",
+      "source_urls": [
+        "https://example.org/demo/1/guidelines"
+      ],
+      "source_reliability": "Demo record",
+      "extraction_confidence": 1.0,
+      "is_demo": true,
+      "provider_type": "Central government",
+      "description": "Fictional merit scheme used to exercise the UI.",
+      "eligible_education_levels": [
+        "Undergraduate"
+      ],
+      "eligible_courses": [
+        "B.E.",
+        "B.Tech"
+      ],
+      "eligible_years": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "eligible_categories": [
+        "SC",
+        "ST",
+        "OBC"
+      ],
+      "min_percentage": 60,
+      "max_family_income": 250000,
+      "eligible_states": [
+        "All India"
+      ],
+      "award_amount": 50000,
+      "award_amount_text": "₹50,000 per year",
+      "award_count": 1000,
+      "award_count_scope": "National",
+      "deadline_in_days": 21,
+      "accepts_fresh": true,
+      "accepts_renewal": true,
+      "tags": [
+        "merit"
+      ],
+      "required_documents": [
+        "Income certificate",
+        "Caste certificate",
+        "Previous marksheet"
+      ],
+      "evidence": [
+        {
+          "field": "max_family_income",
+          "quote": "DEMO TEXT: family income should not exceed Rs. 2.5 lakh",
+          "source_url": "https://example.org/demo"
+        },
+        {
+          "field": "min_percentage",
+          "quote": "DEMO TEXT: minimum 60% marks",
+          "source_url": "https://example.org/demo"
+        },
+        {
+          "field": "eligible_categories",
+          "quote": "DEMO TEXT: for SC/ST/OBC students",
+          "source_url": "https://example.org/demo"
+        },
+        {
+          "field": "award_count",
+          "quote": "DEMO TEXT: 1000 national awards",
+          "source_url": "https://example.org/demo"
+        },
+        {
+          "field": "deadline",
+          "quote": "DEMO TEXT: last date is in three weeks",
+          "source_url": "https://example.org/demo"
+        }
+      ]
+    },
+    {
+      "id": "demo-2",
+      "name": "[DEMO] State Need-Based Support (Karnataka)",
+      "provider": "Demo Provider (fictional)",
+      "academic_year": "2026-27",
+      "application_url": "https://example.org/demo/2/apply",
+      "guideline_url": "https://example.org/demo/2/guidelines",
+      "source_urls": [
+        "https://example.org/demo/2/guidelines"
+      ],
+      "source_reliability": "Demo record",
+      "extraction_confidence": 1.0,
+      "is_demo": true,
+      "provider_type": "State government",
+      "eligible_states": [
+        "Karnataka"
+      ],
+      "eligible_education_levels": [
+        "Undergraduate",
+        "Postgraduate"
+      ],
+      "eligible_categories": [
+        "General",
+        "EWS",
+        "SC",
+        "ST",
+        "OBC"
+      ],
+      "max_family_income": 100000,
+      "award_amount": 20000,
+      "deadline_in_days": -12,
+      "tags": [
+        "need"
+      ],
+      "required_documents": [
+        "Income certificate",
+        "Domicile certificate"
+      ],
+      "evidence": [
+        {
+          "field": "max_family_income",
+          "quote": "DEMO TEXT: income up to Rs. 1 lakh",
+          "source_url": "https://example.org/demo"
+        },
+        {
+          "field": "eligible_states",
+          "quote": "DEMO TEXT: residents of Karnataka only",
+          "source_url": "https://example.org/demo"
+        },
+        {
+          "field": "deadline",
+          "quote": "DEMO TEXT: closed twelve days ago",
+          "source_url": "https://example.org/demo"
+        }
+      ]
+    },
+    {
+      "id": "demo-3",
+      "name": "[DEMO] Women in STEM Corporate Grant",
+      "provider": "Demo Provider (fictional)",
+      "academic_year": "2026-27",
+      "application_url": "https://example.org/demo/3/apply",
+      "guideline_url": "https://example.org/demo/3/guidelines",
+      "source_urls": [
+        "https://example.org/demo/3/guidelines"
+      ],
+      "source_reliability": "Demo record",
+      "extraction_confidence": 1.0,
+      "is_demo": true,
+      "provider_type": "Corporate",
+      "eligible_genders": [
+        "Female"
+      ],
+      "eligible_education_levels": [
+        "Undergraduate"
+      ],
+      "eligible_courses": [
+        "B.E.",
+        "B.Tech",
+        "B.Sc"
+      ],
+      "eligible_categories": [
+        "General",
+        "EWS",
+        "SC",
+        "ST",
+        "OBC"
+      ],
+      "eligible_states": [
+        "All India"
+      ],
+      "min_percentage": 75,
+      "max_family_income": 800000,
+      "award_amount": 75000,
+      "award_count": 25,
+      "award_count_scope": "Institution",
+      "deadline_in_days": 2,
+      "accepts_fresh": true,
+      "accepts_renewal": false,
+      "tags": [
+        "merit"
+      ],
+      "required_documents": [
+        "Marksheet"
+      ],
+      "evidence": [
+        {
+          "field": "award_count",
+          "quote": "DEMO TEXT: 25 grants per partner institution",
+          "source_url": "https://example.org/demo"
+        },
+        {
+          "field": "deadline",
+          "quote": "DEMO TEXT: closes in two days",
+          "source_url": "https://example.org/demo"
+        },
+        {
+          "field": "eligible_genders",
+          "quote": "DEMO TEXT: women students",
+          "source_url": "https://example.org/demo"
+        },
+        {
+          "field": "min_percentage",
+          "quote": "DEMO TEXT: 75%",
+          "source_url": "https://example.org/demo"
+        },
+        {
+          "field": "max_family_income",
+          "quote": "DEMO TEXT: Rs. 8 lakh",
+          "source_url": "https://example.org/demo"
+        }
+      ]
+    },
+    {
+      "id": "demo-4",
+      "name": "[DEMO] Doctoral Research Fellowship",
+      "provider": "Demo Provider (fictional)",
+      "academic_year": "2026-27",
+      "application_url": "https://example.org/demo/4/apply",
+      "guideline_url": "https://example.org/demo/4/guidelines",
+      "source_urls": [
+        "https://example.org/demo/4/guidelines"
+      ],
+      "source_reliability": "Demo record",
+      "extraction_confidence": 1.0,
+      "is_demo": true,
+      "provider_type": "Private foundation",
+      "eligible_education_levels": [
+        "PhD"
+      ],
+      "eligible_categories": [
+        "General",
+        "EWS",
+        "SC",
+        "ST",
+        "OBC"
+      ],
+      "eligible_states": [
+        "All India"
+      ],
+      "max_family_income": null,
+      "unresolved_fields": [
+        "max_family_income",
+        "min_percentage"
+      ],
+      "award_amount": null,
+      "award_amount_text": "Stipend as per foundation norms",
+      "deadline_in_days": 60,
+      "tags": [
+        "research"
+      ],
+      "evidence": [
+        {
+          "field": "eligible_education_levels",
+          "quote": "DEMO TEXT: open to doctoral researchers",
+          "source_url": "https://example.org/demo"
+        }
+      ]
+    },
+    {
+      "id": "demo-5",
+      "name": "[DEMO] Demo Institute Alumni Scholarship",
+      "provider": "Demo Provider (fictional)",
+      "academic_year": "2026-27",
+      "application_url": "https://example.org/demo/5/apply",
+      "guideline_url": "https://example.org/demo/5/guidelines",
+      "source_urls": [
+        "https://example.org/demo/5/guidelines"
+      ],
+      "source_reliability": "Demo record",
+      "extraction_confidence": 1.0,
+      "is_demo": true,
+      "provider_type": "College / university",
+      "eligible_institutions": [
+        "Demo Institute of Technology"
+      ],
+      "eligible_courses": [
+        "B.Tech"
+      ],
+      "eligible_categories": [
+        "General",
+        "EWS",
+        "SC",
+        "ST",
+        "OBC"
+      ],
+      "eligible_states": [
+        "All India"
+      ],
+      "min_percentage": 70,
+      "max_family_income": 600000,
+      "award_amount": 30000,
+      "deadline_in_days": 40,
+      "tags": [
+        "institution-specific"
+      ],
+      "required_documents": [
+        "Institute ID"
+      ],
+      "evidence": [
+        {
+          "field": "eligible_institutions",
+          "quote": "DEMO TEXT: students of Demo Institute of Technology only",
+          "source_url": "https://example.org/demo"
+        },
+        {
+          "field": "max_family_income",
+          "quote": "DEMO TEXT: Rs. 6 lakh",
+          "source_url": "https://example.org/demo"
+        },
+        {
+          "field": "min_percentage",
+          "quote": "DEMO TEXT: 70%",
+          "source_url": "https://example.org/demo"
+        }
+      ]
+    },
+    {
+      "id": "demo-6",
+      "name": "[DEMO] Outdated Guideline Example",
+      "provider": "Demo Provider (fictional)",
+      "academic_year": "2024-25",
+      "application_url": "https://example.org/demo/6/apply",
+      "guideline_url": "https://example.org/demo/6/guidelines",
+      "source_urls": [
+        "https://example.org/demo/6/guidelines"
+      ],
+      "source_reliability": "Demo record",
+      "extraction_confidence": 1.0,
+      "is_demo": true,
+      "provider_type": "Central government",
+      "eligible_education_levels": [
+        "Undergraduate"
+      ],
+      "max_family_income": 300000,
+      "eligible_categories": [
+        "General",
+        "EWS",
+        "SC",
+        "ST",
+        "OBC"
+      ],
+      "eligible_states": [
+        "All India"
+      ],
+      "min_percentage": 50,
+      "award_amount": 25000,
+      "deadline_in_days": -400,
+      "evidence": [
+        {
+          "field": "academic_year",
+          "quote": "DEMO TEXT: guidelines for 2024-25",
+          "source_url": "https://example.org/demo"
+        },
+        {
+          "field": "max_family_income",
+          "quote": "DEMO TEXT: Rs. 3 lakh",
+          "source_url": "https://example.org/demo"
+        }
+      ]
+    },
+    {
+      "id": "demo-7",
+      "name": "[DEMO] Aggregator-Listed Scholarship",
+      "provider": "Demo Provider (fictional)",
+      "academic_year": "2026-27",
+      "application_url": "https://example.org/demo/7/apply",
+      "guideline_url": "https://example.org/demo/7/guidelines",
+      "source_urls": [
+        "https://example.org/demo/7/guidelines"
+      ],
+      "source_reliability": "Third-party aggregator",
+      "extraction_confidence": 1.0,
+      "is_demo": true,
+      "provider_type": "Private foundation",
+      "eligible_education_levels": [
+        "Undergraduate"
+      ],
+      "max_family_income": 500000,
+      "eligible_categories": [
+        "General",
+        "EWS",
+        "SC",
+        "ST",
+        "OBC"
+      ],
+      "eligible_states": [
+        "All India"
+      ],
+      "min_percentage": 55,
+      "award_amount": 15000,
+      "deadline_in_days": 30,
+      "evidence": [
+        {
+          "field": "max_family_income",
+          "quote": "DEMO TEXT: Rs. 5 lakh",
+          "source_url": "https://example.org/demo"
+        }
+      ]
+    },
+    {
+      "id": "demo-8",
+      "name": "[DEMO] Conflicting Sources Example",
+      "provider": "Demo Provider (fictional)",
+      "academic_year": "2026-27",
+      "application_url": "https://example.org/demo/8/apply",
+      "guideline_url": "https://example.org/demo/8/guidelines",
+      "source_urls": [
+        "https://example.org/demo/8/guidelines"
+      ],
+      "source_reliability": "Demo record",
+      "extraction_confidence": 1.0,
+      "is_demo": true,
+      "provider_type": "Central government",
+      "eligible_education_levels": [
+        "Undergraduate",
+        "Postgraduate"
+      ],
+      "eligible_categories": [
+        "General",
+        "EWS",
+        "SC",
+        "ST",
+        "OBC"
+      ],
+      "eligible_states": [
+        "All India"
+      ],
+      "min_percentage": 50,
+      "max_family_income": 300000,
+      "conflicts": [
+        {
+          "field": "max_family_income",
+          "values": [
+            "Rs. 3 lakh (guideline PDF)",
+            "Rs. 2 lakh (FAQ page)"
+          ],
+          "source_urls": [
+            "https://example.org/demo/8/guidelines",
+            "https://example.org/demo/8/faq"
+          ]
+        }
+      ],
+      "award_amount": 40000,
+      "deadline_in_days": 15,
+      "evidence": [
+        {
+          "field": "max_family_income",
+          "quote": "DEMO TEXT: Rs. 3 lakh",
+          "source_url": "https://example.org/demo"
+        }
+      ]
+    }
+  ]
+}
